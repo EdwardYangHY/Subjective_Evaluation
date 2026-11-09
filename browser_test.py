@@ -24,7 +24,18 @@ with tempfile.TemporaryDirectory() as tmp, sync_playwright() as p:
         page.locator('#annotator').fill(name)
         page.locator('#begin').click()
     target = Path(sys.argv[1]).resolve() if len(sys.argv)>1 else ROOT/'index.html'
-    page.goto(target.as_uri());start('A')
+    page.goto(target.as_uri())
+    assert not page.locator('#file').is_visible()
+    page.locator('#annotator').fill('DEMO_TEST')
+    page.locator('#begin').click()
+    assert page.locator('#counts').inner_text().startswith('100 items · en-zh: 50 · zh-en: 50')
+    assert page.locator('#demoNotice').is_visible()
+    assert page.locator('#credit').text_content().startswith('CC-BY')
+    assert page.locator('input[type=radio]:checked').count()==0
+    with page.expect_download() as demo_download: page.locator('#export').click()
+    with Path(demo_download.value.path()).open(encoding='utf-8-sig',newline='') as f: demo_rows=list(csv.DictReader(f))
+    assert len(demo_rows)==100 and all(r['adequacy']=='' for r in demo_rows)
+    page.reload();start('A')
     assert page.locator('#counts').inner_text().startswith('100 items · en-zh: 50 · zh-en: 50')
     assert page.locator('#source').inner_text()==source
     assert page.locator('#source img').count()==0
@@ -56,4 +67,4 @@ with tempfile.TemporaryDirectory() as tmp, sync_playwright() as p:
     assert not errors,errors
     assert not requests,requests
     browser.close()
-print('PASS: 100 mixed items, escaping, blank defaults, paired completion, early export, Unicode, reload, edit, isolated annotators/datasets, finish, no network requests. Synthetic only.')
+print('PASS: public demo import/export plus 100 synthetic items; escaping, blank defaults, completion, Unicode, resume/edit, isolation, no network requests. Test ratings only.')

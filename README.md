@@ -28,9 +28,9 @@ The template intentionally has headers only and will fail validation until popul
 
 ## Annotator workflow
 
-Import the supplied CSV, enter an anonymous code such as `A` or `B`, read the rubric, then Begin. Rate adequacy and major semantic error independently; neither has a default. Comments are optional. Navigate freely; Jump to incomplete finds remaining work. Finish requires both responses on every item. Export CSV regularly and again at completion. Send the exported file to researchers yourself: the tool does not submit anything.
+The embedded 100-item dataset loads automatically. Enter an anonymous code such as `A` or `B`, read the rubric, then Begin. Rate adequacy and major semantic error independently; neither has a default. Comments are optional. Navigate freely; Jump to incomplete finds remaining work. Finish requires both responses on every item. Export CSV regularly and again at completion. Send the exported file to researchers yourself: the tool does not submit anything.
 
-Each change saves to browser localStorage under annotator code plus SHA-256 of canonical imported fields in input order, including context and conversation IDs. A changed dataset starts a separate session with a warning; no results are merged. Reload, import the same dataset, and enter the same code to resume. Other annotators' sessions remain separate. This is not authentication; use separate browser profiles/devices if annotations must remain private from other local users. Avoid opening the same session in multiple tabs, which can overwrite each other's saves.
+Each change saves to browser localStorage under annotator code plus SHA-256 of canonical imported fields in input order, including context and conversation IDs. A changed dataset starts a separate session with a warning; no results are merged. Reload and enter the same code to resume the embedded dataset. Other annotators' sessions remain separate. This is not authentication; use separate browser profiles/devices if annotations must remain private from other local users. Avoid opening the same session in multiple tabs, which can overwrite each other's saves.
 
 Storage failures are visibly reported. Clearing browser data, private browsing, changing origin or file path, or changing devices may lose browser saves. Exported CSVs are independent analysis backups; importing them to resume in the UI is not supported. Copy the entire project folder when distributing the interface (HTML, CSS and JS must stay together). Keep researcher documentation and test ratings away from annotators during rating.
 
@@ -75,3 +75,9 @@ Report actual sample size, sampling strategy, non-identifying annotator qualific
 ## Website and single-file distribution
 
 Run `python3 build_distribution.py` to create a UI-only `dist/`, a self-contained `dist/translation-validation-offline.html`, and `translation-validation-web.zip`. See [DEPLOY.md](DEPLOY.md) for GitHub Pages publishing and annotator distribution. A GitHub Actions workflow is included; a repository and Pages setup are still required before a public URL exists.
+
+## Public placeholder dataset
+
+The page automatically loads 100 embedded Tatoeba English–Mandarin pairs (50 each display direction). These are real public sentences for UI testing only, not synthetic text, scored annotations, GPT-generated references, or research findings. Original authorship direction is unknown. Text is preserved, including original Chinese script. `placeholder_items.csv` is also importable directly. See `DATA_ATTRIBUTION.md` and `placeholder_provenance.json` for licensing, per-sentence authors, source links, deterministic sampling and archive checksum.
+
+The annotator page no longer exposes CSV import. To replace the embedded dataset, maintainers replace `window.PLACEHOLDER_CSV` in `placeholder_data.js` with the serialized UTF-8 CSV string, update data notices and attribution as appropriate, rebuild, and deploy. Dataset fingerprints prevent mixing results after a data change.
