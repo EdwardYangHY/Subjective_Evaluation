@@ -28,13 +28,13 @@ The template intentionally has headers only and will fail validation until popul
 
 ## Annotator workflow
 
-The embedded 100-item dataset loads automatically. Enter an anonymous code such as `A` or `B`, read the rubric, then Begin. Rate adequacy and major semantic error independently; neither has a default. Comments are optional. Navigate freely; Jump to incomplete finds remaining work. Finish requires both responses on every item. Export CSV regularly and again at completion. Send the exported file to researchers yourself: the tool does not submit anything.
+The embedded 100-item dataset loads automatically. Enter an anonymous code such as `A` or `B`, read the rubric, then Begin. Rate adequacy, major semantic error, and naturalness independently; neither has a default. Comments are optional. Navigate freely; Jump to incomplete finds remaining work. Finish requires all three responses on every item. Export CSV regularly and again at completion. Send the exported file to researchers yourself: the tool does not submit anything.
 
 Each change saves to browser localStorage under annotator code plus SHA-256 of canonical imported fields in input order, including context and conversation IDs. A changed dataset starts a separate session with a warning; no results are merged. Reload and enter the same code to resume the embedded dataset. Other annotators' sessions remain separate. This is not authentication; use separate browser profiles/devices if annotations must remain private from other local users. Avoid opening the same session in multiple tabs, which can overwrite each other's saves.
 
 Storage failures are visibly reported. Clearing browser data, private browsing, changing origin or file path, or changing devices may lose browser saves. Exported CSVs are independent analysis backups; importing them to resume in the UI is not supported. Copy the entire project folder when distributing the interface (HTML, CSS and JS must stay together). Keep researcher documentation and test ratings away from annotators during rating.
 
-Exports are BOM-prefixed UTF-8, fully quoted, one row per original item, with blank ratings for incomplete items. Columns: `annotator_id,id,direction,conversation_id,adequacy,major_error,comment,dataset_fingerprint`. For Excel, use Data → From Text/CSV and set identifier and comment columns to Text to preserve IDs exactly and avoid interpreting text as spreadsheet formulas.
+Exports are BOM-prefixed UTF-8, fully quoted, one row per original item, with blank ratings for incomplete items. Columns: `annotator_id,id,direction,conversation_id,adequacy,major_error,naturalness,comment,dataset_fingerprint`. For Excel, use Data → From Text/CSV and set identifier and comment columns to Text to preserve IDs exactly and avoid interpreting text as spreadsheet formulas.
 
 ## Analysis setup and execution
 
@@ -81,3 +81,11 @@ Run `python3 build_distribution.py` to create a UI-only `dist/`, a self-containe
 The page automatically loads 100 embedded Tatoeba English–Mandarin pairs (50 each display direction). These are real public sentences for UI testing only, not synthetic text, scored annotations, GPT-generated references, or research findings. Original authorship direction is unknown. Text is preserved, including original Chinese script. `placeholder_items.csv` is also importable directly. See `DATA_ATTRIBUTION.md` and `placeholder_provenance.json` for licensing, per-sentence authors, source links, deterministic sampling and archive checksum.
 
 The annotator page no longer exposes CSV import. To replace the embedded dataset, maintainers replace `window.PLACEHOLDER_CSV` in `placeholder_data.js` with the serialized UTF-8 CSV string, update data notices and attribution as appropriate, rebuild, and deploy. Dataset fingerprints prevent mixing results after a data change.
+
+## Three-metric evaluation
+
+Semantic Adequacy (1–5) and Major Semantic Error (Yes/No) are primary; Target-language Naturalness (1–5) is secondary but required to finish. Naturalness judges fluency, grammar and idiomatic expression independently of meaning. The full anchored rubric is shown in the interface. Existing browser sessions preserve all previous responses and leave naturalness blank for additional annotation; old completed sessions become incomplete until this field is filled. Legacy CSVs without naturalness are rejected by the updated analysis, never imputed.
+
+All three metrics have overall and per-direction paired/cluster bootstrap 95% CIs. Both ordinal metrics have quadratic-weighted kappa, exact agreement and within-one-point agreement. Major error has binary kappa. Disagreements also include naturalness differences of at least two points. Naturalness agreement, including low or undefined agreement, must be reported transparently.
+
+Rebuttal framing: human evaluation assesses sampled reference semantic adequacy and target-language naturalness. Even high scores on both do not establish absence of stylistic bias: naturalness measures expression in an individual translation, while stylistic bias concerns reference wording preferences and their influence on BLEU. Reference-free GEMBA-MQM separately evaluates system translation quality and reduces reliance on reference wording. Naturalness is complementary evidence, not the main or sole basis for reference reliability.

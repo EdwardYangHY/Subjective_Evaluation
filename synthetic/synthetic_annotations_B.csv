@@ -1,5 +1,5 @@
-﻿annotator_id,id,direction,conversation_id,adequacy,major_error,comment
-SYNTHETIC_B,SYNTHETIC_004,zh-en,FAKE_c3,5,No,"Fabricated smoke-test rating, not research data."
-SYNTHETIC_B,SYNTHETIC_003,en-zh,FAKE_c2,5,No,"Fabricated smoke-test rating, not research data."
-SYNTHETIC_B,SYNTHETIC_002,zh-en,FAKE_c1,4,No,"Fabricated smoke-test rating, not research data."
-SYNTHETIC_B,SYNTHETIC_001,en-zh,FAKE_c1,5,No,"Fabricated smoke-test rating, not research data."
+﻿annotator_id,id,direction,conversation_id,adequacy,major_error,comment,naturalness
+SYNTHETIC_B,SYNTHETIC_004,zh-en,FAKE_c3,5,No,"Fabricated smoke-test rating, not research data.",2
+SYNTHETIC_B,SYNTHETIC_003,en-zh,FAKE_c2,5,No,"Fabricated smoke-test rating, not research data.",1
+SYNTHETIC_B,SYNTHETIC_002,zh-en,FAKE_c1,4,No,"Fabricated smoke-test rating, not research data.",4
+SYNTHETIC_B,SYNTHETIC_001,en-zh,FAKE_c1,5,No,"Fabricated smoke-test rating, not research data.",5

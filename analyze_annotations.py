@@ -11,12 +11,14 @@ from validate_items import read_csv, validate
 
 
 def load(path):
-    rows = read_csv(path, ['annotator_id', 'id', 'direction', 'adequacy', 'major_error'])
+    rows = read_csv(path, ['annotator_id', 'id', 'direction', 'adequacy', 'major_error', 'naturalness'])
     if len({r['annotator_id'] for r in rows}) != 1:
         raise ValueError(f'{path}: expected one annotator ID')
     for r in rows:
         if r['adequacy'] not in ('1', '2', '3', '4', '5'):
             raise ValueError(f'{path}: {r["id"]}: adequacy must be an integer 1–5')
+        if r['naturalness'] not in ('1', '2', '3', '4', '5'):
+            raise ValueError(f'{path}: {r["id"]}: naturalness must be an integer 1–5; legacy exports require additional annotation')
         if r['major_error'] not in ('Yes', 'No'):
             raise ValueError(f'{path}: {r["id"]}: major_error must be Yes or No')
         r.setdefault('comment', '')
@@ -36,17 +38,20 @@ def summarize(frame, reps, seed, clustered):
     b = frame.adequacy_B.to_numpy(dtype=int)
     ma = (frame.major_error_A == 'Yes').to_numpy(dtype=float)
     mb = (frame.major_error_B == 'Yes').to_numpy(dtype=float)
+    na = frame.naturalness_A.to_numpy(dtype=int)
+    nb = frame.naturalness_B.to_numpy(dtype=int)
+    naturalness = (na+nb)/2
     quality = (a+b)/2
     error = (ma+mb)/2
     labels = frame.conversation_id.to_numpy() if clustered else frame.index.to_numpy()
     units = list(dict.fromkeys(labels))
     groups = [np.flatnonzero(labels == unit) for unit in units]
-    totals = np.array([[quality[g].sum(), error[g].sum(), len(g)] for g in groups])
+    totals = np.array([[quality[g].sum(), error[g].sum(), naturalness[g].sum(), len(g)] for g in groups])
     rng = np.random.default_rng(seed)
-    samples = np.empty((reps, 2))
+    samples = np.empty((reps, 3))
     for i in range(reps):
         total = totals[rng.integers(0, len(groups), size=len(groups))].sum(axis=0)
-        samples[i] = total[:2]/total[2]
+        samples[i] = total[:3]/total[3]
     notes = []
     if len(groups) < 2:
         notes.append('Fewer than two resampling units: confidence intervals are not estimable.')
@@ -55,8 +60,18 @@ def summarize(frame, reps, seed, clustered):
     qw = kappa(a, b, [1, 2, 3, 4, 5], 'quadratic')
     if qw is None:
         notes.append('Quadratic-weighted kappa is undefined because expected disagreement is zero.')
-    ci = np.quantile(samples, [.025, .975], axis=0).T.tolist() if len(groups) >= 2 else [None, None]
+    nq = kappa(na, nb, [1, 2, 3, 4, 5], 'quadratic')
+    if max(np.bincount(np.concatenate([na, nb]), minlength=6)[1:])/(2*len(na)) >= .9:
+        notes.append('Near-uniform naturalness ratings: kappa may be unstable; report raw agreement alongside it.')
+    if nq is None:
+        notes.append('Naturalness quadratic-weighted kappa is undefined because expected disagreement is zero.')
+    ci = np.quantile(samples, [.025, .975], axis=0).T.tolist() if len(groups) >= 2 else [None, None, None]
     return dict(items=len(a), annotations=2*len(a), resampling_units=len(groups),
+                naturalness_mean=float(naturalness.mean()), naturalness_ci95=ci[2],
+                annotator_A_naturalness_mean=float(na.mean()), annotator_B_naturalness_mean=float(nb.mean()),
+                naturalness_quadratic_weighted_kappa=nq,
+                naturalness_exact_agreement=float((na==nb).mean()),
+                naturalness_within_one_point_agreement=float((abs(na-nb)<=1).mean()),
                 adequacy_mean=float(quality.mean()), adequacy_ci95=ci[0],
                 major_error_rate=float(error.mean()), major_error_ci95=ci[1],
                 annotator_A_adequacy_mean=float(a.mean()), annotator_B_adequacy_mean=float(b.mean()),
@@ -111,21 +126,24 @@ def analyze(args):
         groups[direction] = summarize(part, args.replicates, args.seed, clustered) if len(part) else {'items': 0, 'annotations': 0, 'warnings': ['No items in this direction; metrics are not estimable.']}
     result = {'annotators': {'A': a.annotator_id.iloc[0], 'B': b.annotator_id.iloc[0]},
               'dataset_fingerprint': fingerprints[0] if fingerprints else None,
-              'methods': {'headline_adequacy': 'Mean of all individual scores (equivalently mean paired item score).',
+              'methods': {'metric_roles': {'adequacy': 'primary', 'major_error': 'primary', 'naturalness': 'secondary'},
+                          'naturalness': 'Mean paired item score; secondary measure of target-language expression, not evidence against reference stylistic bias.',
+                          'headline_adequacy': 'Mean of all individual scores (equivalently mean paired item score).',
                           'headline_major_error': 'Per-annotation Yes fraction, averaged within item then across items; not consensus or adjudicated.',
                           'ci': '95% percentile bootstrap; paired judgments always kept together; sampled clusters retain all their items; metrics are item-weighted.',
                           'resampling_unit': 'conversation' if clustered else 'item',
                           'replicates': args.replicates, 'seed': args.seed,
                           'groups': 'Overall and subsets defined by input translation direction; conversations resampled within each subset.',
                           'agreement': 'Paired quadratic-weighted Cohen kappa with fixed labels 1–5; binary unweighted kappa with labels 0,1. Undefined values are null.',
-                          'limitations': 'Sampled reference accuracy only; agreement is not accuracy. Limited sample precision and possible BLEU style bias remain. No system outputs assessed.'},
+                          'limitations': 'Sampled reference accuracy only; agreement is not accuracy. High adequacy and naturalness do not rule out reference wording preferences or their effect on BLEU. Report low naturalness agreement transparently. Reference-free GEMBA-MQM is a separate complementary system evaluation. Limited sample precision remains. No system outputs assessed.'},
               'groups': groups}
     mask = (f.major_error_A != f.major_error_B) | ((f.adequacy_A.astype(int)-f.adequacy_B.astype(int)).abs() >= 2)
-    report = f.loc[mask, ['direction_A', 'conversation_id', 'annotator_id_A', 'adequacy_A', 'major_error_A', 'comment_A', 'annotator_id_B', 'adequacy_B', 'major_error_B', 'comment_B']].rename(columns={'direction_A': 'direction'})
+    mask = mask | ((f.naturalness_A.astype(int)-f.naturalness_B.astype(int)).abs() >= 2)
+    report = f.loc[mask, ['direction_A', 'conversation_id', 'annotator_id_A', 'adequacy_A', 'major_error_A', 'naturalness_A', 'comment_A', 'annotator_id_B', 'adequacy_B', 'major_error_B', 'naturalness_B', 'comment_B']].rename(columns={'direction_A': 'direction'})
     args.out.mkdir(parents=True, exist_ok=True)
     report.to_csv(args.out/'disagreements.csv', encoding='utf-8-sig')
     (args.out/'results_summary.json').write_text(json.dumps(result, indent=2, ensure_ascii=False, allow_nan=False)+'\n', encoding='utf-8')
-    print(pd.DataFrame(groups).T[['items', 'annotations', 'adequacy_mean', 'adequacy_ci95', 'major_error_rate', 'major_error_ci95', 'quadratic_weighted_kappa', 'exact_agreement', 'within_one_point_agreement']].to_string())
+    print(pd.DataFrame(groups).T[['items', 'annotations', 'adequacy_mean', 'adequacy_ci95', 'major_error_rate', 'major_error_ci95', 'quadratic_weighted_kappa', 'exact_agreement', 'within_one_point_agreement', 'naturalness_mean', 'naturalness_ci95', 'naturalness_quadratic_weighted_kappa', 'naturalness_exact_agreement', 'naturalness_within_one_point_agreement', 'major_error_kappa']].to_string())
     print(f'\nCI unit: {result["methods"]["resampling_unit"]}; replicates: {args.replicates}; seed: {args.seed}. Major-error headline: per annotation, paired uncertainty.')
     for name, group in groups.items():
         for note in group['warnings']:

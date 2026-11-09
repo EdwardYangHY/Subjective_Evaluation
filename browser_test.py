@@ -40,26 +40,39 @@ with tempfile.TemporaryDirectory() as tmp, sync_playwright() as p:
     assert page.locator('#source').inner_text()==source
     assert page.locator('#source img').count()==0
     assert page.locator('input[type=radio]:checked').count()==0
-    page.locator('#finish').click();assert 'Complete both' in page.locator('#message').inner_text()
+    page.locator('#finish').click();assert 'Complete all three' in page.locator('#message').inner_text()
     page.locator('input[name=adequacy][value="5"]').check()
     assert page.locator('#progressText').inner_text()=='0 / 100 completed'
     page.locator('input[name=major_error][value=No]').check()
+    assert page.locator('#progressText').inner_text()=='0 / 100 completed'
+    page.locator('input[name=naturalness][value="3"]').check()
     page.locator('#comment').fill('Synthetic "note", 中文\nsecond line')
     with page.expect_download() as d: page.locator('#export').click()
     downloaded=Path(d.value.path());assert downloaded.read_bytes().startswith(b'\xef\xbb\xbf')
     with downloaded.open(encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
     assert len(rows)==100 and rows[0]['adequacy']=='5' and rows[1]['adequacy']==''
+    assert rows[0]['naturalness']=='3' and rows[1]['naturalness']==''
     assert rows[0]['comment']=='Synthetic "note", 中文\nsecond line'
     page.reload();start('A');assert page.locator('input[name=adequacy]:checked').input_value()=='5'
     page.locator('#switch').click();start('B');assert page.locator('input[type=radio]:checked').count()==0
     page.locator('#switch').click();start('A');assert page.locator('#comment').input_value().startswith('Synthetic')
     page.locator('input[name=adequacy][value="4"]').check();page.reload();start('A')
     assert page.locator('input[name=adequacy]:checked').input_value()=='4'
+    assert page.locator('input[name=naturalness]:checked').input_value()=='3'
     page.locator('#incomplete').click();assert 'Item 2 of 100' in page.locator('#position').inner_text()
     for i in range(1,100):
         page.locator('input[name=adequacy][value="5"]').check();page.locator('input[name=major_error][value=No]').check()
+        page.locator('input[name=naturalness][value="4"]').check()
         if i<99: page.locator('#next').click()
     page.locator('#finish').click();assert 'nothing has been submitted' in page.locator('#summary').inner_text()
+    # Simulate an existing pre-naturalness browser save and verify migration.
+    page.evaluate('''() => {for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k.startsWith('translation-validation:v1:A:')){const s=JSON.parse(localStorage.getItem(k));s.ratings.forEach(r=>delete r.naturalness);localStorage.setItem(k,JSON.stringify(s));}}}''')
+    page.reload();start('A')
+    assert 'previous ratings were restored' in page.locator('#message').inner_text()
+    assert page.locator('#progressText').inner_text()=='0 / 100 completed'
+    assert page.locator('input[name=adequacy]:checked').count()==1
+    assert page.locator('input[name=naturalness]:checked').count()==0
+    assert page.locator('#summary').inner_text()==''
     page.locator('#switch').click()
     dataset.write_text(dataset.read_text(encoding='utf-8-sig').replace('Fake context','Changed fake context'),encoding='utf-8')
     start('A');assert 'different dataset' in page.locator('#message').inner_text()
