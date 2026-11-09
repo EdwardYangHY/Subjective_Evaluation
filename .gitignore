@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+analysis_output/
+annotations_*.csv
+annotation_items.csv
+dist/
+translation-validation-web.zip
+.DS_Store
+translation-validation-web/

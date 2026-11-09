@@ -1,0 +1,7 @@
+﻿id,direction,source,reference,conversation_id,context
+SYNTHETIC_001,en-zh,"She said, ""Meet at five.""
+Bring tea.","她说：“五点见。”
+带茶来。",FAKE_c1,Synthetic test only.
+SYNTHETIC_002,zh-en,我没有买三本书。,I bought three books.,FAKE_c1,Synthetic test only.
+SYNTHETIC_003,en-zh,The train leaves tomorrow.,火车明天出发。,FAKE_c2,
+SYNTHETIC_004,zh-en,请把窗户打开。,Please open the window.,FAKE_c3,

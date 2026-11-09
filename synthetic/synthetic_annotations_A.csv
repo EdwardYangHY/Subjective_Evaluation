@@ -1,0 +1,5 @@
+﻿annotator_id,id,direction,conversation_id,adequacy,major_error,comment
+SYNTHETIC_A,SYNTHETIC_001,en-zh,FAKE_c1,5,No,"Fabricated smoke-test rating, not research data."
+SYNTHETIC_A,SYNTHETIC_002,zh-en,FAKE_c1,2,Yes,"Fabricated smoke-test rating, not research data."
+SYNTHETIC_A,SYNTHETIC_003,en-zh,FAKE_c2,4,No,"Fabricated smoke-test rating, not research data."
+SYNTHETIC_A,SYNTHETIC_004,zh-en,FAKE_c3,5,No,"Fabricated smoke-test rating, not research data."
