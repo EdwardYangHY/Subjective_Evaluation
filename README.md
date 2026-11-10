@@ -76,11 +76,13 @@ Report actual sample size, sampling strategy, non-identifying annotator qualific
 
 Run `python3 build_distribution.py` to create a UI-only `dist/`, a self-contained `dist/translation-validation-offline.html`, and `translation-validation-web.zip`. See [DEPLOY.md](DEPLOY.md) for GitHub Pages publishing and annotator distribution. A GitHub Actions workflow is included; a repository and Pages setup are still required before a public URL exists.
 
-## Public placeholder dataset
+## Current embedded conversations
 
-The page automatically loads 100 embedded Tatoeba English–Mandarin pairs (50 each display direction). These are real public sentences for UI testing only, not synthetic text, scored annotations, GPT-generated references, or research findings. Original authorship direction is unknown. Text is preserved, including original Chinese script. `placeholder_items.csv` is also importable directly. See `DATA_ATTRIBUTION.md` and `placeholder_provenance.json` for licensing, per-sentence authors, source links, deterministic sampling and archive checksum.
+The page automatically loads ten complete English→Chinese conversations from XDailyDialog's test split, replacing the former 100 Tatoeba sentence pairs. Each conversation is one rating item, with every turn retained and numbered. The source/reference panels show full English and Chinese dialogues; score adequacy, major errors and naturalness over the entire conversation. Exports contain ten rows, not one row per turn. Existing 100-item saves remain separately stored under their previous dataset fingerprint and are not merged into this set.
 
-The annotator page no longer exposes CSV import. To replace the embedded dataset, maintainers replace `window.PLACEHOLDER_CSV` in `placeholder_data.js` with the serialized UTF-8 CSV string, update data notices and attribution as appropriate, rebuild, and deploy. Dataset fingerprints prevent mixing results after a data change.
+These are published bilingual data for UI testing, not generated GPT translations, actual study results, or the final blinded comparison. Source attribution, noncommercial/share-alike data license, selection seed, original turns, line numbers and checksums are in `DATA_ATTRIBUTION.md` and `placeholder_provenance.json`. Reproduce with `scripts/prepare_xdaily_placeholders.py`; `scripts/prepare_placeholders.py` is the historical Tatoeba generator and would overwrite the current data if run.
+
+The annotator page has no visible CSV import. Data changes are prepared in the source files and rebuilt with `python3 build_distribution.py`.
 
 ## Three-metric evaluation
 

@@ -1,74 +1,15 @@
-# Public placeholder data — not study results
+# XDailyDialog placeholder conversations
 
-100 unique English–Mandarin sentence pairs from the Tatoeba Project, distributed by ManyThings (Charles Kelly). Source: https://www.manythings.org/anki/ and https://www.manythings.org/anki/cmn-eng.zip . Downloaded 2026-11-09; archive dated 2026-02-13.
+Ten complete English–Chinese conversations from the XDailyDialog test split. Dataset authors: Zeming Liu, Ping Nie, Jie Cai, Haifeng Wang, Zheng-Yu Niu, Peng Zhang, Mrinmaya Sachan, Kaiping Peng. English originates in DailyDialog (Yanran Li, Hui Su, Xiaoyu Shen, Wenjie Li, Ziqiang Cao, Shuzi Niu).
 
-Sentence texts are unmodified. Authors and original sentence IDs are retained in the `attribution` CSV column and `placeholder_provenance.json`. Sentence-level notices specify CC-BY 2.0 (France): https://creativecommons.org/licenses/by/2.0/fr/ . The archive also links to https://creativecommons.org/licenses/by/2.0/ . Preserve these credits when redistributing this sample.
+Source: https://github.com/liuzeming01/XDailyDialog . Files: `data/en_test_human.txt` and `data/zh_test_human.txt`, retrieved 2026-11-09. Line numbers, original turn text and file checksums are recorded in `placeholder_provenance.json`.
 
-These are community bilingual examples, not GPT-generated study references, system translations, scored quality labels, or guaranteed-error-free gold data. Chinese includes the scripts present in the original corpus; no script conversion is performed. Original authorship direction is unknown. Fifty pairs are displayed English→Chinese and fifty Chinese→English solely to exercise the interface; each underlying pair appears once. There are no supplied conversation IDs or adjacent turns, so those fields are blank. No conversations or context have been invented.
+Data license: Creative Commons Attribution-NonCommercial-ShareAlike 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/ . The redistributed dialogue subset and its formatting adaptation remain under that license. The repository also lists Apache-2.0 for code; this does not replace the data license. See https://github.com/liuzeming01/XDailyDialog#8-license . Retain attribution and license information when sharing.
 
-Sampling is stratified by English length (34 short, 34 medium, 32 long), seed 2027. The source warning explicitly states that errors may remain. This is a convenience sample for UI testing, not a representative research sample. No ratings are included.
+Selection: seed 2027, ten distinct test dialogues with 4–12 matching English/Chinese turns, sampled without replacement. Every selected dialogue is included in full. One item is one complete conversation, evaluated as a whole. All items use English as source and Chinese as translation. The published Chinese text is used as-is, not newly generated GPT output and not presumed perfect.
 
-Reproduce with `python3 scripts/prepare_placeholders.py /path/to/cmn-eng.zip`; check the input archive SHA-256 against `placeholder_provenance.json` because the upstream download may change.
+Formatting changes only: split the original __eou__ turn markers, trim surrounding whitespace, and add neutral [Turn N] labels and paragraph spacing. No sentences are rewritten or translated; speaker identities are not inferred. Metadata labels are not included in the rated text.
 
-## Original distribution notice
+This is a UI placeholder set, not the proposed blinded human-versus-GPT comparison or actual study results. No GPT translations or user-provided conversations have been mixed in yet. No quality scores are provided.
 
-** Info **
-
-Check for newest version here:
-  http://www.manythings.org/anki/
-Date of this file:
-  2026-02-13
-
-This data is from the sentences_detailed.csv file from tatoeba.org.
-http://tatoeba.org/files/downloads/sentences_detailed.csv
-
-
-
-** Terms of Use **
-
-See the terms of use.
-These files have been released under the same license as the
-source.
-
-http://tatoeba.org/eng/terms_of_use
-http://creativecommons.org/licenses/by/2.0
-
-Attribution: www.manythings.org/anki and tatoeba.org
-
-
-
-** Warnings ** 
-
-The data from the Tatoeba Project contains errors.
-
-To lower the number of errors you are likely to see, only
-sentences by native speakers and proofread sentences have
-been included.
-
-For the non-English language, I made these (possibly wrong)
-assumptions.
-Assumption 1: Sentences written by native speakers can be
-trusted.
-Assumption 2: Contributors to the Tatoeba Project are honest
-about what their native language is.
-
-For English, I used the sentences that I have proofread
-and thought were OK.
-Of course, I may have missed a few errors.
-
-
-
-** Downloading Anki ** 
-
-See http://ankisrs.net/
-
-
-
-** Importing into Anki ** 
-
-Information is at http://ankisrs.net/docs/manual.html#importing
-
-Of particular interest may be about "duplicates" at http://ankisrs.net/docs/manual.html#duplicates-and-updating.
-You can choose:
-1. not to allow duplicates (alternate translations) as cards.
-2. allow duplicates (alternate translations) as cards.
+Reproduce: `python3 scripts/prepare_xdaily_placeholders.py /path/to/en_test_human.txt /path/to/zh_test_human.txt`.

@@ -10,7 +10,7 @@ The site is entirely static. Hosting serves the HTML/CSS/JavaScript; imported da
 4. Run **Actions → Deploy annotation site → Run workflow**, or push a change to `main`.
 5. Open the URL shown by the deployment. It normally has the form `https://ACCOUNT.github.io/translation-validation/`.
 
-The supplied workflow packages an explicit allowlist of UI files. The deployed website includes the public Tatoeba demo pairs and attribution; it does not include study data, Python analysis, researcher documentation, or synthetic ratings. GitHub repository visibility and website contents are separate: avoid placing sensitive data anywhere in a public repository.
+The supplied workflow packages an explicit allowlist of UI files. The deployed website includes the public XDailyDialog demo conversations and attribution; it does not include study data, Python analysis, researcher documentation, or synthetic ratings. GitHub repository visibility and website contents are separate: avoid placing sensitive data anywhere in a public repository.
 
 Official setup reference: https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
 
@@ -22,7 +22,7 @@ Run `python3 build_distribution.py`. Upload the **contents** of `dist/` (not the
 
 `dist/translation-validation-offline.html` contains the complete CSS and JavaScript with a restrictive hash-based content security policy. Send that one file to annotators, who can save and open it in Chrome. No installation, Python, or internet is needed. This file has exactly the same rating and export behavior as the hosted page.
 
-`translation-validation-web.zip` contains the website assets and standalone file for distribution. It includes the clearly labeled public Tatoeba placeholder dataset and its attribution, but no study datasets or fabricated ratings. Regenerate it with `python3 build_distribution.py` after editing the source files; do not edit generated copies.
+`translation-validation-web.zip` contains the website assets and standalone file for distribution. It includes the clearly labeled public XDailyDialog placeholder conversations and its attribution, but no study datasets or fabricated ratings. Regenerate it with `python3 build_distribution.py` after editing the source files; do not edit generated copies.
 
 ## What to send annotators
 

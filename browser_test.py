@@ -28,13 +28,15 @@ with tempfile.TemporaryDirectory() as tmp, sync_playwright() as p:
     assert not page.locator('#file').is_visible()
     page.locator('#annotator').fill('DEMO_TEST')
     page.locator('#begin').click()
-    assert page.locator('#counts').inner_text().startswith('100 items · en-zh: 50 · zh-en: 50')
+    assert page.locator('#counts').inner_text().startswith('10 items · en-zh: 10 · zh-en: 0')
     assert page.locator('#demoNotice').is_visible()
-    assert page.locator('#credit').text_content().startswith('CC-BY')
+    assert '[Turn 4]' in page.locator('#source').inner_text()
+    assert '[Turn 4]' in page.locator('#reference').inner_text()
+    assert page.locator('#credit').text_content().startswith('XDailyDialog')
     assert page.locator('input[type=radio]:checked').count()==0
     with page.expect_download() as demo_download: page.locator('#export').click()
     with Path(demo_download.value.path()).open(encoding='utf-8-sig',newline='') as f: demo_rows=list(csv.DictReader(f))
-    assert len(demo_rows)==100 and all(r['adequacy']=='' for r in demo_rows)
+    assert len(demo_rows)==10 and all(r['adequacy']=='' for r in demo_rows)
     page.reload();start('A')
     assert page.locator('#counts').inner_text().startswith('100 items · en-zh: 50 · zh-en: 50')
     assert page.locator('#source').inner_text()==source

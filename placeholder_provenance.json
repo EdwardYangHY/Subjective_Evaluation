@@ -1,609 +1,319 @@
 {
-  "dataset": "Tatoeba via ManyThings Mandarin-English",
-  "download": "https://www.manythings.org/anki/cmn-eng.zip",
-  "archive_sha256": "d606361aa7312dcdfb15ef4fc51cb1e7ed8bc2dc608a7b192626cd36e8403106",
+  "dataset": "XDailyDialog",
+  "repository": "https://github.com/liuzeming01/XDailyDialog",
+  "source_files": {
+    "en": {
+      "url": "https://raw.githubusercontent.com/liuzeming01/XDailyDialog/main/data/en_test_human.txt",
+      "sha256": "f5f74a02996ecc69f68ca9f3fdc07bb463f10b4b737e397bb66dca673d000bdf"
+    },
+    "zh": {
+      "url": "https://raw.githubusercontent.com/liuzeming01/XDailyDialog/main/data/zh_test_human.txt",
+      "sha256": "fed29ef0cac938c4825dcdf7948c7cbedbc2233af88df422beb037b3d38a6579"
+    }
+  },
   "seed": 2027,
-  "sampling": "Unique English and Chinese strings; English word counts 4–7:34, 8–12:34, 13–30:32; deterministic random sample. Alternating presentation direction, not original authorship language.",
+  "sampling": "Ten distinct test conversations sampled without replacement from conversations with 4–12 matched turns. All English→Chinese, following dataset provenance. Full dialogues retained, no turn truncation.",
+  "formatting": "Split at __eou__; trim surrounding whitespace; prefix each unchanged turn with [Turn N]. No invented speaker identities.",
   "items": [
     {
-      "id": "DEMO_TATOEBA_5485594_6128456",
-      "english_url": "https://tatoeba.org/en/sentences/show/5485594",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/6128456",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #5485594 (CK) & #6128456 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_237816_1328076",
-      "english_url": "https://tatoeba.org/en/sentences/show/237816",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/1328076",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #237816 (CM) & #1328076 (vicch)"
-    },
-    {
-      "id": "DEMO_TATOEBA_6646622_13109995",
-      "english_url": "https://tatoeba.org/en/sentences/show/6646622",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/13109995",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #6646622 (CK) & #13109995 (LeviHighway)"
-    },
-    {
-      "id": "DEMO_TATOEBA_304009_848213",
-      "english_url": "https://tatoeba.org/en/sentences/show/304009",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/848213",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #304009 (CK) & #848213 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_5194597_9962365",
-      "english_url": "https://tatoeba.org/en/sentences/show/5194597",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/9962365",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #5194597 (CK) & #9962365 (GlossaMatik)"
-    },
-    {
-      "id": "DEMO_TATOEBA_316019_332930",
-      "english_url": "https://tatoeba.org/en/sentences/show/316019",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/332930",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #316019 (CM) & #332930 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1684_501574",
-      "english_url": "https://tatoeba.org/en/sentences/show/1684",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/501574",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1684 (CM) & #501574 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_682102_5911724",
-      "english_url": "https://tatoeba.org/en/sentences/show/682102",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5911724",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #682102 (Source_VOA) & #5911724 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_12080394_5995379",
-      "english_url": "https://tatoeba.org/en/sentences/show/12080394",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5995379",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #12080394 (FishlandicFishy) & #5995379 (xjjAstrus)"
-    },
-    {
-      "id": "DEMO_TATOEBA_278914_400068",
-      "english_url": "https://tatoeba.org/en/sentences/show/278914",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/400068",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #278914 (CM) & #400068 (GlossaMatik)"
-    },
-    {
-      "id": "DEMO_TATOEBA_4770634_4265770",
-      "english_url": "https://tatoeba.org/en/sentences/show/4770634",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/4265770",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #4770634 (garborg) & #4265770 (egg0073)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1365899_2007055",
-      "english_url": "https://tatoeba.org/en/sentences/show/1365899",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/2007055",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1365899 (CM) & #2007055 (sadhen)"
-    },
-    {
-      "id": "DEMO_TATOEBA_256467_5926162",
-      "english_url": "https://tatoeba.org/en/sentences/show/256467",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5926162",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #256467 (CK) & #5926162 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_296942_510766",
-      "english_url": "https://tatoeba.org/en/sentences/show/296942",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/510766",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #296942 (CK) & #510766 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1029349_5670792",
-      "english_url": "https://tatoeba.org/en/sentences/show/1029349",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5670792",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1029349 (CK) & #5670792 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_8021237_830474",
-      "english_url": "https://tatoeba.org/en/sentences/show/8021237",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/830474",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #8021237 (CK) & #830474 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_23498_334721",
-      "english_url": "https://tatoeba.org/en/sentences/show/23498",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/334721",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #23498 (CK) & #334721 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1024892_5496311",
-      "english_url": "https://tatoeba.org/en/sentences/show/1024892",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5496311",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1024892 (CK) & #5496311 (egg0073)"
-    },
-    {
-      "id": "DEMO_TATOEBA_502705_846105",
-      "english_url": "https://tatoeba.org/en/sentences/show/502705",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/846105",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #502705 (CK) & #846105 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_2985703_12420185",
-      "english_url": "https://tatoeba.org/en/sentences/show/2985703",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/12420185",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #2985703 (sharptoothed) & #12420185 (jkyochen)"
-    },
-    {
-      "id": "DEMO_TATOEBA_36335_790290",
-      "english_url": "https://tatoeba.org/en/sentences/show/36335",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/790290",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #36335 (CK) & #790290 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_701753_752115",
-      "english_url": "https://tatoeba.org/en/sentences/show/701753",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/752115",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #701753 (Eldad) & #752115 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_303608_408497",
-      "english_url": "https://tatoeba.org/en/sentences/show/303608",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/408497",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #303608 (CM) & #408497 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_672243_760819",
-      "english_url": "https://tatoeba.org/en/sentences/show/672243",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/760819",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #672243 (kebukebu) & #760819 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_254892_880242",
-      "english_url": "https://tatoeba.org/en/sentences/show/254892",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/880242",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #254892 (CK) & #880242 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_246916_335320",
-      "english_url": "https://tatoeba.org/en/sentences/show/246916",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/335320",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #246916 (Eldad) & #335320 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_297287_1397136",
-      "english_url": "https://tatoeba.org/en/sentences/show/297287",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/1397136",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #297287 (CK) & #1397136 (mtdot)"
-    },
-    {
-      "id": "DEMO_TATOEBA_34053_431516",
-      "english_url": "https://tatoeba.org/en/sentences/show/34053",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/431516",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #34053 (CK) & #431516 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_2230009_2221100",
-      "english_url": "https://tatoeba.org/en/sentences/show/2230009",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/2221100",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #2230009 (CM) & #2221100 (sadhen)"
-    },
-    {
-      "id": "DEMO_TATOEBA_3774813_6084405",
-      "english_url": "https://tatoeba.org/en/sentences/show/3774813",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/6084405",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #3774813 (Hybrid) & #6084405 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_239655_334551",
-      "english_url": "https://tatoeba.org/en/sentences/show/239655",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/334551",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #239655 (CM) & #334551 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_5513634_5611630",
-      "english_url": "https://tatoeba.org/en/sentences/show/5513634",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5611630",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #5513634 (CK) & #5611630 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_4763339_4760079",
-      "english_url": "https://tatoeba.org/en/sentences/show/4763339",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/4760079",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #4763339 (garborg) & #4760079 (ryanwoo)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1037195_5911602",
-      "english_url": "https://tatoeba.org/en/sentences/show/1037195",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5911602",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1037195 (GPHemsley) & #5911602 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_312439_793218",
-      "english_url": "https://tatoeba.org/en/sentences/show/312439",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/793218",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #312439 (CK) & #793218 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1841719_5091179",
-      "english_url": "https://tatoeba.org/en/sentences/show/1841719",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5091179",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1841719 (CK) & #5091179 (mirrorvan)"
-    },
-    {
-      "id": "DEMO_TATOEBA_4135265_5091609",
-      "english_url": "https://tatoeba.org/en/sentences/show/4135265",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5091609",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #4135265 (CK) & #5091609 (mirrorvan)"
-    },
-    {
-      "id": "DEMO_TATOEBA_2764252_4635781",
-      "english_url": "https://tatoeba.org/en/sentences/show/2764252",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/4635781",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #2764252 (CK) & #4635781 (egg0073)"
-    },
-    {
-      "id": "DEMO_TATOEBA_12135560_6937167",
-      "english_url": "https://tatoeba.org/en/sentences/show/12135560",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/6937167",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #12135560 (yujiang) & #6937167 (xjjAstrus)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1027913_12617597",
-      "english_url": "https://tatoeba.org/en/sentences/show/1027913",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/12617597",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1027913 (CK) & #12617597 (Enzo)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1839542_5924732",
-      "english_url": "https://tatoeba.org/en/sentences/show/1839542",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5924732",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1839542 (CK) & #5924732 (xjjAstrus)"
-    },
-    {
-      "id": "DEMO_TATOEBA_70093_865435",
-      "english_url": "https://tatoeba.org/en/sentences/show/70093",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/865435",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #70093 (CK) & #865435 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1868103_10271713",
-      "english_url": "https://tatoeba.org/en/sentences/show/1868103",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/10271713",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1868103 (CK) & #10271713 (miaojiandao)"
-    },
-    {
-      "id": "DEMO_TATOEBA_51898_830433",
-      "english_url": "https://tatoeba.org/en/sentences/show/51898",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/830433",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #51898 (CK) & #830433 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_2458596_5091411",
-      "english_url": "https://tatoeba.org/en/sentences/show/2458596",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5091411",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #2458596 (CK) & #5091411 (mirrorvan)"
-    },
-    {
-      "id": "DEMO_TATOEBA_252320_813580",
-      "english_url": "https://tatoeba.org/en/sentences/show/252320",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/813580",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #252320 (CM) & #813580 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_258399_4764637",
-      "english_url": "https://tatoeba.org/en/sentences/show/258399",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/4764637",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #258399 (CK) & #4764637 (ryanwoo)"
-    },
-    {
-      "id": "DEMO_TATOEBA_7538775_11969214",
-      "english_url": "https://tatoeba.org/en/sentences/show/7538775",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/11969214",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #7538775 (CK) & #11969214 (corina)"
-    },
-    {
-      "id": "DEMO_TATOEBA_510208_835663",
-      "english_url": "https://tatoeba.org/en/sentences/show/510208",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/835663",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #510208 (CK) & #835663 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_3200451_6624727",
-      "english_url": "https://tatoeba.org/en/sentences/show/3200451",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/6624727",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #3200451 (CK) & #6624727 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_266742_13109958",
-      "english_url": "https://tatoeba.org/en/sentences/show/266742",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/13109958",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #266742 (CK) & #13109958 (LeviHighway)"
-    },
-    {
-      "id": "DEMO_TATOEBA_2026905_7771955",
-      "english_url": "https://tatoeba.org/en/sentences/show/2026905",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/7771955",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #2026905 (CK) & #7771955 (jiangche)"
-    },
-    {
-      "id": "DEMO_TATOEBA_284952_796901",
-      "english_url": "https://tatoeba.org/en/sentences/show/284952",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/796901",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #284952 (CK) & #796901 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_6888995_9956132",
-      "english_url": "https://tatoeba.org/en/sentences/show/6888995",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/9956132",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #6888995 (CK) & #9956132 (GlossaMatik)"
-    },
-    {
-      "id": "DEMO_TATOEBA_9668064_13046620",
-      "english_url": "https://tatoeba.org/en/sentences/show/9668064",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/13046620",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #9668064 (CK) & #13046620 (maina)"
-    },
-    {
-      "id": "DEMO_TATOEBA_53469_332844",
-      "english_url": "https://tatoeba.org/en/sentences/show/53469",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/332844",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #53469 (CM) & #332844 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_623258_815306",
-      "english_url": "https://tatoeba.org/en/sentences/show/623258",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/815306",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #623258 (darinmex) & #815306 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_34990_836117",
-      "english_url": "https://tatoeba.org/en/sentences/show/34990",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/836117",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #34990 (CK) & #836117 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_49911_2002963",
-      "english_url": "https://tatoeba.org/en/sentences/show/49911",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/2002963",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #49911 (CK) & #2002963 (sunnywqing)"
-    },
-    {
-      "id": "DEMO_TATOEBA_4497991_6059535",
-      "english_url": "https://tatoeba.org/en/sentences/show/4497991",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/6059535",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #4497991 (CK) & #6059535 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_27275_909450",
-      "english_url": "https://tatoeba.org/en/sentences/show/27275",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/909450",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #27275 (CK) & #909450 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1096022_12686997",
-      "english_url": "https://tatoeba.org/en/sentences/show/1096022",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/12686997",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1096022 (CK) & #12686997 (soueihin)"
-    },
-    {
-      "id": "DEMO_TATOEBA_2944252_13665602",
-      "english_url": "https://tatoeba.org/en/sentences/show/2944252",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/13665602",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #2944252 (Hybrid) & #13665602 (LeviHighway)"
-    },
-    {
-      "id": "DEMO_TATOEBA_2169069_2166043",
-      "english_url": "https://tatoeba.org/en/sentences/show/2169069",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/2166043",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #2169069 (CM) & #2166043 (sadhen)"
-    },
-    {
-      "id": "DEMO_TATOEBA_2955913_6633870",
-      "english_url": "https://tatoeba.org/en/sentences/show/2955913",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/6633870",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #2955913 (CK) & #6633870 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1030029_5624957",
-      "english_url": "https://tatoeba.org/en/sentences/show/1030029",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5624957",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1030029 (CK) & #5624957 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_22875_1328127",
-      "english_url": "https://tatoeba.org/en/sentences/show/22875",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/1328127",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #22875 (CK) & #1328127 (vicch)"
-    },
-    {
-      "id": "DEMO_TATOEBA_386767_334988",
-      "english_url": "https://tatoeba.org/en/sentences/show/386767",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/334988",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #386767 (Mouseneb) & #334988 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_2544659_6860869",
-      "english_url": "https://tatoeba.org/en/sentences/show/2544659",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/6860869",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #2544659 (CK) & #6860869 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_434604_6056644",
-      "english_url": "https://tatoeba.org/en/sentences/show/434604",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/6056644",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #434604 (lukaszpp) & #6056644 (xjjAstrus)"
-    },
-    {
-      "id": "DEMO_TATOEBA_6261643_6877968",
-      "english_url": "https://tatoeba.org/en/sentences/show/6261643",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/6877968",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #6261643 (CK) & #6877968 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_21916_1736070",
-      "english_url": "https://tatoeba.org/en/sentences/show/21916",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/1736070",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #21916 (Eldad) & #1736070 (yuzazaza)"
-    },
-    {
-      "id": "DEMO_TATOEBA_23972_780251",
-      "english_url": "https://tatoeba.org/en/sentences/show/23972",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/780251",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #23972 (CK) & #780251 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_10134120_13545602",
-      "english_url": "https://tatoeba.org/en/sentences/show/10134120",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/13545602",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #10134120 (CK) & #13545602 (LeviHighway)"
-    },
-    {
-      "id": "DEMO_TATOEBA_284278_905988",
-      "english_url": "https://tatoeba.org/en/sentences/show/284278",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/905988",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #284278 (CK) & #905988 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_6074404_6086824",
-      "english_url": "https://tatoeba.org/en/sentences/show/6074404",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/6086824",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #6074404 (CK) & #6086824 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1457056_7768322",
-      "english_url": "https://tatoeba.org/en/sentences/show/1457056",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/7768322",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1457056 (CK) & #7768322 (jiangche)"
-    },
-    {
-      "id": "DEMO_TATOEBA_7226988_8502959",
-      "english_url": "https://tatoeba.org/en/sentences/show/7226988",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/8502959",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #7226988 (CK) & #8502959 (maxine)"
-    },
-    {
-      "id": "DEMO_TATOEBA_3562558_5617229",
-      "english_url": "https://tatoeba.org/en/sentences/show/3562558",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5617229",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #3562558 (Hybrid) & #5617229 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_55712_333342",
-      "english_url": "https://tatoeba.org/en/sentences/show/55712",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/333342",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #55712 (CK) & #333342 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_20765_8789285",
-      "english_url": "https://tatoeba.org/en/sentences/show/20765",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/8789285",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #20765 (CK) & #8789285 (crescat)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1539877_685535",
-      "english_url": "https://tatoeba.org/en/sentences/show/1539877",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/685535",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1539877 (SHamp) & #685535 (GlossaMatik)"
-    },
-    {
-      "id": "DEMO_TATOEBA_7265195_5707225",
-      "english_url": "https://tatoeba.org/en/sentences/show/7265195",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5707225",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #7265195 (anattado) & #5707225 (xjjAstrus)"
-    },
-    {
-      "id": "DEMO_TATOEBA_3223022_8500073",
-      "english_url": "https://tatoeba.org/en/sentences/show/3223022",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/8500073",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #3223022 (CK) & #8500073 (maxine)"
-    },
-    {
-      "id": "DEMO_TATOEBA_995285_334043",
-      "english_url": "https://tatoeba.org/en/sentences/show/995285",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/334043",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #995285 (NickC) & #334043 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_644637_812334",
-      "english_url": "https://tatoeba.org/en/sentences/show/644637",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/812334",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #644637 (darinmex) & #812334 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_6257256_13048187",
-      "english_url": "https://tatoeba.org/en/sentences/show/6257256",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/13048187",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #6257256 (CK) & #13048187 (maina)"
-    },
-    {
-      "id": "DEMO_TATOEBA_257766_835351",
-      "english_url": "https://tatoeba.org/en/sentences/show/257766",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/835351",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #257766 (CK) & #835351 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_317850_466267",
-      "english_url": "https://tatoeba.org/en/sentences/show/317850",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/466267",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #317850 (CM) & #466267 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_4499315_5907627",
-      "english_url": "https://tatoeba.org/en/sentences/show/4499315",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/5907627",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #4499315 (CK) & #5907627 (verdastelo9604)"
-    },
-    {
-      "id": "DEMO_TATOEBA_243998_881106",
-      "english_url": "https://tatoeba.org/en/sentences/show/243998",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/881106",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #243998 (CK) & #881106 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_279450_333001",
-      "english_url": "https://tatoeba.org/en/sentences/show/279450",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/333001",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #279450 (CM) & #333001 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_1300795_1328210",
-      "english_url": "https://tatoeba.org/en/sentences/show/1300795",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/1328210",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #1300795 (CK) & #1328210 (vicch)"
-    },
-    {
-      "id": "DEMO_TATOEBA_237893_890984",
-      "english_url": "https://tatoeba.org/en/sentences/show/237893",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/890984",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #237893 (CK) & #890984 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_312032_844463",
-      "english_url": "https://tatoeba.org/en/sentences/show/312032",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/844463",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #312032 (CK) & #844463 (Martha)"
-    },
-    {
-      "id": "DEMO_TATOEBA_9308426_392307",
-      "english_url": "https://tatoeba.org/en/sentences/show/9308426",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/392307",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #9308426 (CK) & #392307 (GlossaMatik)"
-    },
-    {
-      "id": "DEMO_TATOEBA_29292_335019",
-      "english_url": "https://tatoeba.org/en/sentences/show/29292",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/335019",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #29292 (CN) & #335019 (fucongcong)"
-    },
-    {
-      "id": "DEMO_TATOEBA_240703_1551881",
-      "english_url": "https://tatoeba.org/en/sentences/show/240703",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/1551881",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #240703 (CK) & #1551881 (Gustav249)"
-    },
-    {
-      "id": "DEMO_TATOEBA_889679_1867082",
-      "english_url": "https://tatoeba.org/en/sentences/show/889679",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/1867082",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #889679 (Scott) & #1867082 (yuzazaza)"
-    },
-    {
-      "id": "DEMO_TATOEBA_12238163_13549563",
-      "english_url": "https://tatoeba.org/en/sentences/show/12238163",
-      "chinese_url": "https://tatoeba.org/en/sentences/show/13549563",
-      "attribution": "CC-BY 2.0 (France) Attribution: tatoeba.org #12238163 (CK) & #13549563 (LeviHighway)"
+      "id": "DEMO_XDAILY_0138",
+      "conversation_id": "xdailydialog_test_0138",
+      "split": "test",
+      "line_1based": 138,
+      "turn_count": 6,
+      "english_turns": [
+        "Excuse me . Is this where I catch the bus for the zoo ?",
+        "Well , you can take the No . 36 bus from here , but then you have to walk about 30 minutes .",
+        "That doesn't sound too bad .",
+        "Actually , if you go to the bus stop in the next block , you can take bus 301 which will let you right off in front of the zoo .",
+        "Maybe that's what I'll do . Thanks a lot .",
+        "You're welcome ."
+      ],
+      "chinese_turns": [
+        "打扰一下。我是在这里乘公共汽车去动物园吗？",
+        "是的，你可以从这里坐36路公共汽车，但你之后得走大约30分钟。",
+        "听起来还不错。",
+        "其实，如果你去下一个街区的公共汽车站，你可以乘301路公共汽车，就能在动物园门口下车。",
+        "我可能会这样做。谢谢。",
+        "不客气"
+      ],
+      "metadata": [
+        "1",
+        "2 1 1 1 1 1",
+        "0 0 0 0 4 4"
+      ]
+    },
+    {
+      "id": "DEMO_XDAILY_0591",
+      "conversation_id": "xdailydialog_test_0591",
+      "split": "test",
+      "line_1based": 591,
+      "turn_count": 6,
+      "english_turns": [
+        "OK , everyone . Gather around . Here are the rules . No tackling . No pushing .",
+        "You shouldn't grab someone else's shirt . That's a foul .",
+        "Play is stopped when the person with the ball is touched .",
+        "You can touch them only between the shoulder and the knees .",
+        "The touchdown lines are there and there . OK , let's play !",
+        "Before we start , let's have a moment of silence for our fallen men ."
+      ],
+      "chinese_turns": [
+        "好的，各位。聚集起来。以下是规则。禁止争抢。不要推搡。",
+        "你不应该抢别人的衬衫。那是犯规。",
+        "当拿球的人被触碰时，比赛就停止了。",
+        "你只能触摸他们肩膀和膝盖之间的地方。",
+        "触地得分线在那里和那里。好的，我们开始吧！",
+        "在我们开始之前，让我们为死去的人默哀片刻。"
+      ],
+      "metadata": [
+        "5",
+        "1 1 1 1 1 1",
+        "0 0 0 0 4 0"
+      ]
+    },
+    {
+      "id": "DEMO_XDAILY_0099",
+      "conversation_id": "xdailydialog_test_0099",
+      "split": "test",
+      "line_1based": 99,
+      "turn_count": 5,
+      "english_turns": [
+        "It's the latest and quite popular among young people .",
+        "Yes , I know and I like it very much . I will take it .",
+        "Sure . Here is your receipt .",
+        "How long is this cell phone guaranteed ?",
+        "You can refund it in 7 days and exchange it in one year ."
+      ],
+      "chinese_turns": [
+        "这是最新款，在年轻人中很流行。",
+        "是的，我知道，我非常喜欢。我要了。",
+        "好的。这是您的收据。",
+        "这部手机保修期多久？",
+        "您可以在7天内退货，一年内换货。"
+      ],
+      "metadata": [
+        "1",
+        "1 3 4 2 1",
+        "0 4 0 0 0"
+      ]
+    },
+    {
+      "id": "DEMO_XDAILY_0021",
+      "conversation_id": "xdailydialog_test_0021",
+      "split": "test",
+      "line_1based": 21,
+      "turn_count": 6,
+      "english_turns": [
+        "Honey , I need to have a talk with you .",
+        "Dad , I have to do my homework .",
+        "No , honey , why didn't you go to cram school last night ?",
+        "Dad , I don't want to talk about it now .",
+        "Honey , if you don't want to go to cram school , you should tell me the reason why .",
+        "I'm sorry , dad . But I would rather stay at school than go to cram school ."
+      ],
+      "chinese_turns": [
+        "亲爱的，我需要和你谈谈。",
+        "爸爸，我得做作业。",
+        "不，亲爱的，你昨晚为什么没去补习班？",
+        "爸爸，我现在不想谈这个。",
+        "亲爱的，如果你不想去补习班，你应该告诉我原因。",
+        "对不起，爸爸。但我宁愿留在学校也不愿去补习班。"
+      ],
+      "metadata": [
+        "1",
+        "3 4 2 1 3 4",
+        "0 0 0 0 0 0"
+      ]
+    },
+    {
+      "id": "DEMO_XDAILY_0831",
+      "conversation_id": "xdailydialog_test_0831",
+      "split": "test",
+      "line_1based": 831,
+      "turn_count": 10,
+      "english_turns": [
+        "Good morning , sir . May I help you ?",
+        "Good morning , I have an appointment with Mr . Johnson at 10:00",
+        "Excuse me , sir , but are you Mr . Richard of World Trading Company ?",
+        "Yes . That ’ s right .",
+        "I ’ m sorry , Mr . Richard . Mr . Johnson is on his way to the office . He had just called and asked you to wait a minute .",
+        "Well , I ’ ll wait .",
+        "Would you like something to drink , sir ? Do you prefer coffee or tea ?",
+        "Thank you . Coffee , please .",
+        "Here you are , Mr . Richard . This is the cream and this is the sugar . If there ’ s anything else you ’ d like , please don ’ t hesitate to tell me .",
+        "Thank you very much ."
+      ],
+      "chinese_turns": [
+        "早上好，先生。需要帮忙吗？",
+        "早上好，我和约翰逊先生10点有个约会。",
+        "对不起，先生，您是世界贸易公司的理查德先生吗？",
+        "对。没错。",
+        "对不起，理查德先生。约翰逊先生正在来办公室的路上。他刚打电话来让您稍等一下。",
+        "好的，我等一下。",
+        "先生，您想喝点什么吗？你喜欢咖啡还是茶？",
+        "请给我咖啡。谢谢。",
+        "给你，理查德先生。这是奶，这是糖。如果您还有什么需要的，请尽管告诉我。",
+        "非常感谢"
+      ],
+      "metadata": [
+        "8",
+        "2 3 2 1 3 4 2 3 3 4",
+        "0 0 0 0 0 0 0 0 0 0"
+      ]
+    },
+    {
+      "id": "DEMO_XDAILY_0423",
+      "conversation_id": "xdailydialog_test_0423",
+      "split": "test",
+      "line_1based": 423,
+      "turn_count": 10,
+      "english_turns": [
+        "Ann , do you have time next Monday ?",
+        "Yeah , what ’ s up ?",
+        "Next Monday is my birthday , and I would like you to attend my party .",
+        "Wow . I'd love to .",
+        "Great !",
+        "When and where ?",
+        "Five o ’ clock that afternoon , and in my place , you know ?",
+        "Yes , I know . I appreciate your invitation .",
+        "I am going to invite other guys . See you that day .",
+        "See you ."
+      ],
+      "chinese_turns": [
+        "安，下周一你有时间吗？",
+        "是啊，怎么了？",
+        "下星期一是我的生日，我想邀请你参加我的排队。",
+        "哇！我很乐意。",
+        "太好了！",
+        "什么时候，在哪里举行？",
+        "下周一下午五点，在我家，知道了吗？",
+        "和的，我知道了。谢谢你的邀请。",
+        "我还要邀请其他人。那天见。",
+        "再见。"
+      ],
+      "metadata": [
+        "5",
+        "2 2 3 4 1 2 2 1 1 1",
+        "0 0 4 4 4 4 4 4 4 4"
+      ]
+    },
+    {
+      "id": "DEMO_XDAILY_0996",
+      "conversation_id": "xdailydialog_test_0996",
+      "split": "test",
+      "line_1based": 996,
+      "turn_count": 6,
+      "english_turns": [
+        "I ’ d like to apply for a personal loan .",
+        "How much would you like to borrow ?",
+        "A thousand dollars .",
+        "Let me check with a credit manager . A record show your credit reading is quite high . I don't think you have any problems .",
+        "What ’ s the current interest rate ?",
+        "Our monthly interest is 1.5 % of the outstanding balance . Would you please fill out the application the form ?"
+      ],
+      "chinese_turns": [
+        "我想申请个人贷款",
+        "你想借多少钱？",
+        "一千美元。",
+        "让我和信贷经理核实一下。根据记录，您的信用分相当高，可以贷款。",
+        "现在的利率是多少？",
+        "我们的月利息是未清余额的1.5%。请填一下申请表好吗？"
+      ],
+      "metadata": [
+        "10",
+        "3 2 3 4 2 3",
+        "0 0 0 0 0 0"
+      ]
+    },
+    {
+      "id": "DEMO_XDAILY_0524",
+      "conversation_id": "xdailydialog_test_0524",
+      "split": "test",
+      "line_1based": 524,
+      "turn_count": 4,
+      "english_turns": [
+        "The stepmother was very wicked . She couldn't stand a happy smile on the boy's face .",
+        "And ?",
+        "And she did her best to pull out the thorn in her flesh and the boy lost whatever made him happy .",
+        "Poor child !"
+      ],
+      "chinese_turns": [
+        "继母很坏。她无法忍受男孩脸上露出幸福的笑容。",
+        "然后呢？",
+        "然后她尽了最大努力去拔掉了她身上的刺，男孩失去了所有让他高兴的东西。",
+        "可怜的孩子！"
+      ],
+      "metadata": [
+        "5",
+        "1 2 1 1",
+        "0 0 0 0"
+      ]
+    },
+    {
+      "id": "DEMO_XDAILY_0799",
+      "conversation_id": "xdailydialog_test_0799",
+      "split": "test",
+      "line_1based": 799,
+      "turn_count": 10,
+      "english_turns": [
+        "Good afternoon . Can I help you ?",
+        "I need some remedies for an upset stomach .",
+        "Are you also suffering from pain and fever ?",
+        "Yes , and I also have the runs",
+        "I'll give you some tablets that should make you feel better . One moment , please . Here you are . Take these tablets three times a day swallow them with water .",
+        "When should I take them ?",
+        "Take on after each meal .",
+        "How long should I continue taking them ?",
+        "Take them for two days.If your symptoms persist for more than two days , you should see a doctor Also , be sure to drink plenty of water to prevent dehydration .",
+        "Thank you for your advice ."
+      ],
+      "chinese_turns": [
+        "下午好，有什么可以帮您的？",
+        "我需要一些治疗胃痛的药物",
+        "有疼痛和发烧的症状么？",
+        "是的，我现在还拉肚子。",
+        "我给您开一些药，这些药可以让您感觉舒眼点。请稍等。给您药。一天吃三次，白水送服。",
+        "我应该什么时候吃？",
+        "饭后吃一片。",
+        "我要吃多久？",
+        "吃两天。如果两天之后仍不见好转，您就应该去看医生。而且，一定要多喝水，以免脱水。",
+        "谢谢你的建议。"
+      ],
+      "metadata": [
+        "7",
+        "2 3 2 1 3 2 1 2 3 4",
+        "0 0 0 0 0 0 0 0 0 0"
+      ]
+    },
+    {
+      "id": "DEMO_XDAILY_0230",
+      "conversation_id": "xdailydialog_test_0230",
+      "split": "test",
+      "line_1based": 230,
+      "turn_count": 7,
+      "english_turns": [
+        "Good afternoon ! Did you call for a plumber ?",
+        "Yes , yes I did . Please come in ! I ’ m so glad you came ! This old house is falling apart ! Come on into the bathroom . See , here , there ’ s water leaking everywhere !",
+        "I see . Let me have a look . It seems that your toilet is clogged , and that ’ s why it won ’ t flush . Let me just get my plunger . No , that ’ s not working either . I suspect that there ’ s some sort of foreign object in the pipes that ‘ s causing a blockage . That ’ s what ’ s making your toilet overflow .",
+        "Oh , that must be because of my four-year-old daughter . She is always flushing things down the toilet . You know how kids are .",
+        "Yeah , I have a little one myself . Anyway , these water pipes are really rusty , so they also should be changed . Thatcould be causing water to not drain completely , that might lead to more problems in the future . I would also suggest fixing this faucet that isn ’ t shutting off properly . I could have it all finished by today if it ’ s urgent .",
+        "That would be great ! Is it expensive ?",
+        "Let ’ s see ... I would say about eight hundred dollars ."
+      ],
+      "chinese_turns": [
+        "下午好！是你叫的水管工吗？",
+        "是的，是的。请进！我真高兴你来了！这座老房子都要塌了！快去洗手间。看，这里，到处都在漏水！",
+        "我知道了。让我看看。你的马桶好像堵住了，所以不能冲水。我去拿柱塞。不，那也不行。我怀疑管道里有异物导致堵塞。这就是你的马桶里的水溢出来的原因。",
+        "哦，那一定是因为我四岁的女儿。她总是把东西扔进马桶。你知道孩子们是怎样的。",
+        "是的，我也有个孩子。不管怎么说，这些水管真的生锈了，所以也应该换一下。这可能会导致水不能完全排出，之后还可能会导致更多的问题。我还建议你修理一下这个不能正常关闭的水龙头。如果你着急的话，我可以在今天之前把它们全部修好。",
+        "那太好了！贵吗？",
+        "让我看看……大约800美元吧。"
+      ],
+      "metadata": [
+        "1",
+        "2 3 4 1 1 2 1",
+        "0 0 0 0 0 4 0"
+      ]
     }
   ]
 }
