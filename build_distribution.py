@@ -2,6 +2,7 @@
 from pathlib import Path
 import shutil
 import zipfile
+import hashlib
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'dist'
@@ -19,10 +20,15 @@ def build():
         shutil.copyfile(ROOT / name, OUT / name)
     (OUT / '.nojekyll').write_text('')
     html = (ROOT / 'index.html').read_text(encoding='utf-8')
+    hosted_html = html
+    for asset in ('styles.css', 'app.js', 'placeholder_data.js'):
+        version = hashlib.sha256((ROOT / asset).read_bytes()).hexdigest()[:16]
+        hosted_html = hosted_html.replace(f'"{asset}"', f'"{asset}?v={version}"')
+    (OUT / 'index.html').write_text(hosted_html, encoding='utf-8')
     css = (ROOT / 'styles.css').read_text(encoding='utf-8')
     js = (ROOT / 'placeholder_data.js').read_text(encoding='utf-8') + '\n' + (ROOT / 'app.js').read_text(encoding='utf-8')
     # Inline resources use exact CSP hashes, with no external dependencies.
-    import hashlib, base64
+    import base64
     digest = lambda s: base64.b64encode(hashlib.sha256(s.encode('utf-8')).digest()).decode('ascii')
     html = html.replace("script-src 'self'", f"script-src 'sha256-{digest(js)}'")
     html = html.replace("style-src 'self'", f"style-src 'sha256-{digest(css)}'")
