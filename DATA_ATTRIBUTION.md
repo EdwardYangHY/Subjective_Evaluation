@@ -8,3 +8,5 @@ This research annotation set contains conversations and meeting excerpts from th
 - **AliMeeting**, Fan Yu et al., Alibaba Group. Source: https://www.openslr.org/119/ . Training text obtained through https://huggingface.co/datasets/yuekai/alimeeting_aishell4_training_whisper_fbank_lhotse . CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ .
 
 Modifications include excerpt selection, turn segmentation, neutral turn labels, translation, and removal of serialization artifacts where applicable. Corresponding source licenses apply to redistributed excerpts and adaptations. Preserve these credits and licenses when sharing. Item-level processing records are retained locally by the organizer.
+
+Study v2 formatting: long examples are divided into short aligned excerpts; nonlexical annotation markers and incomplete boundary fragments are removed. Translation wording is retained. Source-only context is optional and is not scored.
