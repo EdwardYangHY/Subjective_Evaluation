@@ -1,622 +1,34 @@
 id,direction,source,reference,conversation_id,context
-V2_ITEM_001,en-zh,"[Turn 1] I'm not sure if I can trust myself to be that careful. Do you think I should call an exterminator?
-
-[Turn 2] If you're really worried about it, then yeah, maybe calling an exterminator would be a good idea.
-
-[Turn 3] But what if they use harsh chemicals that are even more dangerous than the rat?","[Turn 1] 我不确定自己能不能做到那么小心。 你觉得我该叫灭鼠公司吗？
-
-[Turn 2] 如果你真的很担心，那嗯，也许叫灭鼠公司来会比较好。
-
-[Turn 3] 可是万一他们用那种很刺激的化学药剂，比老鼠还危险怎么办？",V2_CONV_008,"Earlier source context (not rated):
-Well, rats are known to carry diseases, so it's definitely possible that it could make you sick. But if you take some precautions, like washing your hands thoroughly after coming into contact with anything the rat may have touched, you should be okay."
-V2_ITEM_002,en-zh,"[Turn 1] Yeah . Yeah . Yeah . You know what , if you can if you introduce um like a sort of a static , what's it called , public static int .",[Turn 1] 对，对，对。 你知道吗，如果你能——如果你加一个那种静态的，叫什么来着，public static int。,V2_CONV_042,"Earlier source context (not rated):
-So you know how zero is T_F_I_D_F_ . One is um the well I've called it word importance , but that's a really m misleading name ."
-V2_ITEM_003,en-zh,"[Turn 1] I don't know why we'd want to . Um and also we should note that if we want an iPod-style wheel button , it's gonna require a m qu slightly more expensive chip . We can't use the minimal chip , we need the next higher grade , which is called regular . I don't think it's much more expensive , but it is more expensive .",[Turn 1] 我只是不知道我们为什么会想用。 嗯，另外还得注意，如果我们想要 iPod 那种滚轮按键，就需要一块嗯……稍微贵一点的芯片。 不能用最低配的芯片，得用高一档的，叫 regular。 我觉得也贵不了太多，但确实会更贵。,V2_CONV_065,"Earlier source context (not rated):
-Uh , well we can use wood ."
-V2_ITEM_004,zh-en,"[Turn 1] 我就不行。 我必须要看电视，任何节目都行。
-
-[Turn 2] 你是怎么做到的？","[Turn 1] I’m not like that. I have to watch TV—anything will do.
-
-[Turn 2] How do you do that?",V2_CONV_003,"Earlier source context (not rated):
-不怎么看。 我看不看无所谓。"
-V2_ITEM_005,zh-en,"[Turn 1] 除非很好很贵重的杯子。
-
-[Turn 2] 保温杯啊，现在随便一个保温杯，不要两三百三四百啊。","[Turn 1] Unless it's a really nice, expensive cup.
-
-[Turn 2] Like a thermos. These days, any random thermos can easily cost two or three hundred, even three or four hundred.",V2_CONV_070,
-V2_ITEM_006,en-zh,"[Turn 1] That would be great ! Is it expensive ?
-
-[Turn 2] Let ’ s see ... I would say about eight hundred dollars .","[Turn 1] 那太好了！ 贵吗？
-
-[Turn 2] 让我看看……大约800美元吧。",V2_CONV_031,"Earlier source context (not rated):
-I would also suggest fixing this faucet that isn ’ t shutting off properly . I could have it all finished by today if it ’ s urgent ."
-V2_ITEM_007,en-zh,"[Turn 1] The touchdown lines are there and there . OK , let's play !
-
-[Turn 2] Before we start , let's have a moment of silence for our fallen men .","[Turn 1] 达阵线在那边，还有那边。 好了，开打吧！
-
-[Turn 2] 开始之前，我们先为牺牲的弟兄们默哀片刻。",V2_CONV_057,"Earlier source context (not rated):
-You can touch them only between the shoulder and the knees ."
-V2_ITEM_008,zh-en,"[Turn 1] 是的。 我行被授权办理外汇业务。
-
-[Turn 2] 你们可以兑换哪种货币？
-
-[Turn 3] 我们只能兑换三种货币，美元、日元和港币。","[Turn 1] Yes. Our bank is authorized to handle foreign exchange.
-
-[Turn 2] What currencies can you exchange?
-
-[Turn 3] We can only exchange three currencies: U.S. dollars, Japanese yen, and Hong Kong dollars.",V2_CONV_024,"Earlier source context (not rated):
-是的。 你们这里可以兑换外币吗？"
-V2_ITEM_009,en-zh,"[Turn 1] Well , it's true.The board man last thirdly and they choice Paul .
-
-[Turn 2] Well.Good for him .","[Turn 1] 嗯，这是真的。 董事会成员选择了保罗。
-
-[Turn 2] 好吧。 对他而言，这是件好事。",V2_CONV_048,"Earlier source context (not rated):
-I don't believe it.He is only being with the company for two years ."
-V2_ITEM_010,en-zh,"[Turn 1] Maybe there's a middle ground somewhere? Where you're not so stressed out all the time, but still able to maintain some level of control? It might take some trial and error to find what works for you, but it's worth a shot!",[Turn 1] 也许可以找个折中的办法？ 既不用一直这么紧绷，又还能保持一定程度的掌控。 可能得试几次才知道什么适合你，但值得试试！,V2_CONV_027,"Earlier source context (not rated):
-I don't know...I feel like if I relax, then things will just spiral out of control. I don't know how to let go and not worry about everything all the time."
-V2_ITEM_011,zh-en,"[Turn 1] 好的，四美元二十美分。
-
-[Turn 2] 这是五美元。","[Turn 1] Sure. That’ll be four dollars and twenty cents.
-
-[Turn 2] Here’s five dollars.",V2_CONV_011,"Earlier source context (not rated):
-是的，我要寄一封航空挂号信到法国。"
-V2_ITEM_012,zh-en,"[Turn 1] 它们是：按时间先后顺序排好这些文件，去掉所有的碎片和大头针，将文件对齐订好，然后放进文件夹。
-
-[Turn 2] 最重要的一点是什么？
-
-[Turn 3] 你必须牢记每个客户都要存档。","[Turn 1] They are keep the documents in chronological order , remove all the chips and pins , punch the documents evenly and place them in the folder .
-
-[Turn 2] And what is the most important point ?
-
-[Turn 3] You should always remember that one customer one file is the rule .",V2_CONV_056,"Earlier source context (not rated):
-什么？"
-V2_ITEM_013,en-zh,"[Turn 1] ""That definitely comes through in your work. And your animal photos are also great. It's clear that you have a real passion for photography.""",[Turn 1] “这一点在你的作品里确实很明显。 还有你的动物照片也很棒。 看得出来，你对摄影真的很有热情。”,V2_CONV_043,"Earlier source context (not rated):
-I actually took all of those photos within a year, and I feel like they really capture different aspects of nature. The light and shadows in particular were something I was trying to focus on."""
-V2_ITEM_014,en-zh,"[Turn 1] Um would be an awful lot of these , would be like what , a hundred million of them um to make twenty five Euros on each one and to make a total profit of fifty million . Um the production is to only cost twelve and a half Euros per item .",[Turn 1] 嗯，这种东西得卖特别多，大概是多少，一亿个吧，嗯，每个赚二十五欧元，总利润做到五千万。 嗯，生产成本每件只能是十二点五欧元。,V2_CONV_022,"Earlier source context (not rated):
-Now um we have to get down to the nitty-gritty of how to make this and this remote control has to be sold um we're to sell it for twenty five Euros , with a profit aim ultimately of fifty million Euros . That tells you something about how many um we have to sell on an international scale ."
-V2_ITEM_015,en-zh,"[Turn 1] Sorry . Yeah . Uh as you know , I am mister Ramaro . I am an expert in uh industrial design of all electronic devices and I previously devised many uh like digital calculators and electronic calculators .",[Turn 1] 抱歉。 对。 呃，大家知道，我是Ramaro先生。 我是，呃，各类电子设备工业设计方面的专家，之前也设计过很多，呃 比如数码计算器、电子计算器之类的。,V2_CONV_066,
-V2_ITEM_016,en-zh,"[Turn 1] Oh , that must be because of my four-year-old daughter . She is always flushing things down the toilet . You know how kids are .
-
-[Turn 2] Yeah , I have a little one myself .","[Turn 1] 哦，那一定是因为我四岁的女儿。 她总是把东西扔进马桶。 你知道孩子们是怎样的。
-
-[Turn 2] 是的，我也有个孩子。",V2_CONV_031,"Earlier source context (not rated):
-I suspect that there ’ s some sort of foreign object in the pipes that ‘ s causing a blockage . That ’ s what ’ s making your toilet overflow ."
-V2_ITEM_017,zh-en,[Turn 1] 不，我们都没有。 我想你是对的。 我们应该修补一下关系。,"[Turn 1] No, neither of us did. I think you’re right. We should patch things up.",V2_CONV_019,"Earlier source context (not rated):
-这很寻常。 你们两个都没说什么难听的话吧？"
-V2_ITEM_018,zh-en,[Turn 1] 呃，之前的活动的话，没有这方面的重叠。,"[Turn 1] Uh, the previous events didn’t really overlap in this area.",V2_CONV_015,"Earlier source context (not rated):
-呃，需要去找一下，在库房如果不够的话还是需要补，因为是传统文化嘛。"
-V2_ITEM_019,en-zh,"[Turn 1] Yeah, I can imagine that would be pretty boring after a while. You should try to do something fun once in awhile to break up the monotony. Maybe go out with some friends or go on a trip or something like that.",[Turn 1] 是啊，我能想象，时间一长肯定挺无聊的。 你应该偶尔做点好玩的事，换换心情。 比如跟朋友出去玩，或者去旅行什么的。,V2_CONV_023,"Earlier source context (not rated):
-That sounds like a lot more fun than what I've been doing lately. I've just been working and studying all the time lately and it's getting pretty boring."
-V2_ITEM_020,en-zh,"[Turn 1] Here you are , Mr . Richard . This is the cream and this is the sugar . If there ’ s anything else you ’ d like , please don ’ t hesitate to tell me .
-
-[Turn 2] Thank you very much .","[Turn 1] Richard 先生，给您。 这是奶精，这是糖。 您要是还需要什么，请随时告诉我。
-
-[Turn 2] 非常感谢。",V2_CONV_037,"Earlier source context (not rated):
-Thank you . Coffee , please ."
-V2_ITEM_021,zh-en,"[Turn 1] 我想从我的账户上取些钱。
-
-[Turn 2] 我能看看你的存折和取款单吗？
-
-[Turn 3] 好的。","[Turn 1] I'd like to withdraw some money from my account .
-
-[Turn 2] Can I see your passbook and the withdrawal slip , please ?
-
-[Turn 3] Sure .",V2_CONV_001,
-V2_ITEM_022,en-zh,"[Turn 1] You have been here for how long ? Four months now ?
-
-[Turn 2] Yeah , about .
-
-[Turn 3] Do you know Chinese better now ?","[Turn 1] 你在这里多久了？ 四个月了？
-
-[Turn 2] 是的，大概。
-
-[Turn 3] 你现在中文好些了吗？",V2_CONV_055,
-V2_ITEM_023,en-zh,"[Turn 1] ""Absolutely, I've always loved taking photos of animals. I feel like they're so photogenic and there's always something new to capture. I'm actually hoping to do more work with animals in the future.""",[Turn 1] “是的，我一直都很喜欢拍动物。 我觉得它们特别上镜，而且总能拍到新的东西。 其实我也希望以后能更多地拍动物相关的项目。”,V2_CONV_043,"Earlier source context (not rated):
-And your animal photos are also great. It's clear that you have a real passion for photography."""
-V2_ITEM_024,zh-en,"[Turn 1] 这是您的零钱，请等一下您的挂号收据。
-
-[Turn 2] 我还想取包裹，这是通知单。","[Turn 1] Here’s your change. Please wait a moment for your registered mail receipt.
-
-[Turn 2] I’d also like to pick up a package. Here’s the notice.",V2_CONV_011,"Earlier source context (not rated):
-这是五美元。"
-V2_ITEM_025,en-zh,"[Turn 1] ""Thank you so much for taking the time to meet with me today, it's really appreciated. I'm excited to share my portfolio with you and hopefully get a chance to work with you in the future.""",[Turn 1] “非常感谢您今天抽时间跟我见面，我真的很感激。 很高兴能把我的作品集分享给您，也希望以后有机会能和您合作。”,V2_CONV_043,
-V2_ITEM_026,en-zh,[Turn 1] A shouting match ? You ’ re so funny . You must be exaggerating . I don ’ t believe it .,[Turn 1] 叫喊比赛？ 你真有趣。 你一定是夸大了。 我不相信。,V2_CONV_055,"Earlier source context (not rated):
-My perception of the tone was that it was a violent shouting match . The truth was that it was a perfectly normal conversation ."
-V2_ITEM_027,en-zh,[Turn 1] There's nothing to be sorry about. This is a beautiful moment that we're sharing.,[Turn 1] 没什么好抱歉的。 这是属于我们一起分享的美好时刻。,V2_CONV_026,"Earlier source context (not rated):
-You're right. I'm sorry for getting emotional."
-V2_ITEM_028,en-zh,[Turn 1] So now I'll briefly describe the working design of our remote control .,[Turn 1] 那现在我简单介绍一下我们这款遥控器的工作设计。,V2_CONV_066,"Earlier source context (not rated):
-Uh as you know , I am mister Ramaro . I am an expert in uh industrial design of all electronic devices and I previously devised many uh like digital calculators and electronic calculators ."
-V2_ITEM_029,zh-en,"[Turn 1] 对这样的话，我们就能够进入到你们学生那一块，就是能够更好的了解他们，对对对。
-
-[Turn 2] 嗯，是更好的了解一下。","[Turn 1] That way, we'd be able to get into the student side of things on your end, and get a better understanding of them. Yeah, exactly.
-
-[Turn 2] Mm-hmm, just get a better understanding.",V2_CONV_041,
-V2_ITEM_030,en-zh,"[Turn 1] And uh if you don't light 'em up , they don't uh you don't see 'em very good . I think it's modern to light this area up , and to light this area up . So the focus gets on these parts and not on there .",[Turn 1] 还有呃，如果不把它们点亮，就呃看不太清楚。 我觉得把这一区域点亮、还有这一区域点亮，会比较现代。 这样注意力就会集中在这些部分，而不是那边。,V2_CONV_025,"Earlier source context (not rated):
-I think it's pretty standard , these rubber buttons on the top ."
-V2_ITEM_031,zh-en,"[Turn 1] 玛丽，很高兴见到你。
-
-[Turn 2] 我和约什刚从海滩回家，想顺便过来看看。
-
-[Turn 3] 很高兴见到你们。
-
-[Turn 4] 对，我们很久都没见到你。","[Turn 1] Mary, it's so good to see you.
-
-[Turn 2] Josh and I just got back from the beach, and we thought we'd stop by.
-
-[Turn 3] It's great to see you both.
-
-[Turn 4] Yeah, we haven't seen you in ages.",V2_CONV_006,
-V2_ITEM_032,zh-en,"[Turn 1] 谢谢你的帮助。
-
-[Turn 2] 不客气。 祝你好运。","[Turn 1] Thanks for your help.
-
-[Turn 2] You're welcome. Good luck.",V2_CONV_032,"Earlier source context (not rated):
-出口商店的价格更划算。"
-V2_ITEM_033,zh-en,"[Turn 1] 咳，那边晚会的话，我我想，我我了解了一下，那边三圣乡团建。
-
-[Turn 2] 晚会的话那边好像是没什么晚会，都是。
-
-[Turn 3] 都好像都是大家吃完饭吃到下午吃到下午饭嘛，然后就回来了嘛。","[Turn 1] Ahem, if we're talking about a party over there, I, I was thinking, I, I asked around about team building in Sanshengxiang.
-
-[Turn 2] As for a party, it seems like they don't really have anything like that over there. It's all...
-
-[Turn 3] It seems like everyone just eats after they finish dinner, keeps eating into the afternoon, has the afternoon meal, and then comes back.",V2_CONV_052,"Earlier source context (not rated):
-晚上，就是再组织下娱乐活动。"
-V2_ITEM_034,en-zh,"[Turn 1] When should I take them ?
-
-[Turn 2] Take on after each meal .
-
-[Turn 3] How long should I continue taking them ?","[Turn 1] 我应该什么时候吃？
-
-[Turn 2] 饭后吃一片。
-
-[Turn 3] 我要吃多久？",V2_CONV_059,"Earlier source context (not rated):
-Here you are . Take these tablets three times a day swallow them with water ."
-V2_ITEM_035,en-zh,"[Turn 1] Actually , if you go to the bus stop in the next block , you can take bus 301 which will let you right off in front of the zoo .
-
-[Turn 2] Maybe that's what I'll do . Thanks a lot .
-
-[Turn 3] You're welcome .","[Turn 1] 其实，你要是去下一个街区的公交站，可以坐301路，直接在动物园门口下。
-
-[Turn 2] 那我可能就这么走吧。 太谢谢了。
-
-[Turn 3] 不客气。",V2_CONV_030,"Earlier source context (not rated):
-That doesn't sound too bad ."
-V2_ITEM_036,en-zh,"[Turn 1] ""Well, we might be able to help you with that. We're always looking for talented photographers to work with us on our animal rescue projects. We think your work would be a great fit.""
-
-[Turn 2] ""Thank you so much, I would love to work with you on that.""","[Turn 1] “嗯，这方面我们也许能帮上忙。 我们一直在寻找有才华的摄影师，和我们一起参与动物救援项目。 我们觉得你的作品会非常合适。”
-
-[Turn 2] “太感谢您了，我非常愿意和您一起做这个项目。”",V2_CONV_043,"Earlier source context (not rated):
-I feel like they're so photogenic and there's always something new to capture. I'm actually hoping to do more work with animals in the future."""
-V2_ITEM_037,zh-en,[Turn 1] 预约了，他知道我要来。 我们的会议定在两点。,"[Turn 1] Yes , he knows I'm coming . Our meeting is set for 2 o'clock .",V2_CONV_069,"Earlier source context (not rated):
-你预约了吗？"
-V2_ITEM_038,zh-en,"[Turn 1] 你们自己处理招聘业务吗？
-
-[Turn 2] 有时候我们靠当地的职业介绍所招人。 那要看具体是什么工作。","[Turn 1] Do you handle the recruiting yourselves ?
-
-[Turn 2] Sometimes we use a local employment agency . It depends on the job .",V2_CONV_040,"Earlier source context (not rated):
-一年当中我们也把我们的一些业务包出去，比如，清洁工作。 我们管理的非常严格！"
-V2_ITEM_039,en-zh,"[Turn 1] They got a divorce at last .
-
-[Turn 2] It's inevitable . Their love wasbuilt on the sand , and this is why their marriage has landed on the rocks .","[Turn 1] 他们最后还是离婚了。
-
-[Turn 2] 这是迟早的事。 他们的爱情本来就像建在沙子上一样不牢靠，所以婚姻才会触礁。",V2_CONV_021,
-V2_ITEM_040,en-zh,"[Turn 1] Hey Sarah, I'm thinking about making a new dish for dinner tonight. Do you have any ideas?
-
-[Turn 2] Well, what are you in the mood for?","[Turn 1] 嘿，Sarah，我在想今晚做道新菜当晚饭。 你有什么主意吗？
-
-[Turn 2] 嗯，你想吃点什么口味的？",V2_CONV_039,
-V2_ITEM_041,zh-en,"[Turn 1] 哇，网站太多了。
-
-[Turn 2] 来，试试这个。 这是一个关于葛底斯堡的好网站。
-
-[Turn 3] 谢谢","[Turn 1] Wow, there are so many websites.
-
-[Turn 2] Here, try this one. It’s a good website about Gettysburg.
-
-[Turn 3] Thanks.",V2_CONV_045,"Earlier source context (not rated):
-好的，（你可以）登陆google.com，输入“葛底斯堡战役”"
-V2_ITEM_042,zh-en,"[Turn 1] 谢谢你这么说。 你看过展览馆吗？ 展出的是我们的大部分产品，如丝绸、毛织品、棉布和服装。
-
-[Turn 2] 哦，是的。","[Turn 1] Thank you for saying so . Have you seen the exhibition halls ? On display are most of our products , such as silk , woolen knitwear , cotton piece goods , and garments .
-
-[Turn 2] Oh , yes .",V2_CONV_017,"Earlier source context (not rated):
-我每年都出差，但这是我第一次来贵国。 我必须说你们友好的人民给我留下了深刻的印象。"
-V2_ITEM_043,en-zh,"[Turn 1] Hey, babe. How are you doing today?
-
-[Turn 2] I'm doing alright. How are you?","[Turn 1] 嘿，宝贝。 你今天怎么样？
-
-[Turn 2] 我还行。 你呢？",V2_CONV_053,
-V2_ITEM_044,zh-en,[Turn 1] 每个人都很好。 我妹妹终于有自己的孩子了。,[Turn 1] Everyone's doing well. My sister finally has a child of her own.,V2_CONV_006,"Earlier source context (not rated):
-那么，你的家人好吗？"
-V2_ITEM_045,zh-en,[Turn 1] 京东没有。,[Turn 1] JD doesn’t have it.,V2_CONV_020,"Earlier source context (not rated):
-天猫也有嘛，那就是嘛，那，那就是阿里下边儿都有嘛，京东没有是吧？"
-V2_ITEM_046,en-zh,"[Turn 1] I see . Let me have a look . It seems that your toilet is clogged , and that ’ s why it won ’ t flush . Let me just get my plunger .",[Turn 1] 我知道了。 让我看看。 你的马桶好像堵住了，所以不能冲水。 我去拿柱塞。,V2_CONV_031,"Earlier source context (not rated):
-Come on into the bathroom . See , here , there ’ s water leaking everywhere !"
-V2_ITEM_047,en-zh,"[Turn 1] Anyway , these water pipes are really rusty , so they also should be changed . Thatcould be causing water to not drain completely , that might lead to more problems in the future . I would also suggest fixing this faucet that isn ’ t shutting off properly . I could have it all finished by today if it ’ s urgent .",[Turn 1] 不管怎么说，这些水管真的生锈了，所以也应该换一下。 这可能会导致水不能完全排出，之后还可能会导致更多的问题。 我还建议你修理一下这个不能正常关闭的水龙头。 如果你着急的话，我可以在今天之前把它们全部修好。,V2_CONV_031,"Earlier source context (not rated):
-Yeah , I have a little one myself ."
-V2_ITEM_048,zh-en,[Turn 1] 呃，需要去找一下，在库房如果不够的话还是需要补，因为是传统文化嘛。,"[Turn 1] Uh, we need to go check. If there isn’t enough in the storeroom, we’ll still need to restock, since it’s traditional culture and all.",V2_CONV_015,
-V2_ITEM_049,en-zh,"[Turn 1] ""Thank you, I'm glad you enjoy them. I actually took all of those photos within a year, and I feel like they really capture different aspects of nature. The light and shadows in particular were something I was trying to focus on.""",[Turn 1] “谢谢您，很高兴您喜欢。 其实那些照片都是我在一年内拍的，我觉得它们确实捕捉到了大自然不同的面貌。 尤其是光影部分，是我当时特别想去突出的。”,V2_CONV_043,"Earlier source context (not rated):
-I particularly like your black-and-white nature photos. There's something about the simplicity of them that really catches the eye."""
-V2_ITEM_050,en-zh,[Turn 1] Quite a number . Actually every skyscraper has a history . A few blocks ahead we'll see St.Patrick ' s Cathedral and just across the street will be the world-renowed Rockefeller Center . It's a landmark in the history of architecture .,[Turn 1] 还挺多的。 其实每一栋摩天大楼都有自己的历史。 再往前走几个街区，我们会看到圣帕特里克大教堂，街对面就是世界闻名的洛克菲勒中心。 它是建筑史上的一个地标。,V2_CONV_036,"Earlier source context (not rated):
-What other important buildings are we going to see on Fifth Avenue ?"
-V2_ITEM_051,en-zh,"[Turn 1] I knew you'd see it my way .
-
-[Turn 2] Sir , I deleted the $ 10 , but I had to add a $ 2 service charge to your bill .
-
-[Turn 3] Am I in the Twilight Zone ? You're charging me for a movie I never saw ?","[Turn 1] 我知道你会按我的方式来做的。
-
-[Turn 2] 先生，我删除了那10美元，但我需要在您的账单上加上2美元的服务费。
-
-[Turn 3] 我在衰败地区吗？ 你要为一部我从没看过的电影向我收费？",V2_CONV_046,"Earlier source context (not rated):
-Well , your word overrules the file , sir . One moment , please ."
-V2_ITEM_052,en-zh,"[Turn 1] I ’ m sorry , Mr . Richard . Mr . Johnson is on his way to the office . He had just called and asked you to wait a minute .
-
-[Turn 2] Well , I ’ ll wait .","[Turn 1] 很抱歉，Richard 先生。 Johnson 先生正在来办公室的路上。 他刚刚打电话来，请您稍等一下。
-
-[Turn 2] 好的，我等一会儿。",V2_CONV_037,"Earlier source context (not rated):
-Yes . That ’ s right ."
-V2_ITEM_053,en-zh,"[Turn 1] Let me check with a credit manager . A record show your credit reading is quite high . I don't think you have any problems .
-
-[Turn 2] What ’ s the current interest rate ?","[Turn 1] 让我和信贷经理核实一下。 根据记录，您的信用分相当高，可以贷款。
-
-[Turn 2] 现在的利率是多少？",V2_CONV_061,"Earlier source context (not rated):
-A thousand dollars ."
-V2_ITEM_054,en-zh,"[Turn 1] ""Absolutely, it's always good to see new talent. And your portfolio is very impressive. I particularly like your black-and-white nature photos. There's something about the simplicity of them that really catches the eye.""",[Turn 1] “当然，我们一直都很乐意看到新的摄影人才。 而且你的作品集非常出色。 我尤其喜欢你那些黑白的自然摄影作品，那种简洁感特别抓人眼球。”,V2_CONV_043,"Earlier source context (not rated):
-""Thank you so much for taking the time to meet with me today, it's really appreciated. I'm excited to share my portfolio with you and hopefully get a chance to work with you in the future."""
-V2_ITEM_055,zh-en,"[Turn 1] 下一位！ 您好，先生，能为您做什么吗？
-
-[Turn 2] 是的，我要寄一封航空挂号信到法国。","[Turn 1] Next! Hello, sir. What can I do for you?
-
-[Turn 2] Yes, I’d like to send this by registered airmail to France.",V2_CONV_011,
-V2_ITEM_056,en-zh,"[Turn 1] Yeah, that's a good idea. I'll definitely try to do that more often from now on. Thanks for the advice, Sally!",[Turn 1] 嗯，是个好主意。 从现在开始我一定会尽量多这么做的。 谢谢你的建议，Sally！,V2_CONV_023,"Earlier source context (not rated):
-You should try to do something fun once in awhile to break up the monotony. Maybe go out with some friends or go on a trip or something like that."
-V2_ITEM_057,en-zh,"[Turn 1] I am going to invite other guys . See you that day .
-
-[Turn 2] See you .","[Turn 1] 我还要去邀请其他人。 那天见。
-
-[Turn 2] 到时候见。",V2_CONV_054,"Earlier source context (not rated):
-Yes , I know . I appreciate your invitation ."
-V2_ITEM_058,en-zh,"[Turn 1] Yes , perhaps . Chinese usually don ’ t notice that sort of thing . Maybe it ’ s quite natural to us .
-
-[Turn 2] Yes , absolutely true .","[Turn 1] 好吧，也许吧。 中国人通常不会注意到这种事情。 也许这对我们来说很自然。
-
-[Turn 2] 是的，就是这样。",V2_CONV_055,"Earlier source context (not rated):
-I ’ m telling you the truth . That was how I felt at that time ."
-V2_ITEM_059,en-zh,[Turn 1] Mostly on the civil war . You should also study the impact Martin Luther King Jr . had on American society .,[Turn 1] 主要是关于南北战争的。 你也应该复习一下马丁·路德·金对美国社会的影响。,V2_CONV_044,"Earlier source context (not rated):
-There is so much material that I dont know what to emphasize on . What types of questions did you get ?"
-V2_ITEM_060,zh-en,"[Turn 1] 请到2号外汇柜台。 在那边。
-
-[Turn 2] 谢谢你","[Turn 1] Please go to foreign exchange counter number 2. It’s over there.
-
-[Turn 2] Thank you.",V2_CONV_024,"Earlier source context (not rated):
-我想兑换一些美元来支付我在这里的费用。"
-V2_ITEM_061,zh-en,"[Turn 1] 我们是继续在那边搞个什么。
-
-[Turn 2] 晚会呀，还是就是。
-
-[Turn 3] 接回来，出门去KTV开始高兴下，还是就直接回去，你觉得这个。","[Turn 1] Should we keep doing something over there?
-
-[Turn 2] Like a party, or just...
-
-[Turn 3] Come back, then go out to KTV and have some fun, or just go straight back? What do you think?",V2_CONV_052,
-V2_ITEM_062,en-zh,"[Turn 1] I ’ m so glad you came ! This old house is falling apart ! Come on into the bathroom . See , here , there ’ s water leaking everywhere !",[Turn 1] 我真高兴你来了！ 这座老房子都要塌了！ 快去洗手间。 看，这里，到处都在漏水！,V2_CONV_031,"Earlier source context (not rated):
-Yes , yes I did . Please come in !"
-V2_ITEM_063,en-zh,"[Turn 1] Well, maybe you can try relaxing a bit and see if that helps? Sometimes letting go of the need to control everything can be helpful.
-
-[Turn 2] I don't know...I feel like if I relax, then things will just spiral out of control. I don't know how to let go and not worry about everything all the time.","[Turn 1] 嗯，也许你可以试着放松一点，看看会不会有帮助？ 有时候，放下那种必须控制一切的念头，反而会好一些。
-
-[Turn 2] 我不知道……我感觉我要是一放松，事情就会彻底失控。 我不知道怎么放手，也不知道怎么不一直为所有事担心。",V2_CONV_027,"Earlier source context (not rated):
-I feel like I have to be in charge all the time, and it's just exhausting. I wish things would just go my way for once, but it seems like that's never going to happen."
-V2_ITEM_064,en-zh,"[Turn 1] Sure . Here is your receipt .
-
-[Turn 2] How long is this cell phone guaranteed ?
-
-[Turn 3] You can refund it in 7 days and exchange it in one year .","[Turn 1] 好的。 这是您的收据。
-
-[Turn 2] 这部手机保修期多久？
-
-[Turn 3] 您可以在7天内退货，一年内换货。",V2_CONV_058,"Earlier source context (not rated):
-Yes , I know and I like it very much . I will take it ."
-V2_ITEM_065,en-zh,"[Turn 1] I'm good. Just wanted to check in with you and see how your day is going.
-
-[Turn 2] It's going well. I just finished up my classes for the day and now I'm headed home.","[Turn 1] 我挺好的。 就是想问问你，看看你今天过得怎么样。
-
-[Turn 2] 挺顺利的。 我今天的课刚上完，现在正往家走。",V2_CONV_053,"Earlier source context (not rated):
-I'm doing alright. How are you?"
-V2_ITEM_066,zh-en,"[Turn 1] 我爸爸肯定会喜欢，他是迪尔伯特的粉丝。
-
-[Turn 2] 我自己也想买一个...
-
-[Turn 3] 给我做个模型","[Turn 1] My dad will love this . He's a Dilbert fan .
-
-[Turn 2] I wouldn't mind having one myself ...
-
-[Turn 3] Model it for me .",V2_CONV_002,"Earlier source context (not rated):
-当你翻开领带时，他是正面朝上的。 太棒了"
-V2_ITEM_067,en-zh,"[Turn 1] Yeah, I guess you're right. Thanks for listening. It really helps to talk to someone about this stuff.
-
-[Turn 2] No problem, anytime!","[Turn 1] 嗯，我想你说得对。 谢谢你愿意听我说。 能跟人聊聊这些事，真的挺有帮助的。
-
-[Turn 2] 没事，随时都可以！",V2_CONV_018,"Earlier source context (not rated):
-Just take things one step at a time and don't get too ahead of yourself. And most importantly, don't give up on your dreams!"
-V2_ITEM_068,en-zh,"[Turn 1] Take them for two days.If your symptoms persist for more than two days , you should see a doctor Also , be sure to drink plenty of water to prevent dehydration .
-
-[Turn 2] Thank you for your advice .","[Turn 1] 吃两天。 如果两天之后仍不见好转，您就应该去看医生。 而且，一定要多喝水，以免脱水。
-
-[Turn 2] 谢谢你的建议。",V2_CONV_059,"Earlier source context (not rated):
-How long should I continue taking them ?"
-V2_ITEM_069,en-zh,"[Turn 1] Isn't it wonderful walking here ?
-
-[Turn 2] What do you mean ?
-
-[Turn 3] I mean look at all these magnificent buildings around us .","[Turn 1] 在这儿走走，感觉真不错吧？
-
-[Turn 2] 你指什么？
-
-[Turn 3] 我是说，你看我们周围这些宏伟的建筑。",V2_CONV_036,
-V2_ITEM_070,zh-en,"[Turn 1] 你经常看电视吗？
-
-[Turn 2] 不怎么看。 我看不看无所谓。","[Turn 1] Do you watch TV a lot?
-
-[Turn 2] Not really. I don’t really care whether I watch it or not.",V2_CONV_003,
-V2_ITEM_071,en-zh,[Turn 1] Here are the rules . No tackling . No pushing .,[Turn 1] 我来说一下规则：不许抱摔，不许推人。,V2_CONV_057,"Earlier source context (not rated):
-OK , everyone . Gather around ."
-V2_ITEM_072,en-zh,"[Turn 1] And usually this so to do these functions we need an interface , which basically some kind of pressing buttons or keys or like moving jack or something like that .
-
-[Turn 2] And then these messages these key buttons can be transferred into some kind of message and then it will process by the chip and then it will generate some information to the main device .","[Turn 1] 而且通常这个 所以要实现这些功能，我们需要一个界面，基本上就是某种按按钮、按键，或者像移动操纵杆之类的东西。
-
-[Turn 2] 然后这些信息 这些按键按钮可以被转换成某种信息，然后由芯片处理，接着它会给主要设备生成一些信息。",V2_CONV_066,"Earlier source context (not rated):
-So we need to have some energy source to do what to do the functions , what we want on this portable device ."
-V2_ITEM_073,en-zh,[Turn 1] I take it tomorrow morning . There is so much material that I dont know what to emphasize on . What types of questions did you get ?,[Turn 1] 我明天早上考。 内容太多了，我都不知道该重点看什么。 你考到什么类型的题了？,V2_CONV_044,"Earlier source context (not rated):
-It was hard . When do you take it ?"
-V2_ITEM_074,zh-en,[Turn 1] 非常感谢。 很高兴见到你，布朗先生。 我叫凯西·皮尔斯，是格林纺织品进出口公司的代表。,"[Turn 1] Thank you . I ’ m pleased to meet you , Mr . Brown . My name is Kathy Pewless , the representative of Green Textile Import and Export Corporation .",V2_CONV_017,"Earlier source context (not rated):
-我来自澳大利亚。 这是我的名片。"
-V2_ITEM_075,zh-en,[Turn 1] 让我看一看。 嗯，等一会，给您，我们需要您在这张票据上签名。,"[Turn 1] Let me take a look. Hmm, just a moment. Here you go. We’ll need you to sign this slip.",V2_CONV_011,"Earlier source context (not rated):
-我还想取包裹，这是通知单。"
-V2_ITEM_076,en-zh,"[Turn 1] No , they made him vicepresident in charge of sells .
-
-[Turn 2] I don't believe it.He is only being with the company for two years .","[Turn 1] 不，他们让他当副总裁，负责销售。
-
-[Turn 2] 我不相信。 他才在公司工作两年。",V2_CONV_048,"Earlier source context (not rated):
-You're kidding ."
-V2_ITEM_077,en-zh,"[Turn 1] I can't stand it when things don't go my way. I'm always trying to control everything and everyone around me.
-
-[Turn 2] That must be really tough for you. I can imagine how frustrating it must be when you can't control everything.","[Turn 1] 事情不按我的意思来，我就受不了。 我总是想控制身边所有事、所有人。
-
-[Turn 2] 那对你来说肯定挺难受的。 我能想象，没法掌控一切的时候会有多烦。",V2_CONV_027,
-V2_ITEM_078,zh-en,"[Turn 1] 你能帮我上网查一下吗
-
-[Turn 2] 当然可以。 你想找到什么
-
-[Turn 3] 我想找到关于美国内战的信息","[Turn 1] Can you help me look something up online?
-
-[Turn 2] Sure. What are you trying to find?
-
-[Turn 3] I want to find information about the American Civil War.",V2_CONV_045,
-V2_ITEM_079,en-zh,"[Turn 1] Man , I'm hungry . Do you know a good place to have lunch ?
-
-[Turn 2] Yes , I know a great place . What types of food do you like ?","[Turn 1] 伙计，我饿了。 你知道什么吃午饭的好地方吗？
-
-[Turn 2] 是的，我知道一个很棒的地方。 你喜欢什么类型的食物？",V2_CONV_013,
-V2_ITEM_080,en-zh,"[Turn 1] Hopefully he will use the same exam , cause Im going to spend most of my time studying the civil war . It is a huge section and that is what he lectured the most on in class .
-
-[Turn 2] If you cant study everything , then that is probably the best way to go .","[Turn 1] 希望他会用同一套吧，因为我打算把大部分时间都用来复习南北战争。 那部分内容很多，而且也是他上课讲得最多的。
-
-[Turn 2] 如果你没法全都复习，那这样应该是最好的选择。",V2_CONV_044,"Earlier source context (not rated):
-But you might get more . I dont know if he will have the same exam or not ."
-V2_ITEM_081,en-zh,"[Turn 1] Good afternoon . Can I help you ?
-
-[Turn 2] I need some remedies for an upset stomach .
-
-[Turn 3] Are you also suffering from pain and fever ?","[Turn 1] 下午好，有什么可以帮您的？
-
-[Turn 2] 我需要一些治疗胃痛的药物
-
-[Turn 3] 有疼痛和发烧的症状么？",V2_CONV_059,
-V2_ITEM_082,zh-en,[Turn 1] 最好最好是在冰箱儿是吧，完了把那个菜放里边儿以后，完了通通过面板儿显示，这通过老年人那会儿或者这一看呢，就能看出来。,"[Turn 1] Ideally, with the fridge, right, after you put the vegetables inside, it would show it on the panel, so older people—or anyone, really—could tell just by looking.",V2_CONV_028,"Earlier source context (not rated):
-好的。"
-V2_ITEM_083,en-zh,"[Turn 1] Good afternoon ! Did you call for a plumber ?
-
-[Turn 2] Yes , yes I did . Please come in !","[Turn 1] 下午好！ 是你叫的水管工吗？
-
-[Turn 2] 是的，是的。 请进！",V2_CONV_031,
-V2_ITEM_084,en-zh,"[Turn 1] So hank you very much .
-
-[Turn 2] Thank you .
-
-[Turn 3] And we'll see you after lunch .","[Turn 1] 那就非常感谢你。
-
-[Turn 2] 谢谢。
-
-[Turn 3] 那我们午饭后见。",V2_CONV_060,
-V2_ITEM_085,zh-en,"[Turn 1] 你能告诉我今天美元的兑换率是多少吗？
-
-[Turn 2] 买入价是826。 100美元兑换44元。
-
-[Turn 3] 我想兑换一些美元来支付我在这里的费用。","[Turn 1] Can you tell me today’s exchange rate for U.S. dollars?
-
-[Turn 2] The buying rate is 826. One hundred U.S. dollars exchanges for 44 yuan.
-
-[Turn 3] I’d like to exchange some U.S. dollars to cover my expenses here.",V2_CONV_024,"Earlier source context (not rated):
-我们只能兑换三种货币，美元、日元和港币。"
-V2_ITEM_086,en-zh,"[Turn 1] So, I set you up on a date!
-
-[Turn 2] Oh, yeah? Who is it?","[Turn 1] 所以，我给你安排了一场约会！
-
-[Turn 2] 哦，是吗？ 对方是谁？",V2_CONV_062,
-V2_ITEM_087,en-zh,[Turn 1] I am not exaggerating at all . I ’ m telling you the truth . That was how I felt at that time .,[Turn 1] 我一点也没夸大。 我说的是实话。 那就是我当时的感受。,V2_CONV_055,"Earlier source context (not rated):
-You must be exaggerating . I don ’ t believe it ."
-V2_ITEM_088,zh-en,"[Turn 1] 是的，但是我很快就生他的气了。 他可能认为我不信任他。 我不该生气的。
-
-[Turn 2] 你借给他很多钱了吗？","[Turn 1] Yeah, but I got angry with him pretty quickly. He probably thought I didn’t trust him. I shouldn’t have gotten mad.
-
-[Turn 2] Did you lend him a lot of money?",V2_CONV_019,"Earlier source context (not rated):
-他应该还你钱。 这很合理。"
-V2_ITEM_089,en-zh,[Turn 1] I only had 1 question about him . But you might get more . I dont know if he will have the same exam or not .,[Turn 1] 我只有一道关于他的题。 不过你可能会考到更多。 我也不知道老师会不会用同一套卷子。,V2_CONV_044,"Earlier source context (not rated):
-What about Abraham Lincoln ? Did you get any questions about him ?"
-V2_ITEM_090,en-zh,"[Turn 1] I know it won't be easy, but I'm willing to learn about your culture and make compromises. I just want our family to be happy and thrive.",[Turn 1] 我知道这不会容易，但我愿意去了解你的文化，也愿意做出妥协。 我只希望我们的家庭能幸福、兴旺。,V2_CONV_014,"Earlier source context (not rated):
-Yes, our culture is very different from yours. But I think that's one of the things that drew you to me."
-V2_ITEM_091,en-zh,"[Turn 1] I mean , I understand that . But the speed of the conversation got faster and faster , until it seemed to me that they would fight . My perception of the tone was that it was a violent shouting match . The truth was that it was a perfectly normal conversation .",[Turn 1] 我明白。 但是他们说话的速度越来越快，我都觉得他们会打架。 我觉得这是一场激烈的叫喊比赛。 但事实是，这是一次非常正常的谈话。,V2_CONV_055,"Earlier source context (not rated):
-Many Chinese like to bargain . It happens almost everywhere ."
-V2_ITEM_092,en-zh,"[Turn 1] That sounds great. I'll see you soon then.
-
-[Turn 2] Yep, see you soon!","[Turn 1] 那挺好。 那我一会儿见。
-
-[Turn 2] 嗯，一会儿见！",V2_CONV_053,"Earlier source context (not rated):
-It's going well. I just finished up my classes for the day and now I'm headed home."
-V2_ITEM_093,en-zh,"[Turn 1] Her name is Sarah and she's really friendly. I think you'll like her.
+V3_ITEM_001,en-zh,"[Turn 1] Her name is Sarah and she's really friendly. I think you'll like her.
 
 [Turn 2] Okay, cool. When are we going out?","[Turn 1] 她叫 Sarah，人特别友好。 我觉得你会喜欢她的。
 
-[Turn 2] 好啊，挺不错的。 我们什么时候出去？",V2_CONV_062,"Earlier source context (not rated):
+[Turn 2] 好啊，挺不错的。 我们什么时候出去？",V3_CONV_062,"Earlier source context (not rated):
 Oh, yeah? Who is it?"
-V2_ITEM_094,zh-en,"[Turn 1] 呃，你能说得更具体些吗？ 有很多关于这方面的网站。
+V3_ITEM_002,en-zh,"[Turn 1] N We've gonna We're going to evaluate it .
 
-[Turn 2] 是的，我想知道葛底斯堡战役。
+[Turn 2] We're gonna go to our other room again .","[Turn 1] 嗯，我们要……我们会来评估一下。
 
-[Turn 3] 好的，（你可以）登陆google.com，输入“葛底斯堡战役”","[Turn 1] Uh, can you be more specific? There are a lot of websites about that.
+[Turn 2] 我们还要再去另一个房间。",V3_CONV_012,
+V3_ITEM_003,en-zh,"[Turn 1] Sorry . Yeah . Uh as you know , I am mister Ramaro . I am an expert in uh industrial design of all electronic devices and I previously devised many uh like digital calculators and electronic calculators .",[Turn 1] 抱歉。 对。 呃，大家知道，我是Ramaro先生。 我是，呃，各类电子设备工业设计方面的专家，之前也设计过很多，呃 比如数码计算器、电子计算器之类的。,V3_CONV_066,
+V3_ITEM_004,en-zh,"[Turn 1] And usually this so to do these functions we need an interface , which basically some kind of pressing buttons or keys or like moving jack or something like that .
 
-[Turn 2] Yes, I want to know about the Battle of Gettysburg.
+[Turn 2] And then these messages these key buttons can be transferred into some kind of message and then it will process by the chip and then it will generate some information to the main device .","[Turn 1] 而且通常这个 所以要实现这些功能，我们需要一个界面，基本上就是某种按按钮、按键，或者像移动操纵杆之类的东西。
 
-[Turn 3] Okay, go to google.com and type in “Battle of Gettysburg.”",V2_CONV_045,"Earlier source context (not rated):
-我想找到关于美国内战的信息"
-V2_ITEM_095,en-zh,"[Turn 1] Yes , look over there . That's the Empire State Building . My book says it's 102 stories tall .
+[Turn 2] 然后这些信息 这些按键按钮可以被转换成某种信息，然后由芯片处理，接着它会给主要设备生成一些信息。",V3_CONV_066,"Earlier source context (not rated):
+So we need to have some energy source to do what to do the functions , what we want on this portable device ."
+V3_ITEM_005,en-zh,"[Turn 1] The stepmother was very wicked . She couldn't stand a happy smile on the boy's face .
 
-[Turn 2] It's quite famous but don't you think it looks a bit old-fashioned ?","[Turn 1] 是啊，看那边。 那就是帝国大厦。 我的书上说它有102层高。
+[Turn 2] And ?
 
-[Turn 2] 它挺有名的，不过你不觉得它看起来有点老派吗？",V2_CONV_036,"Earlier source context (not rated):
-I mean look at all these magnificent buildings around us ."
-V2_ITEM_096,en-zh,"[Turn 1] Well , the wrong information is in my file . I was at a concert Monday night .
+[Turn 3] And she did her best to pull out the thorn in her flesh and the boy lost whatever made him happy .","[Turn 1] 这个继母特别恶毒。 她最见不得那男孩脸上露出开心的笑容。
 
-[Turn 2] Well , your word overrules the file , sir . One moment , please .","[Turn 1] 嗯，我的档案里有错误的信息。 我星期一晚上去听音乐会了。
+[Turn 2] 然后呢？
 
-[Turn 2] 你的话能够更改档案，先生。 请稍等。",V2_CONV_046,"Earlier source context (not rated):
-Let's see , sir . According to your file , you watched ' Titanic ' Monday evening ."
-V2_ITEM_097,zh-en,[Turn 1] 亲密的朋友有时会有分歧。 这很寻常。 你们两个都没说什么难听的话吧？,"[Turn 1] Close friends have disagreements sometimes. It’s totally normal. Neither of you said anything hurtful, did you?",V2_CONV_019,"Earlier source context (not rated):
-好吧，下次你见到他时跟他谈谈。 他可能和你一样难过。"
-V2_ITEM_098,en-zh,"[Turn 1] Oh, don't cry Alexandria. I'm just glad I could help you in some way.
-
-[Turn 2] It's just that, I've never experienced anything like this before. This feeling of love and compassion is so new to me.","[Turn 1] 哎呀，别哭，Alexandria。 我只是很高兴能帮上你一点忙。
-
-[Turn 2] 只是……我以前从来没经历过这样的事。 这种被爱、被关怀的感觉，对我来说太陌生了。",V2_CONV_026,"Earlier source context (not rated):
-Your kindness is so overwhelming. I feel like I'm about to cry."
-V2_ITEM_099,zh-en,[Turn 1] 2004年，我在广州附近的一家贸易公司的销售部找到了一份工作。 我开始做销售代表。 一年后，我被提升为销售经理。 从那以后，我一直做那份工作，到现在才一年多。,"[Turn 1] In 2004, I got a job in the sales department of a trading company near Guangzhou. I started out as a sales representative. A year later, I was promoted to sales manager. I've been doing that job ever since, so it's been just over a year now.",V2_CONV_051,"Earlier source context (not rated):
-你有什么工作经验"
-V2_ITEM_100,zh-en,[Turn 1] 晚上，就是再组织下娱乐活动。,"[Turn 1] In the evening, I mean, maybe organize some more entertainment.",V2_CONV_052,"Earlier source context (not rated):
-接回来，出门去KTV开始高兴下，还是就直接回去，你觉得这个。"
-V2_ITEM_101,en-zh,"[Turn 1] Now if they cost twelve and a half , you're selling it for twenty five , you're making twelve and a half Euros each . Um and we're to make a profit of fifty million , that's t uh can you do the maths and how many are we selling ?",[Turn 1] 那如果成本是十二点五，卖二十五，那每个就赚十二点五欧元。 嗯，我们要赚五千万，那就是，呃，你能算一下吗，我们到底要卖多少个？,V2_CONV_022,"Earlier source context (not rated):
-Um would be an awful lot of these , would be like what , a hundred million of them um to make twenty five Euros on each one and to make a total profit of fifty million . Um the production is to only cost twelve and a half Euros per item ."
-V2_ITEM_102,zh-en,[Turn 1] 第一步先去落实商场的费用问题。,"[Turn 1] First, go and sort out the issue of the mall fees.",V2_CONV_009,"Earlier source context (not rated):
-再派几个人一起去吧，嗯，比较好，嗯，对。"
-V2_ITEM_103,zh-en,[Turn 1] 你当然应该。 你不会希望一场愚蠢的争吵毁掉一段长久的友谊吧？,"[Turn 1] You definitely should. You don’t want one stupid argument to ruin a long friendship, do you?",V2_CONV_019,"Earlier source context (not rated):
-我想你是对的。 我们应该修补一下关系。"
-V2_ITEM_104,zh-en,"[Turn 1] 还一个就是双十一的这个退货哈，其实他是一个很，很繁琐的一个过程，因为客服他一，势必要对接很多人的退货。
-
-[Turn 2] 率很高。","[Turn 1] Another thing is returns during Double Eleven. Honestly, it’s a really, really cumbersome process, because customer service is inevitably dealing with tons of people’s returns.
-
-[Turn 2] The return rate is really high.",V2_CONV_010,"Earlier source context (not rated):
-而且双十一不敢买就是买完以后你不知道什么时候才能收到货，等半天。"
-V2_ITEM_105,zh-en,"[Turn 1] 请告诉我根据相关的规定我要怎样把这些文件归档。
-
-[Turn 2] 好的，没问题。 当你把文件，资料或其它东西归档时，有四点你应该记在心上。
-
-[Turn 3] 什么？","[Turn 1] Please tell me how to file things according to the concerned rules .
-
-[Turn 2] Well , all right . There are four points you should keep in mind when you file documents , information and other things .
-
-[Turn 3] What are they ?",V2_CONV_056,
-V2_ITEM_106,en-zh,"[Turn 1] I'll give you some tablets that should make you feel better . One moment , please . Here you are . Take these tablets three times a day swallow them with water .",[Turn 1] 我给您开一些药，这些药可以让您感觉舒眼点。 请稍等。 给您药。 一天吃三次，白水送服。,V2_CONV_059,"Earlier source context (not rated):
-Yes , and I also have the runs"
-V2_ITEM_107,zh-en,"[Turn 1] 好的，跟我聊聊你自己吧。
-
-[Turn 2] 格林先生，你想知道什么？
-
-[Turn 3] 你有什么工作经验","[Turn 1] All right, tell me a little about yourself.
-
-[Turn 2] What would you like to know, Mr. Green?
-
-[Turn 3] What kind of work experience do you have?",V2_CONV_051,
-V2_ITEM_108,zh-en,"[Turn 1] 我收到你的通知，得知你已经把会计一职给了别人。 我可以问一下为什么我落选了吗？
-
-[Turn 2] 我们仔细地考虑过你，但另一位候选人经验更丰富。
-
-[Turn 3] 经验很重要，但你不认为能力比经验更有价值吗？","[Turn 1] I have just received your note which informs me that you have offered the accountant position to another candidate . May I ask why I was defeated ?
-
-[Turn 2] We have thought of you carefully with discretion , but the other candidate has more experiences .
-
-[Turn 3] Experience is important , but don't you think capability is more valuable than that ?",V2_CONV_035,
-V2_ITEM_109,en-zh,"[Turn 1] Honey , if you don't want to go to cram school , you should tell me the reason why .
-
-[Turn 2] I'm sorry , dad . But I would rather stay at school than go to cram school .","[Turn 1] 亲爱的，如果你不想去补习班，你应该告诉我原因。
-
-[Turn 2] 对不起，爸爸。 但我宁愿留在学校也不愿去补习班。",V2_CONV_029,"Earlier source context (not rated):
-Dad , I don't want to talk about it now ."
-V2_ITEM_110,en-zh,"[Turn 1] Then let's savor it and enjoy it while it lasts!
-
-[Turn 2] You're right. I'm sorry for getting emotional.","[Turn 1] 那我们就好好感受它，趁现在尽情享受吧！
-
-[Turn 2] 你说得对。 抱歉，我有点太激动了。",V2_CONV_026,"Earlier source context (not rated):
-It's just that, I've never experienced anything like this before. This feeling of love and compassion is so new to me."
-V2_ITEM_111,zh-en,[Turn 1] 我们正在找一位双语秘书。 你认为你精通英语书面语和口语吗？,[Turn 1] We are looking for a bilingual secretary . Do you think you are proficient in both written and spoken English ?,V2_CONV_034,
-V2_ITEM_112,en-zh,"[Turn 1] You're right , but when it was built in 1930 it was a marvel of technology and engineering .
-
-[Turn 2] What other important buildings are we going to see on Fifth Avenue ?","[Turn 1] 你说得对，不过它在1930年建成的时候，可是科技和工程上的奇迹。
-
-[Turn 2] 在第五大道上，我们还会看到哪些重要的建筑？",V2_CONV_036,"Earlier source context (not rated):
-It's quite famous but don't you think it looks a bit old-fashioned ?"
-V2_ITEM_113,en-zh,"[Turn 1] if you hold it like that , the one on your thumb , yeah , the thumb button is the power button .",[Turn 1] 你要是那样拿着它，拇指那边那个，对， 那个拇指键就是电源键。,V2_CONV_007,
-V2_ITEM_114,zh-en,"[Turn 1] 下面有一个倒过来的小迪尔伯特
-
-[Turn 2] 当你翻开领带时，他是正面朝上的。 太棒了","[Turn 1] And there's a little upside-down Dilbert on the underside .
-
-[Turn 2] When you flip the tie up , he's right side up . Brilliant .",V2_CONV_002,
-V2_ITEM_115,en-zh,"[Turn 1] Hi, Sally. It's been a while since we talked.
-
-[Turn 2] Yeah, I know. I'm sorry I've been so busy lately.","[Turn 1] 嗨，Sally。 我们好久没聊了。
-
-[Turn 2] 是啊，我知道。 不好意思，我最近一直特别忙。",V2_CONV_023,
-V2_ITEM_116,en-zh,"[Turn 1] So basically a constant like that's Java's type of a constant , and give them names , like so zero T_D_I_D_F_ , one that probably makes the code a lot more readable for everybody who's playing around with it . You know you know what I mean ? So just like whatever , three means agreement value , and then I'd just write something agreement , and then it's easier to understand for both of us what's going on .
-
-[Turn 2] Yeah , probably .","[Turn 1] 基本上就是一个常量，像 Java 里那种常量，然后给它们起名字，比如 0 是 T_D_I_D_F_，1 是——这样可能会让代码对所有拿来改的人都更好读。 你懂我意思吧？ 比如随便说，3 代表一致值，那我就写个跟 agreement 有关的东西，这样我们俩都更容易看懂到底怎么回事。
-
-[Turn 2] 嗯，可能吧。",V2_CONV_042,"Earlier source context (not rated):
-Yeah . You know what , if you can if you introduce um like a sort of a static , what's it called , public static int ."
-V2_ITEM_117,en-zh,"[Turn 1] Oh , definitely . I remember , when I first arrived in Guangzhou , my girlfriend was haggling with a sales clerk over the price of a mobile phone .",[Turn 1] 哦，当然。 我记得，刚到广州的时候，我女朋友和一个售货员就一部手机还价。,V2_CONV_055,"Earlier source context (not rated):
-Do you know Chinese better now ?"
-V2_ITEM_118,zh-en,[Turn 1] 我昨天看了一眼。 我发现有些展品质量很好，设计也很漂亮。 展览会成功地向我展示了贵公司的业务。 我已经看了你上封信所附的目录和小册子。,[Turn 1] I had a look yesterday . I found some of the exhibits to be fine in quality and beautiful in design . The exhibition has successfully displayed to me what your corporation handles . I ’ Ve gone over the catalogue and the pamphlets enclosed in your last letter .,V2_CONV_017,"Earlier source context (not rated):
-哦，是的。"
-V2_ITEM_119,zh-en,"[Turn 1] 玛丽，我给乔希或你拿点喝的吧。
-
-[Turn 2] 哦，不，谢谢。 我们并不渴。
-
-[Turn 3] 那么来点吃的怎么样。","[Turn 1] Mary, can I get Josh or you something to drink?
-
-[Turn 2] Oh, no, thanks. We're not thirsty.
-
-[Turn 3] Well, how about something to eat?",V2_CONV_006,"Earlier source context (not rated):
-对，我们很久都没见到你。"
-V2_ITEM_120,en-zh,"[Turn 1] It's the latest and quite popular among young people .
-
-[Turn 2] Yes , I know and I like it very much . I will take it .","[Turn 1] 这是最新款，在年轻人中很流行。
-
-[Turn 2] 是的，我知道，我非常喜欢。 我要了。",V2_CONV_058,
-V2_ITEM_121,zh-en,"[Turn 1] 浪漫？ 但是我更喜欢惊悚片。
-
-[Turn 2] 你不觉得惊悚片太血腥了吗？","[Turn 1] Romantic? But I prefer thrillers.
-
-[Turn 2] Don't you think thrillers are too bloody?",V2_CONV_005,"Earlier source context (not rated):
-我不确定这部电影的名字，但我知道它很浪漫。"
-V2_ITEM_122,en-zh,"[Turn 1] Well , I've done some research again about trends on the internet .
-
-[Turn 2] Um I've done some investigation , and uh well
-
-[Turn 3] I uh got some information from fashion watchers from Paris and uh Milan .","[Turn 1] 嗯，我又在网上查了一些趋势。
-
-[Turn 2] 嗯，我做了点调查，然后，呃……
-
-[Turn 3] 我，呃，从巴黎和米兰的一些时尚观察人士那儿弄到了一些信息。",V2_CONV_047,
-V2_ITEM_123,zh-en,"[Turn 1] 好的，能给我你的存折吗？
+[Turn 3] 然后她想尽办法要拔掉这个眼中钉，害得那男孩失去了所有让他快乐的东西。",V3_CONV_064,
+V3_ITEM_006,zh-en,[Turn 1] 这要根据一年中的不同时间的情况确定。 在繁忙的时候我们招一些临时工帮着包装和装运。 一年当中我们也把我们的一些业务包出去，比如，清洁工作。 我们管理的非常严格！,"[Turn 1] It depends on the time of year . At peak times we hire in casual workers to help with packing and dispatch . We also contract out certain services all year round , for example , cleaning . We run a very tight operation !",V3_CONV_040,"Earlier source context (not rated):
+我很奇怪你们现场有这么几个人。 你们有多种商品和业务，但是你们劳动力很少。"
+V3_ITEM_007,zh-en,"[Turn 1] 好的，能给我你的存折吗？
 
 [Turn 2] 好的，给你。
 
@@ -628,164 +40,66 @@ V2_ITEM_123,zh-en,"[Turn 1] 好的，能给我你的存折吗？
 
 [Turn 3] What amounts do you want the checks in ?
 
-[Turn 4] It's all the same to me .",V2_CONV_067,"Earlier source context (not rated):
+[Turn 4] It's all the same to me .",V3_CONV_067,"Earlier source context (not rated):
 三千美元。"
-V2_ITEM_124,en-zh,"[Turn 1] You guys are charging me $ 10 for a movie that I never ordered or saw .
-
-[Turn 2] Let's see , sir . According to your file , you watched ' Titanic ' Monday evening .","[Turn 1] 你们因为一部我从没订过或看过的电影收了我10美元。
-
-[Turn 2] 我看看，先生。 根据你的档案，你周一晚上看了《泰坦尼克号》。",V2_CONV_046,
-V2_ITEM_125,en-zh,"[Turn 1] Um , standard parts include the buttons and the wheels , um the iPod-style wheel . The infrared L_E_D_ is actually gonna be included in the circuit board that comes with it . Um , we need a radio sender and receiver , those are standard . And al we also need a beeper or buzzer or other sort of noise thing for locating the remote .",[Turn 1] 嗯，标准零件包括按键和滚轮，嗯，就是 iPod 那种滚轮。 红外 L_E_D_ 其实会集成在随附的那块电路板里。 嗯，我们需要一个无线发射器和接收器，这些都是标准件。 还有，我们还需要一个蜂鸣器、 buzzer，或者别的能发出声音的东西，用来找遥控器。,V2_CONV_065,"Earlier source context (not rated):
+V3_ITEM_008,zh-en,[Turn 1] 晚上，就是再组织下娱乐活动。,"[Turn 1] In the evening, I mean, maybe organize some more entertainment.",V3_CONV_052,"Earlier source context (not rated):
+接回来，出门去KTV开始高兴下，还是就直接回去，你觉得这个。"
+V3_ITEM_009,en-zh,"[Turn 1] Um , standard parts include the buttons and the wheels , um the iPod-style wheel . The infrared L_E_D_ is actually gonna be included in the circuit board that comes with it . Um , we need a radio sender and receiver , those are standard . And al we also need a beeper or buzzer or other sort of noise thing for locating the remote .",[Turn 1] 嗯，标准零件包括按键和滚轮，嗯，就是 iPod 那种滚轮。 红外 L_E_D_ 其实会集成在随附的那块电路板里。 嗯，我们需要一个无线发射器和接收器，这些都是标准件。 还有，我们还需要一个蜂鸣器、 buzzer，或者别的能发出声音的东西，用来找遥控器。,V3_CONV_065,"Earlier source context (not rated):
 And we'll need to custom desi design a circuit board , because the circuit board has to take the button input and send it to the output so you have to design that each time . But once we come up with a design we'll send it to the circuit people and they'll just print it out ."
-V2_ITEM_126,en-zh,"[Turn 1] OK , I'd love the company .
+V3_ITEM_010,en-zh,"[Turn 1] Five o ’ clock that afternoon , and in my place , you know ?
 
-[Turn 2] This will work out well . I'm getting hungry just thinking about it .","[Turn 1] 好的，我喜欢有人陪。
+[Turn 2] Yes , I know . I appreciate your invitation .","[Turn 1] 那天下午五点，在我家，你知道的吧？
 
-[Turn 2] 这家餐厅会很好吃的。 一想到我就饿了。",V2_CONV_013,"Earlier source context (not rated):
-It's down a block on the right ; can I show you the way ?"
-V2_ITEM_127,en-zh,[Turn 1] That sounds like a lot more fun than what I've been doing lately. I've just been working and studying all the time lately and it's getting pretty boring.,[Turn 1] 听起来可比我最近做的事有意思多了。 我最近就是一直工作、学习，真的越来越无聊了。,V2_CONV_023,"Earlier source context (not rated):
-work, school, hanging out with friends. Nothing exciting."
-V2_ITEM_128,en-zh,"[Turn 1] Please don't blame me , sir . Blame the computer programmer .
+[Turn 2] 嗯，我知道。 谢谢你的邀请。",V3_CONV_054,"Earlier source context (not rated):
+When and where ?"
+V3_ITEM_011,zh-en,"[Turn 1] 我收到你的通知，得知你已经把会计一职给了别人。 我可以问一下为什么我落选了吗？
 
-[Turn 2] This is highway robbery . I've got a good mind to call the police !","[Turn 1] 请不要怪我，先生。 这得怪电脑程序员。
+[Turn 2] 我们仔细地考虑过你，但另一位候选人经验更丰富。
 
-[Turn 2] 这是高速公路抢劫。 我很想报警！",V2_CONV_046,"Earlier source context (not rated):
-Am I in the Twilight Zone ? You're charging me for a movie I never saw ?"
-V2_ITEM_129,zh-en,"[Turn 1] 这是30美元。 顺便问一下，我在哪里可以找到导游？
+[Turn 3] 经验很重要，但你不认为能力比经验更有价值吗？","[Turn 1] I have just received your note which informs me that you have offered the accountant position to another candidate . May I ask why I was defeated ?
 
-[Turn 2] 去下一个窗口，那里的人会帮你找到导游。","[Turn 1] Here's 30 dollars. By the way, where can I find a tour guide?
+[Turn 2] We have thought of you carefully with discretion , but the other candidate has more experiences .
 
-[Turn 2] Go to the next window. The people there will help you find a guide.",V2_CONV_063,"Earlier source context (not rated):
-每人10美元"
-V2_ITEM_130,en-zh,"[Turn 1] I think it's pretty standard , these rubber buttons on the top .",[Turn 1] 我觉得上面这些橡胶按键挺标准的。,V2_CONV_025,"Earlier source context (not rated):
-It's harder to zap . So I think uh it should be"
-V2_ITEM_131,en-zh,"[Turn 1] So you know how zero is T_F_I_D_F_ . One is um the well I've called it word importance , but that's a really m misleading name .",[Turn 1] 所以你知道，0 是 T_F_I_D_F_。 1 是呃，那个——我叫它词重要性，但这个名字其实特别误导人。,V2_CONV_042,
-V2_ITEM_132,zh-en,[Turn 1] 我对你们的出口产品有了些了解。 我对你们的丝绸衬衫也很感兴趣。,[Turn 1] I ’ Ve got some idea of your exports . I ’ m interested in your silk blouses .,V2_CONV_017,"Earlier source context (not rated):
-展览会成功地向我展示了贵公司的业务。 我已经看了你上封信所附的目录和小册子。"
-V2_ITEM_133,zh-en,"[Turn 1] 三个板块，告诉他们我们最想改进的。
+[Turn 3] Experience is important , but don't you think capability is more valuable than that ?",V3_CONV_035,
+V3_ITEM_012,en-zh,"[Turn 1] Good afternoon . Can I help you ?
 
-[Turn 2] 让他们去加到这份调研问卷里去。
+[Turn 2] I need some remedies for an upset stomach .
 
-[Turn 3] 我觉得这个肯定是下载了。
+[Turn 3] Are you also suffering from pain and fever ?","[Turn 1] 下午好，有什么可以帮您的？
 
-[Turn 4] 都没下载根本就，根本就不可能有以下的所有的板块了。","[Turn 1] Pick three sections and tell them the ones we most want to improve.
+[Turn 2] 我需要一些治疗胃痛的药物
 
-[Turn 2] Have them add those to this survey questionnaire.
+[Turn 3] 有疼痛和发烧的症状么？",V3_CONV_059,
+V3_ITEM_013,en-zh,"[Turn 1] Hopefully he will use the same exam , cause Im going to spend most of my time studying the civil war . It is a huge section and that is what he lectured the most on in class .
 
-[Turn 3] I think downloads are definitely one.
+[Turn 2] If you cant study everything , then that is probably the best way to go .","[Turn 1] 希望他会用同一套吧，因为我打算把大部分时间都用来复习南北战争。 那部分内容很多，而且也是他上课讲得最多的。
 
-[Turn 4] If people haven't even downloaded it, then there's no way they'll get to any of the sections after that.",V2_CONV_049,
-V2_ITEM_134,zh-en,[Turn 1] 我想史密斯先生可能忘记了这场会议。 他今天早上离开了办公室，恐怕下午4点之后才能回来。 让我看看他有没有安排其他人代他见你。 请坐好吗？,[Turn 1] I wonder if Mr . Smith forgot your meeting . I am afraid he left this office this morning and is not expected back until after 4 pm . Let me find out if he made arrangements for someone else to meet with you in his place . Will you please have a seat ?,V2_CONV_069,"Earlier source context (not rated):
-预约了，他知道我要来。 我们的会议定在两点。"
-V2_ITEM_135,zh-en,"[Turn 1] 我昨天和大卫大吵了一架。 我希望他现在不生我的气了。
+[Turn 2] 如果你没法全都复习，那这样应该是最好的选择。",V3_CONV_044,"Earlier source context (not rated):
+But you might get more . I dont know if he will have the same exam or not ."
+V3_ITEM_014,en-zh,"[Turn 1] That sounds great. I'll see you soon then.
 
-[Turn 2] 你们在吵什么？","[Turn 1] I had a huge fight with David yesterday. I hope he’s not mad at me anymore.
+[Turn 2] Yep, see you soon!","[Turn 1] 那挺好。 那我一会儿见。
 
-[Turn 2] What were you two arguing about?",V2_CONV_019,
-V2_ITEM_136,zh-en,"[Turn 1] 我需要确定一下，你想取一千美元吗？
+[Turn 2] 嗯，一会儿见！",V3_CONV_053,"Earlier source context (not rated):
+It's going well. I just finished up my classes for the day and now I'm headed home."
+V3_ITEM_015,zh-en,"[Turn 1] 挺不错都是，但是现在是唯一缺什么你知道吗？ 以后再进步有一个，就是智智能化能不能，那个检验检验那个农残的问题，你知道吧。
 
-[Turn 2] 没错。","[Turn 1] Let me just make sure . You want to withdraw one thousand dollars ?
+[Turn 2] 好的。","[Turn 1] They're all pretty good, but you know the one thing they're still missing? For future improvement, it would be whether the smart features can, you know, test for pesticide residue. You know what I mean?
 
-[Turn 2] That's right .",V2_CONV_001,"Earlier source context (not rated):
-好的。"
-V2_ITEM_137,en-zh,"[Turn 1] Tomorrow night at 7.
-
-[Turn 2] Great, I'll look forward to it. Thanks for setting this up, Jlynn.","[Turn 1] 明晚七点。
-
-[Turn 2] 太好了，我很期待。 谢谢你帮我安排，Jlynn。",V2_CONV_062,"Earlier source context (not rated):
-Okay, cool. When are we going out?"
-V2_ITEM_138,en-zh,"[Turn 1] And why not wood ? And why not wood ?
-
-[Turn 2] And , hmm ?
-
-[Turn 3] Uh , well we can use wood .","[Turn 1] 那为什么不用木头？ 为什么不用木头？
-
-[Turn 2] 还有，嗯？
-
-[Turn 3] 呃，其实我们可以用木头。",V2_CONV_065,"Earlier source context (not rated):
-Um , I'd recommend against titanium because it can only be used in the flat cases and it's really heavy . Um , and the rubber case requires rubber buttons , so if we definitely want plastic buttons , we shouldn't have a rubber case ."
-V2_ITEM_139,en-zh,"[Turn 1] Aright . Thanks for the info . I gotta go to the library now .
-
-[Turn 2] Good luck .","[Turn 1] 好吧。 谢谢你告诉我这些。 我现在得去图书馆了。
-
-[Turn 2] 祝你好运。",V2_CONV_044,"Earlier source context (not rated):
-If you cant study everything , then that is probably the best way to go ."
-V2_ITEM_140,en-zh,"[Turn 1] You said it . Love but on the sand will soon be on the rocks .
+[Turn 2] Got it.",V3_CONV_028,"Earlier source context (not rated):
+现在冰箱。"
+V3_ITEM_016,en-zh,"[Turn 1] You said it . Love but on the sand will soon be on the rocks .
 
 [Turn 2] That give us a good lesson .","[Turn 1] 你说得对。 建在沙子上的爱情，很快就会触礁。
 
-[Turn 2] 这也给了我们一个很好的教训。",V2_CONV_021,"Earlier source context (not rated):
+[Turn 2] 这也给了我们一个很好的教训。",V3_CONV_021,"Earlier source context (not rated):
 It's inevitable . Their love wasbuilt on the sand , and this is why their marriage has landed on the rocks ."
-V2_ITEM_141,zh-en,"[Turn 1] 好的！
+V3_ITEM_017,en-zh,"[Turn 1] Hey Sarah, I'm thinking about making a new dish for dinner tonight. Do you have any ideas?
 
-[Turn 2] 哇！ 你看起来和迪尔伯特一样，傻乎乎的！","[Turn 1] OK !
+[Turn 2] Well, what are you in the mood for?","[Turn 1] 嘿，Sarah，我在想今晚做道新菜当晚饭。 你有什么主意吗？
 
-[Turn 2] Wow ! You look just as dorky as Dilbert !",V2_CONV_002,"Earlier source context (not rated):
-给我做个模型"
-V2_ITEM_142,zh-en,"[Turn 1] 不多。 但我突然要付一笔钱，所以我需要找他要钱。
-
-[Turn 2] 好吧，下次你见到他时跟他谈谈。 他可能和你一样难过。","[Turn 1] Not much. But I suddenly had a payment to make, so I needed to ask him for the money.
-
-[Turn 2] Well, talk to him the next time you see him. He might be just as upset as you are.",V2_CONV_019,"Earlier source context (not rated):
-你借给他很多钱了吗？"
-V2_ITEM_143,zh-en,"[Turn 1] 哦，很好。 艾琳，你能告诉我你为什么打算辞去销售经理的工作到这里来做我的助理吗？ 你不喜欢你现在的工作吗？
-
-[Turn 2] 坦白说，我很喜欢其中的一部分，但我更喜欢更专业的工作。","[Turn 1] Oh, very good. Irene, can you tell me why you're planning to leave your sales manager position and come here to be my assistant? Don't you like your current job?
-
-[Turn 2] To be honest, I do like parts of it, but I'd prefer something more professional.",V2_CONV_051,"Earlier source context (not rated):
-一年后，我被提升为销售经理。 从那以后，我一直做那份工作，到现在才一年多。"
-V2_ITEM_144,en-zh,"[Turn 1] How silly of you to jump out of the window !
-
-[Turn 2] But that was the first thing that came into my mind when I heard the shout earthquake !
-
-[Turn 3] Why not use staircases ? The terror was not so violent at that time .","[Turn 1] 你怎么这么傻，居然从窗户跳出去！
-
-[Turn 2] 可我一听到有人喊“地震”时，脑子里第一个想到的就是这个！
-
-[Turn 3] 为什么不走楼梯呢？ 当时还没到那么吓人的程度吧。",V2_CONV_068,
-V2_ITEM_145,zh-en,[Turn 1] 这要根据一年中的不同时间的情况确定。 在繁忙的时候我们招一些临时工帮着包装和装运。 一年当中我们也把我们的一些业务包出去，比如，清洁工作。 我们管理的非常严格！,"[Turn 1] It depends on the time of year . At peak times we hire in casual workers to help with packing and dispatch . We also contract out certain services all year round , for example , cleaning . We run a very tight operation !",V2_CONV_040,"Earlier source context (not rated):
-我很奇怪你们现场有这么几个人。 你们有多种商品和业务，但是你们劳动力很少。"
-V2_ITEM_146,zh-en,[Turn 1] 好的，梅森先生，我刚和我们的办公室经理泰瑞女士谈过。 她说，史密斯向她简要介绍了你的项目。 她刚刚结束一个会议，很快就会过来见你。 请稍等一下，要不要我带你四处看看？,"[Turn 1] Yes , Mr . Mason , I just checked with our office manager , Ms . Terry , she said Mr . Smith briefed her on your project . She is just finishing up a meeting now . She could be with your shortly . Would you like me to show you around while you are waiting ?",V2_CONV_069,"Earlier source context (not rated):
-好的。"
-V2_ITEM_147,en-zh,"[Turn 1] Most of them are office buildings , huge department stores , and hotels but some are just private homes . New York is one of the financial centers of the world . And there are lots of very expensive places .",[Turn 1] 大多数是办公楼、大型百货商店和酒店，不过也有一些只是私人住宅。 纽约是世界金融中心之一，也有很多特别昂贵的地方。,V2_CONV_036,"Earlier source context (not rated):
-What are they all for ?"
-V2_ITEM_148,en-zh,"[Turn 1] Yeah, a few people actually. They all say the same thing basically. That I should follow my heart and do what makes me happy. But how am I supposed to know what that is?",[Turn 1] 有，其实聊过几个人。 他们基本上都说一样的话，说我应该跟着自己的心走，做让我开心的事。 可我怎么知道那到底是什么呢？,V2_CONV_018,"Earlier source context (not rated):
-Have you talked to anyone about this? A guidance counselor or anyone?"
-V2_ITEM_149,zh-en,[Turn 1] 我很奇怪你们现场有这么几个人。 你们有多种商品和业务，但是你们劳动力很少。,[Turn 1] I was surprised to see how few people you have on-site . You provide a wide range of goods and services but have a very small workforce .,V2_CONV_040,
-V2_ITEM_150,zh-en,"[Turn 1] 他向我借了一些钱，我需要要回来。 他说他还没有钱。
-
-[Turn 2] 他应该还你钱。 这很合理。","[Turn 1] He borrowed some money from me, and I needed it back. He said he didn’t have the money yet.
-
-[Turn 2] He should pay you back. That’s fair.",V2_CONV_019,"Earlier source context (not rated):
-你们在吵什么？"
-V2_ITEM_151,en-zh,"[Turn 1] Did you already take the history exam ?
-
-[Turn 2] Yeah . It was hard . When do you take it ?","[Turn 1] 你历史考试已经考完了吗？
-
-[Turn 2] 嗯，考完了。 挺难的。 你什么时候考？",V2_CONV_044,
-V2_ITEM_152,en-zh,"[Turn 1] It is! I feel like I have to be in charge all the time, and it's just exhausting. I wish things would just go my way for once, but it seems like that's never going to happen.",[Turn 1] 就是啊！ 我感觉自己必须一直掌控局面，真的太累了。 我真希望事情能哪怕一次按我的意思来，可好像永远都不会发生。,V2_CONV_027,"Earlier source context (not rated):
-That must be really tough for you. I can imagine how frustrating it must be when you can't control everything."
-V2_ITEM_153,en-zh,"[Turn 1] I saw a rat in my house and now I'm worried it will contaminate my food and make me sick.
-
-[Turn 2] Well, rats are known to carry diseases, so it's definitely possible that it could make you sick. But if you take some precautions, like washing your hands thoroughly after coming into contact with anything the rat may have touched, you should be okay.","[Turn 1] 我在家里看见一只老鼠，现在很担心它会把我的食物弄脏，害我生病。
-
-[Turn 2] 嗯，老鼠确实会携带疾病，所以它让你生病也不是没可能。 不过你只要做好点防护，比如碰过任何老鼠可能碰到的东西之后，把手彻底洗干净，应该就没事。",V2_CONV_008,
-V2_ITEM_154,en-zh,"[Turn 1] No , that ’ s not working either . I suspect that there ’ s some sort of foreign object in the pipes that ‘ s causing a blockage . That ’ s what ’ s making your toilet overflow .",[Turn 1] 不，那也不行。 我怀疑管道里有异物导致堵塞。 这就是你的马桶里的水溢出来的原因。,V2_CONV_031,"Earlier source context (not rated):
-It seems that your toilet is clogged , and that ’ s why it won ’ t flush . Let me just get my plunger ."
-V2_ITEM_155,zh-en,"[Turn 1] 你好，哪里可以买到便宜的羊绒衫？
-
-[Turn 2] 也许你应该到处逛逛。
-
-[Turn 3] 这是个好主意。
-
-[Turn 4] 出口商店的价格更划算。","[Turn 1] Hi, where can I buy a cheap cashmere sweater?
-
-[Turn 2] Maybe you should shop around.
-
-[Turn 3] That's a good idea.
-
-[Turn 4] The outlet stores have better prices.",V2_CONV_032,
-V2_ITEM_156,en-zh,"[Turn 1] May I ask a question ?
+[Turn 2] 嗯，你想吃点什么口味的？",V3_CONV_039,
+V3_ITEM_018,en-zh,"[Turn 1] May I ask a question ?
 
 [Turn 2] Yes , what's it ?
 
@@ -797,21 +111,249 @@ V2_ITEM_156,en-zh,"[Turn 1] May I ask a question ?
 
 [Turn 3] mph是什么意思？
 
-[Turn 4] 每小时多少英里。",V2_CONV_004,
-V2_ITEM_157,en-zh,"[Turn 1] Do you have anything to do after this ?
+[Turn 4] 每小时多少英里。",V3_CONV_004,
+V3_ITEM_019,zh-en,"[Turn 1] 好的，四美元二十美分。
 
-[Turn 2] No , I don't .
+[Turn 2] 这是五美元。","[Turn 1] Sure. That’ll be four dollars and twenty cents.
 
-[Turn 3] Shall we drop in somewhere for a couple of drinks ?
+[Turn 2] Here’s five dollars.",V3_CONV_011,"Earlier source context (not rated):
+是的，我要寄一封航空挂号信到法国。"
+V3_ITEM_020,en-zh,"[Turn 1] Yeah, a few people actually. They all say the same thing basically. That I should follow my heart and do what makes me happy. But how am I supposed to know what that is?",[Turn 1] 有，其实聊过几个人。 他们基本上都说一样的话，说我应该跟着自己的心走，做让我开心的事。 可我怎么知道那到底是什么呢？,V3_CONV_018,"Earlier source context (not rated):
+Have you talked to anyone about this? A guidance counselor or anyone?"
+V3_ITEM_021,zh-en,"[Turn 1] 我们是继续在那边搞个什么。
 
-[Turn 4] That sounds like a good idea .","[Turn 1] 这之后你还有什么事吗？
+[Turn 2] 晚会呀，还是就是。
 
-[Turn 2] 没有，我没事。
+[Turn 3] 接回来，出门去KTV开始高兴下，还是就直接回去，你觉得这个。","[Turn 1] Should we keep doing something over there?
 
-[Turn 3] 那我们找个地方去喝两杯怎么样？
+[Turn 2] Like a party, or just...
 
-[Turn 4] 听起来不错。",V2_CONV_050,
-V2_ITEM_158,en-zh,"[Turn 1] Mexican , Japanese or Chinese would be great .
+[Turn 3] Come back, then go out to KTV and have some fun, or just go straight back? What do you think?",V3_CONV_052,
+V3_ITEM_022,en-zh,"[Turn 1] Then let's savor it and enjoy it while it lasts!
+
+[Turn 2] You're right. I'm sorry for getting emotional.","[Turn 1] 那我们就好好感受它，趁现在尽情享受吧！
+
+[Turn 2] 你说得对。 抱歉，我有点太激动了。",V3_CONV_026,"Earlier source context (not rated):
+It's just that, I've never experienced anything like this before. This feeling of love and compassion is so new to me."
+V3_ITEM_023,en-zh,"[Turn 1] Honey , if you don't want to go to cram school , you should tell me the reason why .
+
+[Turn 2] I'm sorry , dad . But I would rather stay at school than go to cram school .","[Turn 1] 亲爱的，如果你不想去补习班，你应该告诉我原因。
+
+[Turn 2] 对不起，爸爸。 但我宁愿留在学校也不愿去补习班。",V3_CONV_029,"Earlier source context (not rated):
+Dad , I don't want to talk about it now ."
+V3_ITEM_024,zh-en,[Turn 1] 你当然应该。 你不会希望一场愚蠢的争吵毁掉一段长久的友谊吧？,"[Turn 1] You definitely should. You don’t want one stupid argument to ruin a long friendship, do you?",V3_CONV_019,"Earlier source context (not rated):
+我想你是对的。 我们应该修补一下关系。"
+V3_ITEM_025,en-zh,"[Turn 1] And why not wood ? And why not wood ?
+
+[Turn 2] And , hmm ?
+
+[Turn 3] Uh , well we can use wood .","[Turn 1] 那为什么不用木头？ 为什么不用木头？
+
+[Turn 2] 还有，嗯？
+
+[Turn 3] 呃，其实我们可以用木头。",V3_CONV_065,"Earlier source context (not rated):
+Um , I'd recommend against titanium because it can only be used in the flat cases and it's really heavy . Um , and the rubber case requires rubber buttons , so if we definitely want plastic buttons , we shouldn't have a rubber case ."
+V3_ITEM_026,zh-en,"[Turn 1] 呃，干不过来，你再找。
+
+[Turn 2] 啊，再找派几个人一起，比较好。","[Turn 1] Uh, if you can't handle it all, then find some more people.
+
+[Turn 2] Yeah, get a few more people to go with you. That’d be better.",V3_CONV_009,
+V3_ITEM_027,zh-en,"[Turn 1] 你能帮我上网查一下吗
+
+[Turn 2] 当然可以。 你想找到什么
+
+[Turn 3] 我想找到关于美国内战的信息","[Turn 1] Can you help me look something up online?
+
+[Turn 2] Sure. What are you trying to find?
+
+[Turn 3] I want to find information about the American Civil War.",V3_CONV_045,
+V3_ITEM_028,en-zh,"[Turn 1] I can't stand it when things don't go my way. I'm always trying to control everything and everyone around me.
+
+[Turn 2] That must be really tough for you. I can imagine how frustrating it must be when you can't control everything.","[Turn 1] 事情不按我的意思来，我就受不了。 我总是想控制身边所有事、所有人。
+
+[Turn 2] 那对你来说肯定挺难受的。 我能想象，没法掌控一切的时候会有多烦。",V3_CONV_027,
+V3_ITEM_029,zh-en,"[Turn 1] 我想从我的账户上取些钱。
+
+[Turn 2] 我能看看你的存折和取款单吗？
+
+[Turn 3] 好的。","[Turn 1] I'd like to withdraw some money from my account .
+
+[Turn 2] Can I see your passbook and the withdrawal slip , please ?
+
+[Turn 3] Sure .",V3_CONV_001,
+V3_ITEM_030,en-zh,"[Turn 1] I know a very interesting place .
+
+[Turn 2] Oh , do you ? Good .","[Turn 1] 我知道一个挺有意思的地方。
+
+[Turn 2] 哦，是吗？ 太好了。",V3_CONV_050,"Earlier source context (not rated):
+That sounds like a good idea ."
+V3_ITEM_031,zh-en,[Turn 1] 呃，之前的活动的话，没有这方面的重叠。,"[Turn 1] Uh, the previous events didn’t really overlap in this area.",V3_CONV_015,"Earlier source context (not rated):
+呃，需要去找一下，在库房如果不够的话还是需要补，因为是传统文化嘛。"
+V3_ITEM_032,zh-en,[Turn 1] 最好最好是在冰箱儿是吧，完了把那个菜放里边儿以后，完了通通过面板儿显示，这通过老年人那会儿或者这一看呢，就能看出来。,"[Turn 1] Ideally, with the fridge, right, after you put the vegetables inside, it would show it on the panel, so older people—or anyone, really—could tell just by looking.",V3_CONV_028,"Earlier source context (not rated):
+好的。"
+V3_ITEM_033,zh-en,"[Turn 1] 你好，哪里可以买到便宜的羊绒衫？
+
+[Turn 2] 也许你应该到处逛逛。
+
+[Turn 3] 这是个好主意。
+
+[Turn 4] 出口商店的价格更划算。","[Turn 1] Hi, where can I buy a cheap cashmere sweater?
+
+[Turn 2] Maybe you should shop around.
+
+[Turn 3] That's a good idea.
+
+[Turn 4] The outlet stores have better prices.",V3_CONV_032,
+V3_ITEM_034,en-zh,"[Turn 1] Yeah, I guess you're right. Thanks for listening. It really helps to talk to someone about this stuff.
+
+[Turn 2] No problem, anytime!","[Turn 1] 嗯，我想你说得对。 谢谢你愿意听我说。 能跟人聊聊这些事，真的挺有帮助的。
+
+[Turn 2] 没事，随时都可以！",V3_CONV_018,"Earlier source context (not rated):
+Just take things one step at a time and don't get too ahead of yourself. And most importantly, don't give up on your dreams!"
+V3_ITEM_035,en-zh,"[Turn 1] It is! I feel like I have to be in charge all the time, and it's just exhausting. I wish things would just go my way for once, but it seems like that's never going to happen.",[Turn 1] 就是啊！ 我感觉自己必须一直掌控局面，真的太累了。 我真希望事情能哪怕一次按我的意思来，可好像永远都不会发生。,V3_CONV_027,"Earlier source context (not rated):
+That must be really tough for you. I can imagine how frustrating it must be when you can't control everything."
+V3_ITEM_036,en-zh,[Turn 1] So now I'll briefly describe the working design of our remote control .,[Turn 1] 那现在我简单介绍一下我们这款遥控器的工作设计。,V3_CONV_066,"Earlier source context (not rated):
+Uh as you know , I am mister Ramaro . I am an expert in uh industrial design of all electronic devices and I previously devised many uh like digital calculators and electronic calculators ."
+V3_ITEM_037,en-zh,"[Turn 1] Um would be an awful lot of these , would be like what , a hundred million of them um to make twenty five Euros on each one and to make a total profit of fifty million . Um the production is to only cost twelve and a half Euros per item .",[Turn 1] 嗯，这种东西得卖特别多，大概是多少，一亿个吧，嗯，每个赚二十五欧元，总利润做到五千万。 嗯，生产成本每件只能是十二点五欧元。,V3_CONV_022,"Earlier source context (not rated):
+Now um we have to get down to the nitty-gritty of how to make this and this remote control has to be sold um we're to sell it for twenty five Euros , with a profit aim ultimately of fifty million Euros . That tells you something about how many um we have to sell on an international scale ."
+V3_ITEM_038,zh-en,[Turn 1] 呃，需要去找一下，在库房如果不够的话还是需要补，因为是传统文化嘛。,"[Turn 1] Uh, we need to go check. If there isn’t enough in the storeroom, we’ll still need to restock, since it’s traditional culture and all.",V3_CONV_015,
+V3_ITEM_039,en-zh,"[Turn 1] Let me check with a credit manager . A record show your credit reading is quite high . I don't think you have any problems .
+
+[Turn 2] What ’ s the current interest rate ?","[Turn 1] 让我和信贷经理核实一下。 根据记录，您的信用分相当高，可以贷款。
+
+[Turn 2] 现在的利率是多少？",V3_CONV_061,"Earlier source context (not rated):
+A thousand dollars ."
+V3_ITEM_040,zh-en,"[Turn 1] 三个板块，告诉他们我们最想改进的。
+
+[Turn 2] 让他们去加到这份调研问卷里去。","[Turn 1] Pick three sections and tell them the ones we most want to improve.
+
+[Turn 2] Have them add those to this survey questionnaire.",V3_CONV_049,
+V3_ITEM_041,zh-en,[Turn 1] 第一步先去落实商场的费用问题。,"[Turn 1] First, go and sort out the issue of the mall fees.",V3_CONV_009,"Earlier source context (not rated):
+再派几个人一起去吧，嗯，比较好，嗯，对。"
+V3_ITEM_042,en-zh,"[Turn 1] And uh if you don't light 'em up , they don't uh you don't see 'em very good . I think it's modern to light this area up , and to light this area up . So the focus gets on these parts and not on there .",[Turn 1] 还有呃，如果不把它们点亮，就呃看不太清楚。 我觉得把这一区域点亮、还有这一区域点亮，会比较现代。 这样注意力就会集中在这些部分，而不是那边。,V3_CONV_025,"Earlier source context (not rated):
+I think it's pretty standard , these rubber buttons on the top ."
+V3_ITEM_043,en-zh,"[Turn 1] Yeah, that's a good idea. I'll definitely try to do that more often from now on. Thanks for the advice, Sally!",[Turn 1] 嗯，是个好主意。 从现在开始我一定会尽量多这么做的。 谢谢你的建议，Sally！,V3_CONV_023,"Earlier source context (not rated):
+You should try to do something fun once in awhile to break up the monotony. Maybe go out with some friends or go on a trip or something like that."
+V3_ITEM_044,zh-en,"[Turn 1] 我认为我的英语相当好。 正如你从我的简历中看到的那样，我是以英语课程A等的成绩从大学毕业的。 我系统地学习了英语语言学和英语文学。
+
+[Turn 2] 你的打字和速记技能如何？","[Turn 1] I think my English is fairly good . As you can see from my CV , I graduated from university with a B . A . degree in English . I studied the English language and English literature systematically .
+
+[Turn 2] How are your typing and shorthand skills ?",V3_CONV_034,"Earlier source context (not rated):
+我们正在找一位双语秘书。 你认为你精通英语书面语和口语吗？"
+V3_ITEM_045,en-zh,"[Turn 1] That would be too late .
+
+[Turn 2] Maybe the situation is too urgent .
+
+[Turn 3] Yes , I think I should have jumped in any case .","[Turn 1] 那样就来不及了。
+
+[Turn 2] 可能情况太紧急了。
+
+[Turn 3] 是啊，我觉得不管怎样我都该跳的。",V3_CONV_068,"Earlier source context (not rated):
+Why not use staircases ? The terror was not so violent at that time ."
+V3_ITEM_046,en-zh,"[Turn 1] It's the latest and quite popular among young people .
+
+[Turn 2] Yes , I know and I like it very much . I will take it .","[Turn 1] 这是最新款，在年轻人中很流行。
+
+[Turn 2] 是的，我知道，我非常喜欢。 我要了。",V3_CONV_058,
+V3_ITEM_047,en-zh,"[Turn 1] Now if they cost twelve and a half , you're selling it for twenty five , you're making twelve and a half Euros each . Um and we're to make a profit of fifty million , that's t uh can you do the maths and how many are we selling ?",[Turn 1] 那如果成本是十二点五，卖二十五，那每个就赚十二点五欧元。 嗯，我们要赚五千万，那就是，呃，你能算一下吗，我们到底要卖多少个？,V3_CONV_022,"Earlier source context (not rated):
+Um would be an awful lot of these , would be like what , a hundred million of them um to make twenty five Euros on each one and to make a total profit of fifty million . Um the production is to only cost twelve and a half Euros per item ."
+V3_ITEM_048,en-zh,"[Turn 1] I know it won't be easy, but I'm willing to learn about your culture and make compromises. I just want our family to be happy and thrive.",[Turn 1] 我知道这不会容易，但我愿意去了解你的文化，也愿意做出妥协。 我只希望我们的家庭能幸福、兴旺。,V3_CONV_014,"Earlier source context (not rated):
+Yes, our culture is very different from yours. But I think that's one of the things that drew you to me."
+V3_ITEM_049,en-zh,"[Turn 1] Oh , definitely . I remember , when I first arrived in Guangzhou , my girlfriend was haggling with a sales clerk over the price of a mobile phone .",[Turn 1] 哦，当然。 我记得，刚到广州的时候，我女朋友和一个售货员就一部手机还价。,V3_CONV_055,"Earlier source context (not rated):
+Do you know Chinese better now ?"
+V3_ITEM_050,en-zh,"[Turn 1] ""Thank you so much for taking the time to meet with me today, it's really appreciated. I'm excited to share my portfolio with you and hopefully get a chance to work with you in the future.""",[Turn 1] “非常感谢您今天抽时间跟我见面，我真的很感激。 很高兴能把我的作品集分享给您，也希望以后有机会能和您合作。”,V3_CONV_043,
+V3_ITEM_051,zh-en,[Turn 1] 而且双十一不敢买就是买完以后你不知道什么时候才能收到货，等半天。,"[Turn 1] And another reason I don’t dare buy stuff on Double Eleven is that after you place the order, you have no idea when it’ll actually arrive. You end up waiting forever.",V3_CONV_010,
+V3_ITEM_052,en-zh,"[Turn 1] Yeah . Yeah . Yeah . You know what , if you can if you introduce um like a sort of a static , what's it called , public static int .",[Turn 1] 对，对，对。 你知道吗，如果你能——如果你加一个那种静态的，叫什么来着，public static int。,V3_CONV_042,"Earlier source context (not rated):
+So you know how zero is T_F_I_D_F_ . One is um the well I've called it word importance , but that's a really m misleading name ."
+V3_ITEM_053,zh-en,"[Turn 1] 还一个就是双十一的这个退货哈，其实他是一个很，很繁琐的一个过程，因为客服他一，势必要对接很多人的退货。
+
+[Turn 2] 率很高。","[Turn 1] Another thing is returns during Double Eleven. Honestly, it’s a really, really cumbersome process, because customer service is inevitably dealing with tons of people’s returns.
+
+[Turn 2] The return rate is really high.",V3_CONV_010,"Earlier source context (not rated):
+而且双十一不敢买就是买完以后你不知道什么时候才能收到货，等半天。"
+V3_ITEM_054,en-zh,"[Turn 1] I'm not really sure. Something different, I guess.
+
+[Turn 2] Okay, well let me look through some recipes online and see what I can find.","[Turn 1] 我也不太确定。 大概想吃点不一样的吧。
+
+[Turn 2] 好，那我上网翻翻菜谱，看看能找到什么。",V3_CONV_039,"Earlier source context (not rated):
+Well, what are you in the mood for?"
+V3_ITEM_055,en-zh,"[Turn 1] Hey, babe. How are you doing today?
+
+[Turn 2] I'm doing alright. How are you?","[Turn 1] 嘿，宝贝。 你今天怎么样？
+
+[Turn 2] 我还行。 你呢？",V3_CONV_053,
+V3_ITEM_056,zh-en,[Turn 1] 所以我觉得下载。,"[Turn 1] So yeah, I think downloads.",V3_CONV_049,"Earlier source context (not rated):
+都没下载根本就，根本就不可能有以下的所有的板块了。"
+V3_ITEM_057,zh-en,"[Turn 1] 咳，那边晚会的话，我我想，我我了解了一下，那边三圣乡团建。
+
+[Turn 2] 晚会的话那边好像是没什么晚会，都是。
+
+[Turn 3] 都好像都是大家吃完饭吃到下午吃到下午饭嘛，然后就回来了嘛。","[Turn 1] Ahem, if we're talking about a party over there, I, I was thinking, I, I asked around about team building in Sanshengxiang.
+
+[Turn 2] As for a party, it seems like they don't really have anything like that over there. It's all...
+
+[Turn 3] It seems like everyone just eats after they finish dinner, keeps eating into the afternoon, has the afternoon meal, and then comes back.",V3_CONV_052,"Earlier source context (not rated):
+晚上，就是再组织下娱乐活动。"
+V3_ITEM_058,en-zh,"[Turn 1] Well , I've done some research again about trends on the internet .
+
+[Turn 2] Um I've done some investigation , and uh well
+
+[Turn 3] I uh got some information from fashion watchers from Paris and uh Milan .","[Turn 1] 嗯，我又在网上查了一些趋势。
+
+[Turn 2] 嗯，我做了点调查，然后，呃……
+
+[Turn 3] 我，呃，从巴黎和米兰的一些时尚观察人士那儿弄到了一些信息。",V3_CONV_047,
+V3_ITEM_059,zh-en,"[Turn 1] 这是30美元。 顺便问一下，我在哪里可以找到导游？
+
+[Turn 2] 去下一个窗口，那里的人会帮你找到导游。","[Turn 1] Here's 30 dollars. By the way, where can I find a tour guide?
+
+[Turn 2] Go to the next window. The people there will help you find a guide.",V3_CONV_063,"Earlier source context (not rated):
+每人10美元"
+V3_ITEM_060,zh-en,"[Turn 1] 请到2号外汇柜台。 在那边。
+
+[Turn 2] 谢谢你","[Turn 1] Please go to foreign exchange counter number 2. It’s over there.
+
+[Turn 2] Thank you.",V3_CONV_024,"Earlier source context (not rated):
+我想兑换一些美元来支付我在这里的费用。"
+V3_ITEM_061,en-zh,"[Turn 1] Excuse me . Is this where I catch the bus for the zoo ?
+
+[Turn 2] Well , you can take the No . 36 bus from here , but then you have to walk about 30 minutes .
+
+[Turn 3] That doesn't sound too bad .","[Turn 1] 不好意思，请问是在这儿坐去动物园的公交吗？
+
+[Turn 2] 嗯，你可以在这儿坐36路，不过下车后还得走大概30分钟。
+
+[Turn 3] 听起来也还行。",V3_CONV_030,
+V3_ITEM_062,zh-en,"[Turn 1] 浪漫？ 但是我更喜欢惊悚片。
+
+[Turn 2] 你不觉得惊悚片太血腥了吗？","[Turn 1] Romantic? But I prefer thrillers.
+
+[Turn 2] Don't you think thrillers are too bloody?",V3_CONV_005,"Earlier source context (not rated):
+我不确定这部电影的名字，但我知道它很浪漫。"
+V3_ITEM_063,en-zh,"[Turn 1] You could always ask them to use natural, eco-friendly products instead.",[Turn 1] 你也可以让他们改用天然、环保的产品啊。,V3_CONV_008,"Earlier source context (not rated):
+But what if they use harsh chemicals that are even more dangerous than the rat?"
+V3_ITEM_064,zh-en,[Turn 1] 我对你们的出口产品有了些了解。 我对你们的丝绸衬衫也很感兴趣。,[Turn 1] I ’ Ve got some idea of your exports . I ’ m interested in your silk blouses .,V3_CONV_017,"Earlier source context (not rated):
+展览会成功地向我展示了贵公司的业务。 我已经看了你上封信所附的目录和小册子。"
+V3_ITEM_065,en-zh,"[Turn 1] I don't know why we'd want to . Um and also we should note that if we want an iPod-style wheel button , it's gonna require a m qu slightly more expensive chip . We can't use the minimal chip , we need the next higher grade , which is called regular . I don't think it's much more expensive , but it is more expensive .",[Turn 1] 我只是不知道我们为什么会想用。 嗯，另外还得注意，如果我们想要 iPod 那种滚轮按键，就需要一块嗯……稍微贵一点的芯片。 不能用最低配的芯片，得用高一档的，叫 regular。 我觉得也贵不了太多，但确实会更贵。,V3_CONV_065,"Earlier source context (not rated):
+Uh , well we can use wood ."
+V3_ITEM_066,zh-en,"[Turn 1] 它们是：按时间先后顺序排好这些文件，去掉所有的碎片和大头针，将文件对齐订好，然后放进文件夹。
+
+[Turn 2] 最重要的一点是什么？
+
+[Turn 3] 你必须牢记每个客户都要存档。","[Turn 1] They are keep the documents in chronological order , remove all the chips and pins , punch the documents evenly and place them in the folder .
+
+[Turn 2] And what is the most important point ?
+
+[Turn 3] You should always remember that one customer one file is the rule .",V3_CONV_056,"Earlier source context (not rated):
+什么？"
+V3_ITEM_067,zh-en,"[Turn 1] 你经常看电视吗？
+
+[Turn 2] 不怎么看。 我看不看无所谓。","[Turn 1] Do you watch TV a lot?
+
+[Turn 2] Not really. I don’t really care whether I watch it or not.",V3_CONV_003,
+V3_ITEM_068,en-zh,[Turn 1] Here are the rules . No tackling . No pushing .,[Turn 1] 我来说一下规则：不许抱摔，不许推人。,V3_CONV_057,"Earlier source context (not rated):
+OK , everyone . Gather around ."
+V3_ITEM_069,en-zh,"[Turn 1] Mexican , Japanese or Chinese would be great .
 
 [Turn 2] Oh , I know a place where you might like to eat .
 
@@ -823,11 +365,75 @@ V2_ITEM_158,en-zh,"[Turn 1] Mexican , Japanese or Chinese would be great .
 
 [Turn 3] 离这儿近吗？
 
-[Turn 4] 在右边一个街区的尽头；我能给你带路，好吗？",V2_CONV_013,"Earlier source context (not rated):
+[Turn 4] 在右边一个街区的尽头；我能给你带路，好吗？",V3_CONV_013,"Earlier source context (not rated):
 Yes , I know a great place . What types of food do you like ?"
-V2_ITEM_159,en-zh,"[Turn 1] Of course. I love you, Reagen.",[Turn 1] 当然了。 我爱你，Reagen。,V2_CONV_014,"Earlier source context (not rated):
-I think it will be a great experience for our family. Thanks for being understanding and supportive."
-V2_ITEM_160,zh-en,"[Turn 1] 唉，上班期间对，不能，对，吊带是不允许穿的，然后。
+V3_ITEM_070,en-zh,"[Turn 1] Here you are , Mr . Richard . This is the cream and this is the sugar . If there ’ s anything else you ’ d like , please don ’ t hesitate to tell me .
+
+[Turn 2] Thank you very much .","[Turn 1] Richard 先生，给您。 这是奶精，这是糖。 您要是还需要什么，请随时告诉我。
+
+[Turn 2] 非常感谢。",V3_CONV_037,"Earlier source context (not rated):
+Thank you . Coffee , please ."
+V3_ITEM_071,zh-en,"[Turn 1] 好的，跟我聊聊你自己吧。
+
+[Turn 2] 格林先生，你想知道什么？
+
+[Turn 3] 你有什么工作经验","[Turn 1] All right, tell me a little about yourself.
+
+[Turn 2] What would you like to know, Mr. Green?
+
+[Turn 3] What kind of work experience do you have?",V3_CONV_051,
+V3_ITEM_072,zh-en,[Turn 1] 我想史密斯先生可能忘记了这场会议。 他今天早上离开了办公室，恐怕下午4点之后才能回来。 让我看看他有没有安排其他人代他见你。 请坐好吗？,[Turn 1] I wonder if Mr . Smith forgot your meeting . I am afraid he left this office this morning and is not expected back until after 4 pm . Let me find out if he made arrangements for someone else to meet with you in his place . Will you please have a seat ?,V3_CONV_069,"Earlier source context (not rated):
+预约了，他知道我要来。 我们的会议定在两点。"
+V3_ITEM_073,zh-en,[Turn 1] 你的努力会得到回报的。,[Turn 1] I guess you get what you pay for .,V3_CONV_038,"Earlier source context (not rated):
+该机型技术先进，零部件精良，结构紧凑，是一款高品质的产品。"
+V3_ITEM_074,zh-en,"[Turn 1] 我觉得这个肯定是下载了。
+
+[Turn 2] 都没下载根本就，根本就不可能有以下的所有的板块了。","[Turn 1] I think downloads are definitely one.
+
+[Turn 2] If people haven't even downloaded it, then there's no way they'll get to any of the sections after that.",V3_CONV_049,"Earlier source context (not rated):
+三个板块，告诉他们我们最想改进的。 让他们去加到这份调研问卷里去。"
+V3_ITEM_075,en-zh,"[Turn 1] And we'll need to custom desi design a circuit board , because the circuit board has to take the button input and send it to the output so you have to design that each time . But once we come up with a design we'll send it to the circuit people and they'll just print it out .",[Turn 1] 然后我们还得专门设计一块电路板，因为电路板要接收按键输入，再把信号送到输出端，所以每次都得设计这个。 不过一旦我们把方案定下来，就发给做电路板的人，他们直接印出来就行。,V3_CONV_065,
+V3_ITEM_076,zh-en,"[Turn 1] 好的！
+
+[Turn 2] 哇！ 你看起来和迪尔伯特一样，傻乎乎的！","[Turn 1] OK !
+
+[Turn 2] Wow ! You look just as dorky as Dilbert !",V3_CONV_002,"Earlier source context (not rated):
+给我做个模型"
+V3_ITEM_077,zh-en,"[Turn 1] 除非很好很贵重的杯子。
+
+[Turn 2] 保温杯啊，现在随便一个保温杯，不要两三百三四百啊。","[Turn 1] Unless it's a really nice, expensive cup.
+
+[Turn 2] Like a thermos. These days, any random thermos can easily cost two or three hundred, even three or four hundred.",V3_CONV_070,
+V3_ITEM_078,en-zh,"[Turn 1] I'm not sure if I can trust myself to be that careful. Do you think I should call an exterminator?
+
+[Turn 2] If you're really worried about it, then yeah, maybe calling an exterminator would be a good idea.
+
+[Turn 3] But what if they use harsh chemicals that are even more dangerous than the rat?","[Turn 1] 我不确定自己能不能做到那么小心。 你觉得我该叫灭鼠公司吗？
+
+[Turn 2] 如果你真的很担心，那嗯，也许叫灭鼠公司来会比较好。
+
+[Turn 3] 可是万一他们用那种很刺激的化学药剂，比老鼠还危险怎么办？",V3_CONV_008,"Earlier source context (not rated):
+Well, rats are known to carry diseases, so it's definitely possible that it could make you sick. But if you take some precautions, like washing your hands thoroughly after coming into contact with anything the rat may have touched, you should be okay."
+V3_ITEM_079,en-zh,"[Turn 1] If it makes you feel any better , other guests feel the same way .",[Turn 1] 如果这能让你感觉好些，其他客人也会有同样的感觉。,V3_CONV_046,"Earlier source context (not rated):
+This is highway robbery . I've got a good mind to call the police !"
+V3_ITEM_080,en-zh,"[Turn 1] So, I set you up on a date!
+
+[Turn 2] Oh, yeah? Who is it?","[Turn 1] 所以，我给你安排了一场约会！
+
+[Turn 2] 哦，是吗？ 对方是谁？",V3_CONV_062,
+V3_ITEM_081,en-zh,"[Turn 1] I'm so excited to be married to a Klingon! I've always been attracted to your culture and way of life.
+
+[Turn 2] Yes, our culture is very different from yours. But I think that's one of the things that drew you to me.","[Turn 1] 能嫁给一个克林贡人，我真的太兴奋了！ 我一直都很被你们的文化和生活方式吸引。
+
+[Turn 2] 是啊，我们的文化跟你们很不一样。 但我想，这也是你被我吸引的原因之一吧。",V3_CONV_014,
+V3_ITEM_082,en-zh,"[Turn 1] Like zapping is just switching one channel at a time .
+
+[Turn 2] Yeah , maybe it's not easy if it's below . It's harder to zap .","[Turn 1] 就像换台嘛，就是一次切一个频道。
+
+[Turn 2] 对，可能如果在下面的话就不太方便。 换台会更费劲。",V3_CONV_025,
+V3_ITEM_083,en-zh,"[Turn 1] ""That definitely comes through in your work. And your animal photos are also great. It's clear that you have a real passion for photography.""",[Turn 1] “这一点在你的作品里确实很明显。 还有你的动物照片也很棒。 看得出来，你对摄影真的很有热情。”,V3_CONV_043,"Earlier source context (not rated):
+I actually took all of those photos within a year, and I feel like they really capture different aspects of nature. The light and shadows in particular were something I was trying to focus on."""
+V3_ITEM_084,zh-en,"[Turn 1] 唉，上班期间对，不能，对，吊带是不允许穿的，然后。
 
 [Turn 2] 短短裙啊吊带啊。
 
@@ -835,360 +441,36 @@ V2_ITEM_160,zh-en,"[Turn 1] 唉，上班期间对，不能，对，吊带是不�
 
 [Turn 2] Short skirts, spaghetti straps.
 
-[Turn 3] Uh, those really short shorts, too—try not to wear those either.",V2_CONV_033,
-V2_ITEM_161,en-zh,"[Turn 1] Good morning , sir . May I help you ?
+[Turn 3] Uh, those really short shorts, too—try not to wear those either.",V3_CONV_033,
+V3_ITEM_085,en-zh,"[Turn 1] So basically a constant like that's Java's type of a constant , and give them names , like so zero T_D_I_D_F_ , one that probably makes the code a lot more readable for everybody who's playing around with it . You know you know what I mean ? So just like whatever , three means agreement value , and then I'd just write something agreement , and then it's easier to understand for both of us what's going on .
 
-[Turn 2] Good morning , I have an appointment with Mr . Johnson at 10:00
+[Turn 2] Yeah , probably .","[Turn 1] 基本上就是一个常量，像 Java 里那种常量，然后给它们起名字，比如 0 是 T_D_I_D_F_，1 是——这样可能会让代码对所有拿来改的人都更好读。 你懂我意思吧？ 比如随便说，3 代表一致值，那我就写个跟 agreement 有关的东西，这样我们俩都更容易看懂到底怎么回事。
 
-[Turn 3] Excuse me , sir , but are you Mr . Richard of World Trading Company ?","[Turn 1] 早上好，先生。 有什么可以帮您的吗？
+[Turn 2] 嗯，可能吧。",V3_CONV_042,"Earlier source context (not rated):
+Yeah . You know what , if you can if you introduce um like a sort of a static , what's it called , public static int ."
+V3_ITEM_086,en-zh,"[Turn 1] So hank you very much .
 
-[Turn 2] 早上好，我跟 Johnson 先生约了十点见面。
+[Turn 2] Thank you .
 
-[Turn 3] 不好意思，先生，请问您是 World Trading Company 的 Richard 先生吗？",V2_CONV_037,
-V2_ITEM_162,zh-en,[Turn 1] 这边请，梅森先生。 我们可以从前厅开始看。 泰瑞女士准备好了的时候，你就可以坐前面的电梯到6楼。 会议室已经准备好了。,"[Turn 1] Right this way , Mr . Mason . We can start with our front office . When Ms . Terry is ready , you may take the elevator at the front to the 6th floor . There is a conference room already prepared",V2_CONV_069,"Earlier source context (not rated):
-那太好了。 非常感谢。"
-V2_ITEM_163,en-zh,"[Turn 1] If it makes you feel any better , other guests feel the same way .",[Turn 1] 如果这能让你感觉好些，其他客人也会有同样的感觉。,V2_CONV_046,"Earlier source context (not rated):
-This is highway robbery . I've got a good mind to call the police !"
-V2_ITEM_164,en-zh,"[Turn 1] That's very important to me too. I want us to be able to share our cultures with each other and our children. It will be a challenge, but I think we can do it if we're open-minded and patient with each other.",[Turn 1] 这对我也非常重要。 我希望我们能彼此分享各自的文化，也分享给我们的孩子。 会有挑战，但我相信只要我们都保持开放的心态，对彼此有耐心，我们就能做到。,V2_CONV_014,"Earlier source context (not rated):
-I know it won't be easy, but I'm willing to learn about your culture and make compromises. I just want our family to be happy and thrive."
-V2_ITEM_165,zh-en,"[Turn 1] 今晚去看电影怎么样？
+[Turn 3] And we'll see you after lunch .","[Turn 1] 那就非常感谢你。
 
-[Turn 2] 太好了。 今晚有什么电影？
+[Turn 2] 谢谢。
 
-[Turn 3] 我不确定这部电影的名字，但我知道它很浪漫。","[Turn 1] How about going to see a movie tonight?
-
-[Turn 2] Sounds great. What's playing tonight?
-
-[Turn 3] I'm not sure what the movie's called, but I know it's really romantic.",V2_CONV_005,
-V2_ITEM_166,en-zh,"[Turn 1] And we'll need to custom desi design a circuit board , because the circuit board has to take the button input and send it to the output so you have to design that each time . But once we come up with a design we'll send it to the circuit people and they'll just print it out .",[Turn 1] 然后我们还得专门设计一块电路板，因为电路板要接收按键输入，再把信号送到输出端，所以每次都得设计这个。 不过一旦我们把方案定下来，就发给做电路板的人，他们直接印出来就行。,V2_CONV_065,
-V2_ITEM_167,zh-en,"[Turn 1] 我认为我的英语相当好。 正如你从我的简历中看到的那样，我是以英语课程A等的成绩从大学毕业的。 我系统地学习了英语语言学和英语文学。
-
-[Turn 2] 你的打字和速记技能如何？","[Turn 1] I think my English is fairly good . As you can see from my CV , I graduated from university with a B . A . degree in English . I studied the English language and English literature systematically .
-
-[Turn 2] How are your typing and shorthand skills ?",V2_CONV_034,"Earlier source context (not rated):
-我们正在找一位双语秘书。 你认为你精通英语书面语和口语吗？"
-V2_ITEM_168,en-zh,"[Turn 1] Yeah, I've been thinking about going back to school. But then I think about how much debt I'll be in and it doesn't seem worth it.
-
-[Turn 2] Have you talked to anyone about this? A guidance counselor or anyone?","[Turn 1] 有啊，我一直在想要不要回去上学。 但一想到会背上那么多债，就觉得好像不太值。
-
-[Turn 2] 你有跟别人聊过这件事吗？ 比如升学顾问之类的人？",V2_CONV_018,"Earlier source context (not rated):
-That sounds pretty tough. Do you have any ideas of what you might want to do?"
-V2_ITEM_169,en-zh,"[Turn 1] Sounds good to me. Thanks, Sarah!
-
-[Turn 2] No problem. Let me know if you need any help with the cooking.","[Turn 1] 听起来不错。 谢谢你，Sarah！
-
-[Turn 2] 没事。 做饭的时候要是需要帮忙，就跟我说。",V2_CONV_039,"Earlier source context (not rated):
-Okay, well let me look through some recipes online and see what I can find."
-V2_ITEM_170,en-zh,"[Turn 1] Well , as you know the basic function of remote control is sending some message to the the device , like T_V_ or V_C_R_ or D_V_D_ player etcetera .
-
-[Turn 2] So we will have a p portable device which will send message to the the main device like T_V_ .
-
-[Turn 3] So we need to have some energy source to do what to do the functions , what we want on this portable device .","[Turn 1] 嗯，大家也知道，遥控器最基本的功能，就是给设备发送一些信息，比如电视、VCR录像机、DVD播放器等等。
-
-[Turn 2] 所以我们会有一个便携式设备，用来给主要设备，比如电视，发送信息。
-
-[Turn 3] 所以我们需要有某种能量来源，来做什么 来在这个便携式设备上实现我们想要的那些功能。",V2_CONV_066,"Earlier source context (not rated):
-I am an expert in uh industrial design of all electronic devices and I previously devised many uh like digital calculators and electronic calculators . So now I'll briefly describe the working design of our remote control ."
-V2_ITEM_171,en-zh,"[Turn 1] I'm just not sure what I'm supposed to be doing with my life. I feel like I'm just floating through it without any real purpose.
-
-[Turn 2] That sounds pretty tough. Do you have any ideas of what you might want to do?","[Turn 1] 我就是不太确定自己这辈子到底该做什么。 感觉自己一直就这么飘着，没什么真正的目标。
-
-[Turn 2] 听起来挺难受的。 那你有没有想过自己可能想做什么？",V2_CONV_018,
-V2_ITEM_172,en-zh,"[Turn 1] Honey , I need to have a talk with you .
-
-[Turn 2] Dad , I have to do my homework .
-
-[Turn 3] No , honey , why didn't you go to cram school last night ?
-
-[Turn 4] Dad , I don't want to talk about it now .","[Turn 1] 亲爱的，我需要和你谈谈。
-
-[Turn 2] 爸爸，我得做作业。
-
-[Turn 3] 不，亲爱的，你昨晚为什么没去补习班？
-
-[Turn 4] 爸爸，我现在不想谈这个。",V2_CONV_029,
-V2_ITEM_173,zh-en,[Turn 1] 我一分钟能打80个字，并且基本上没有错，也能以每分钟120字的速度进行英语听写。,"[Turn 1] I can type 80 words a minute , basically no mistake , and can take dictation in English at 120 words per minute .",V2_CONV_034,"Earlier source context (not rated):
-你的打字和速记技能如何？"
-V2_ITEM_174,zh-en,"[Turn 1] 我想买三张票。 入场费是多少
-
-[Turn 2] 每人10美元","[Turn 1] I'd like to buy three tickets. How much is admission?
-
-[Turn 2] It's 10 dollars per person.",V2_CONV_063,
-V2_ITEM_175,zh-en,[Turn 1] 我也很高兴见到你，皮尔斯女士。 我每年都出差，但这是我第一次来贵国。 我必须说你们友好的人民给我留下了深刻的印象。,"[Turn 1] Pleased to meet you too , Ms . Pewless . I travel a lot every year on business , but this is my first visit to your country . I must say I have been much impressed by your friendly people .",V2_CONV_017,"Earlier source context (not rated):
-很高兴见到你，布朗先生。 我叫凯西·皮尔斯，是格林纺织品进出口公司的代表。"
-V2_ITEM_176,en-zh,"[Turn 1] As for making your dreams come true, that's definitely possible but it's going to take some hard work and dedication. You have to believe in yourself and have faith that things will work out the way you want them too. Just take things one step at a time and don't get too ahead of yourself. And most importantly, don't give up on your dreams!",[Turn 1] 至于让梦想成真，那当然是有可能的，只是需要付出很多努力，也要坚持。 你得相信自己，也要相信事情会朝着你希望的方向发展。 一步一步来，别一下子想太远。 最重要的是，别放弃你的梦想！,V2_CONV_018,"Earlier source context (not rated):
-Well, first of all, you're not alone in feeling like this. A lot of people go through life without really knowing what they want to do with their lives."
-V2_ITEM_177,en-zh,"[Turn 1] I'm so excited to be married to a Klingon! I've always been attracted to your culture and way of life.
-
-[Turn 2] Yes, our culture is very different from yours. But I think that's one of the things that drew you to me.","[Turn 1] 能嫁给一个克林贡人，我真的太兴奋了！ 我一直都很被你们的文化和生活方式吸引。
-
-[Turn 2] 是啊，我们的文化跟你们很不一样。 但我想，这也是你被我吸引的原因之一吧。",V2_CONV_014,
-V2_ITEM_178,en-zh,"[Turn 1] Five o ’ clock that afternoon , and in my place , you know ?
-
-[Turn 2] Yes , I know . I appreciate your invitation .","[Turn 1] 那天下午五点，在我家，你知道的吧？
-
-[Turn 2] 嗯，我知道。 谢谢你的邀请。",V2_CONV_054,"Earlier source context (not rated):
-When and where ?"
-V2_ITEM_179,en-zh,"[Turn 1] Oh , yeah . Many Chinese like to bargain . It happens almost everywhere .",[Turn 1] 哦，是的。 许多中国人喜欢还价。 它几乎无处不在。,V2_CONV_055,"Earlier source context (not rated):
-Oh , definitely . I remember , when I first arrived in Guangzhou , my girlfriend was haggling with a sales clerk over the price of a mobile phone ."
-V2_ITEM_180,zh-en,"[Turn 1] 这个产品的卖点是技术先进。
-
-[Turn 2] 但是，它太贵了，大多数消费者都买不起。
-
-[Turn 3] 为什么价格这么高？
-
-[Turn 4] 不仅价格高，更新整个计算机系统使其兼容也要花很多钱。","[Turn 1] The product's selling points is its advanced technoledge .
-
-[Turn 2] Unfortunately , it's just too expensive for majority of consumer to afford .
-
-[Turn 3] Why is the price so high ?
-
-[Turn 4] It's not just that the price is high , it's that the overhead to update an entire computer system to be compatible is costly .",V2_CONV_038,
-V2_ITEM_181,en-zh,"[Turn 1] I'm not really sure. Something different, I guess.
-
-[Turn 2] Okay, well let me look through some recipes online and see what I can find.","[Turn 1] 我也不太确定。 大概想吃点不一样的吧。
-
-[Turn 2] 好，那我上网翻翻菜谱，看看能找到什么。",V2_CONV_039,"Earlier source context (not rated):
-Well, what are you in the mood for?"
-V2_ITEM_182,en-zh,"[Turn 1] Like zapping is just switching one channel at a time .
-
-[Turn 2] Yeah , maybe it's not easy if it's below . It's harder to zap .","[Turn 1] 就像换台嘛，就是一次切一个频道。
-
-[Turn 2] 对，可能如果在下面的话就不太方便。 换台会更费劲。",V2_CONV_025,
-V2_ITEM_183,en-zh,"[Turn 1] So we have some material options . Um , we can use rubber , plastic , wood or titanium . Um , I'd recommend against titanium because it can only be used in the flat cases and it's really heavy . Um , and the rubber case requires rubber buttons , so if we definitely want plastic buttons , we shouldn't have a rubber case .",[Turn 1] 所以材料方面有几个选择。 嗯，我们可以用橡胶、塑料、木头或者钛。 嗯，我不建议用钛，因为它只能用在平面外壳上，而且真的很重。 嗯，另外橡胶外壳就得配橡胶按键，所以如果我们确定想要塑料按键，那就不该用橡胶外壳。,V2_CONV_065,"Earlier source context (not rated):
-Um , we need a radio sender and receiver , those are standard . And al we also need a beeper or buzzer or other sort of noise thing for locating the remote ."
-V2_ITEM_184,zh-en,"[Turn 1] 我，天猫有呀。
+[Turn 3] 那我们午饭后见。",V3_CONV_060,
+V3_ITEM_087,zh-en,"[Turn 1] 我，天猫有呀。
 
 [Turn 2] 天猫也有嘛，那就是嘛，那，那就是阿里下边儿都有嘛，京东没有是吧？","[Turn 1] I mean, Tmall has it.
 
-[Turn 2] Tmall has it too? Right, so that means everything under Alibaba has it, then. JD doesn’t, right?",V2_CONV_020,
-V2_ITEM_185,zh-en,[Turn 1] 所以我觉得下载。,"[Turn 1] So yeah, I think downloads.",V2_CONV_049,"Earlier source context (not rated):
-都没下载根本就，根本就不可能有以下的所有的板块了。"
-V2_ITEM_186,zh-en,"[Turn 1] 嗯，我想是的。 但你如何向我证明你更有能力？
+[Turn 2] Tmall has it too? Right, so that means everything under Alibaba has it, then. JD doesn’t, right?",V3_CONV_020,
+V3_ITEM_088,en-zh,"[Turn 1] No , they made him vicepresident in charge of sells .
 
-[Turn 2] 也许你可以给我一次试用机会。 如果我不能胜任这份工作，你可以解雇我。","[Turn 1] Yes , I think so . But how do you prove to me that you are more capable ?
+[Turn 2] I don't believe it.He is only being with the company for two years .","[Turn 1] 不，他们让他当副总裁，负责销售。
 
-[Turn 2] Maybe you can hire me on trial . If I'm not qualified for the job , you can let me go .",V2_CONV_035,"Earlier source context (not rated):
-经验很重要，但你不认为能力比经验更有价值吗？"
-V2_ITEM_187,en-zh,"[Turn 1] That would be too late .
-
-[Turn 2] Maybe the situation is too urgent .
-
-[Turn 3] Yes , I think I should have jumped in any case .","[Turn 1] 那样就来不及了。
-
-[Turn 2] 可能情况太紧急了。
-
-[Turn 3] 是啊，我觉得不管怎样我都该跳的。",V2_CONV_068,"Earlier source context (not rated):
-Why not use staircases ? The terror was not so violent at that time ."
-V2_ITEM_188,zh-en,"[Turn 1] 需要帮忙吗
-
-[Turn 2] 是的，我需要一些旅行支票。
-
-[Turn 3] 你需要多少钱？
-
-[Turn 4] 三千美元。","[Turn 1] Can I help you ?
-
-[Turn 2] Yes , I need some traveler's checks .
-
-[Turn 3] How much do you need ?
-
-[Turn 4] Three thousand US dollars .",V2_CONV_067,
-V2_ITEM_189,zh-en,[Turn 1] 而且双十一不敢买就是买完以后你不知道什么时候才能收到货，等半天。,"[Turn 1] And another reason I don’t dare buy stuff on Double Eleven is that after you place the order, you have no idea when it’ll actually arrive. You end up waiting forever.",V2_CONV_010,
-V2_ITEM_190,zh-en,"[Turn 1] 有什么我能帮你的吗？
-
-[Turn 2] 我是安德森咨询公司的詹姆斯·梅森。 我想见史密斯先生。
-
-[Turn 3] 你预约了吗？","[Turn 1] How can I help you ?
-
-[Turn 2] Yes , I am James Mason from Anderson and Associates . I would like to see Mr . Smith .
-
-[Turn 3] Do you have an appointment ?",V2_CONV_069,
-V2_ITEM_191,en-zh,"[Turn 1] I ’ d like to apply for a personal loan .
-
-[Turn 2] How much would you like to borrow ?
-
-[Turn 3] A thousand dollars .","[Turn 1] 我想申请个人贷款
-
-[Turn 2] 你想借多少钱？
-
-[Turn 3] 一千美元。",V2_CONV_061,
-V2_ITEM_192,en-zh,"[Turn 1] Ann , do you have time next Monday ?
-
-[Turn 2] Yeah , what ’ s up ?
-
-[Turn 3] Next Monday is my birthday , and I would like you to attend my party .","[Turn 1] Ann，你下周一有空吗？
-
-[Turn 2] 有啊，怎么了？
-
-[Turn 3] 下周一是我生日，我想请你来参加我的派对。",V2_CONV_054,
-V2_ITEM_193,zh-en,"[Turn 1] 它和电脑不兼容？
-
-[Turn 2] 目前大多数计算机系统根本无法运行它，因为该产品确实性能太强了。
-
-[Turn 3] 或许在下一代技术问世后，这款车型的价格会变得更加实惠。
-
-[Turn 4] 但到那时，这项技术将会过时。","[Turn 1] Model of computers aren't compatible ?
-
-[Turn 2] Most current computer systems simply can't handle it because this model truly has extraordinary capabilities .
-
-[Turn 3] Maybe after the next generation of technology comes out , the price of this model will become more affordable .
-
-[Turn 4] But by then , the technology will be outdated .",V2_CONV_038,"Earlier source context (not rated):
-不仅价格高，更新整个计算机系统使其兼容也要花很多钱。"
-V2_ITEM_194,zh-en,"[Turn 1] 不，谢谢，我们刚吃过午饭。
-
-[Turn 2] 那么，你的家人好吗？","[Turn 1] No, thanks. We just had lunch.
-
-[Turn 2] So, how's your family?",V2_CONV_006,"Earlier source context (not rated):
-那么来点吃的怎么样。"
-V2_ITEM_195,zh-en,[Turn 1] 再派几个人一起去吧，嗯，比较好，嗯，对。,"[Turn 1] Yeah, send a few more people to go together. Mm, that’d be better. Mm, right.",V2_CONV_009,"Earlier source context (not rated):
+[Turn 2] 我不相信。 他才在公司工作两年。",V3_CONV_048,"Earlier source context (not rated):
+You're kidding ."
+V3_ITEM_089,zh-en,[Turn 1] 再派几个人一起去吧，嗯，比较好，嗯，对。,"[Turn 1] Yeah, send a few more people to go together. Mm, that’d be better. Mm, right.",V3_CONV_009,"Earlier source context (not rated):
 啊，再找派几个人一起，比较好。"
-V2_ITEM_196,en-zh,"[Turn 1] You shouldn't grab someone else's shirt . That's a foul .
-
-[Turn 2] Play is stopped when the person with the ball is touched .
-
-[Turn 3] You can touch them only between the shoulder and the knees .","[Turn 1] 不能拽别人的球衣，那是犯规。
-
-[Turn 2] 持球的人一被碰到，比赛就暂停。
-
-[Turn 3] 只能碰他们肩膀到膝盖之间的位置。",V2_CONV_057,"Earlier source context (not rated):
-No tackling . No pushing ."
-V2_ITEM_197,en-zh,[Turn 1] Our monthly interest is 1.5 % of the outstanding balance . Would you please fill out the application the form ?,[Turn 1] 我们的月利息是未清余额的1.5%。 请填一下申请表好吗？,V2_CONV_061,"Earlier source context (not rated):
-What ’ s the current interest rate ?"
-V2_ITEM_198,en-zh,"[Turn 1] I know a very interesting place .
-
-[Turn 2] Oh , do you ? Good .","[Turn 1] 我知道一个挺有意思的地方。
-
-[Turn 2] 哦，是吗？ 太好了。",V2_CONV_050,"Earlier source context (not rated):
-That sounds like a good idea ."
-V2_ITEM_199,zh-en,"[Turn 1] 呃，干不过来，你再找。
-
-[Turn 2] 啊，再找派几个人一起，比较好。","[Turn 1] Uh, if you can't handle it all, then find some more people.
-
-[Turn 2] Yeah, get a few more people to go with you. That’d be better.",V2_CONV_009,
-V2_ITEM_200,en-zh,"[Turn 1] And even if I did know, how am I supposed to make it happen? It all just seems so impossible.
-
-[Turn 2] Well, first of all, you're not alone in feeling like this. A lot of people go through life without really knowing what they want to do with their lives.","[Turn 1] 就算我知道了，我又该怎么把它实现呢？ 这一切都感觉太不可能了。
-
-[Turn 2] 嗯，首先，有这种感觉的不只你一个。 很多人过一辈子，其实也不太清楚自己到底想做什么。",V2_CONV_018,"Earlier source context (not rated):
-That I should follow my heart and do what makes me happy. But how am I supposed to know what that is?"
-V2_ITEM_201,en-zh,[Turn 1] What about Abraham Lincoln ? Did you get any questions about him ?,[Turn 1] 那亚伯拉罕·林肯呢？ 有考到他的题吗？,V2_CONV_044,"Earlier source context (not rated):
-You should also study the impact Martin Luther King Jr . had on American society ."
-V2_ITEM_202,en-zh,"[Turn 1] Oh, you know, just the usual stuff. work, school, hanging out with friends. Nothing exciting.",[Turn 1] 哦，你也知道，就那些平常的事。 工作、上学、跟朋友出去玩。 没什么特别刺激的。,V2_CONV_023,"Earlier source context (not rated):
-I understand. So what have you been up to?"
-V2_ITEM_203,en-zh,"[Turn 1] Have heard of Paul ?
-
-[Turn 2] No , what ?
-
-[Turn 3] He's got a promotion .
-
-[Turn 4] You're kidding .","[Turn 1] 你听说过保罗的事吗？
-
-[Turn 2] 没有，怎么了？
-
-[Turn 3] 他升职了。
-
-[Turn 4] 你开玩笑吧。",V2_CONV_048,
-V2_ITEM_204,en-zh,"[Turn 1] Wow . I'd love to .
-
-[Turn 2] Great !
-
-[Turn 3] When and where ?","[Turn 1] 哇，我很乐意去。
-
-[Turn 2] 太好了！
-
-[Turn 3] 什么时候，在哪儿？",V2_CONV_054,"Earlier source context (not rated):
-Next Monday is my birthday , and I would like you to attend my party ."
-V2_ITEM_205,en-zh,"[Turn 1] N We've gonna We're going to evaluate it .
-
-[Turn 2] We're gonna go to our other room again .","[Turn 1] 嗯，我们要……我们会来评估一下。
-
-[Turn 2] 我们还要再去另一个房间。",V2_CONV_012,
-V2_ITEM_206,en-zh,"[Turn 1] Excuse me . Is this where I catch the bus for the zoo ?
-
-[Turn 2] Well , you can take the No . 36 bus from here , but then you have to walk about 30 minutes .
-
-[Turn 3] That doesn't sound too bad .","[Turn 1] 不好意思，请问是在这儿坐去动物园的公交吗？
-
-[Turn 2] 嗯，你可以在这儿坐36路，不过下车后还得走大概30分钟。
-
-[Turn 3] 听起来也还行。",V2_CONV_030,
-V2_ITEM_207,zh-en,"[Turn 1] 需要我帮忙吗
-
-[Turn 2] 是的。 你们这里可以兑换外币吗？","[Turn 1] Do you need any help?
-
-[Turn 2] Yes. Can I exchange foreign currency here?",V2_CONV_024,
-V2_ITEM_208,en-zh,[Turn 1] I'm definitely open to that. I think it will be a great experience for our family. Thanks for being understanding and supportive.,[Turn 1] 我当然愿意。 我觉得这对我们一家来说会是一次很棒的经历。 谢谢你这么理解我、支持我。,V2_CONV_014,"Earlier source context (not rated):
-I want us to be able to share our cultures with each other and our children. It will be a challenge, but I think we can do it if we're open-minded and patient with each other."
-V2_ITEM_209,en-zh,"[Turn 1] Now um we have to get down to the nitty-gritty of how to make this and this remote control has to be sold um we're to sell it for twenty five Euros , with a profit aim ultimately of fifty million Euros . That tells you something about how many um we have to sell on an international scale .",[Turn 1] 那现在，嗯，我们得具体说说这东西要怎么做了，而且这个遥控器得卖出去，呃，我们要卖二十五欧元，最终的利润目标是五千万欧元。 这就能看出来，我们在国际范围内得卖多少个。,V2_CONV_022,
-V2_ITEM_210,zh-en,[Turn 1] 你的努力会得到回报的。,[Turn 1] I guess you get what you pay for .,V2_CONV_038,"Earlier source context (not rated):
-该机型技术先进，零部件精良，结构紧凑，是一款高品质的产品。"
-V2_ITEM_211,zh-en,"[Turn 1] 没错，但我们的重点从来都不是经济承受能力。 在沿海地区，我们可能不是很有竞争力，但质量方面，我们肯定有优势。
-
-[Turn 2] 没错，现在市场上没有其他产品可以相提并论。
-
-[Turn 3] 该机型技术先进，零部件精良，结构紧凑，是一款高品质的产品。","[Turn 1] True , but our focus has never been affordability anyway . Coastwise , we may not be very competitive , but qualitywise , we definitely have an edge .
-
-[Turn 2] That's right , no one else has a product on the market now that is comparable .
-
-[Turn 3] This model has advanced technoledge , superior components , it is compact , and it's a top-quality product .",V2_CONV_038,"Earlier source context (not rated):
-但到那时，这项技术将会过时。"
-V2_ITEM_212,zh-en,[Turn 1] 恰恰相反，它让我兴奋。,[Turn 1] Just the opposite. They get me excited.,V2_CONV_005,"Earlier source context (not rated):
-你不觉得惊悚片太血腥了吗？"
-V2_ITEM_213,en-zh,"[Turn 1] You could always ask them to use natural, eco-friendly products instead.",[Turn 1] 你也可以让他们改用天然、环保的产品啊。,V2_CONV_008,"Earlier source context (not rated):
-But what if they use harsh chemicals that are even more dangerous than the rat?"
-V2_ITEM_214,en-zh,"[Turn 1] Yes , and I also have the runs",[Turn 1] 是的，我现在还拉肚子。,V2_CONV_059,"Earlier source context (not rated):
-Are you also suffering from pain and fever ?"
-V2_ITEM_215,zh-en,[Turn 1] 我们的丝绸以质量好而闻名。 这是我们贸易出口的产品之一。 丝绸衬衫色彩鲜艳，设计精美。 他们在海外受到了很大的青睐，需求量一直很大。,[Turn 1] Our silk is known for its good quality . It is one of our trade - trional exports . Silk blouses are brightly colored and beau - fully designed . They ’ Ve met with great favor overseas and are always in great demand .,V2_CONV_017,"Earlier source context (not rated):
-我对你们的出口产品有了些了解。 我对你们的丝绸衬衫也很感兴趣。"
-V2_ITEM_216,zh-en,"[Turn 1] 哦，还有一件事，我在哪儿投这封信？
-
-[Turn 2] 把它投进那个角落里标有“外埠”的邮箱。
-
-[Turn 3] 非常感谢
-
-[Turn 4] 不客气。","[Turn 1] Oh, one more thing—where do I mail this letter?
-
-[Turn 2] Drop it in the mailbox in the corner marked “Out of Town.”
-
-[Turn 3] Thank you very much.
-
-[Turn 4] You’re welcome.",V2_CONV_011,"Earlier source context (not rated):
-让我看一看。 嗯，等一会，给您，我们需要您在这张票据上签名。"
-V2_ITEM_217,zh-en,"[Turn 1] 但是，要了解详细信息，你应该读一本历史书。
-
-[Turn 2] 谢谢。 如果我感兴趣，我就去图书馆。","[Turn 1] But if you want detailed information, you should read a history book.
-
-[Turn 2] Thanks. If I’m interested, I’ll go to the library.",V2_CONV_045,"Earlier source context (not rated):
-谢谢"
-V2_ITEM_218,zh-en,[Turn 1] 碰巧我有个朋友在这家公司工作。 她告诉我出口部要招聘一名助理。 听到这个消息我感到非常兴奋。 所以我才来这里。,"[Turn 1] As it happens, I have a friend who works at this company. She told me the export department was looking to hire an assistant. I was really excited when I heard that. That's why I'm here.",V2_CONV_051,"Earlier source context (not rated):
-坦白说，我很喜欢其中的一部分，但我更喜欢更专业的工作。"
-V2_ITEM_219,en-zh,"[Turn 1] The stepmother was very wicked . She couldn't stand a happy smile on the boy's face .
-
-[Turn 2] And ?
-
-[Turn 3] And she did her best to pull out the thorn in her flesh and the boy lost whatever made him happy .","[Turn 1] 这个继母特别恶毒。 她最见不得那男孩脸上露出开心的笑容。
-
-[Turn 2] 然后呢？
-
-[Turn 3] 然后她想尽办法要拔掉这个眼中钉，害得那男孩失去了所有让他快乐的东西。",V2_CONV_064,
-V2_ITEM_220,en-zh,"[Turn 1] Lillie, I don't know what to say. Your kindness is so overwhelming. I feel like I'm about to cry.",[Turn 1] Lillie，我都不知道该说什么了。 你对我这么好，真的让我受宠若惊。 我感觉自己都快哭了。,V2_CONV_026,
-V2_ITEM_221,en-zh,"[Turn 1] Would you like something to drink , sir ? Do you prefer coffee or tea ?
-
-[Turn 2] Thank you . Coffee , please .","[Turn 1] 先生，您要喝点什么吗？ 咖啡还是茶？
-
-[Turn 2] 谢谢，请给我咖啡。",V2_CONV_037,"Earlier source context (not rated):
-Well , I ’ ll wait ."
-V2_ITEM_222,zh-en,[Turn 1] 早上好。 我是布朗先生。 我来自澳大利亚。 这是我的名片。,[Turn 1] Good morning . My name is Mr . Brown . I ’ m from Australia . Here is my card .,V2_CONV_017,
-V2_ITEM_223,zh-en,"[Turn 1] 挺不错都是，但是现在是唯一缺什么你知道吗？ 以后再进步有一个，就是智智能化能不能，那个检验检验那个农残的问题，你知道吧。
-
-[Turn 2] 好的。","[Turn 1] They're all pretty good, but you know the one thing they're still missing? For future improvement, it would be whether the smart features can, you know, test for pesticide residue. You know what I mean?
-
-[Turn 2] Got it.",V2_CONV_028,"Earlier source context (not rated):
-现在冰箱。"
-V2_ITEM_224,en-zh,[Turn 1] That's okay. I understand. So what have you been up to?,[Turn 1] 没事，我理解。 那你最近都忙什么呢？,V2_CONV_023,"Earlier source context (not rated):
-Yeah, I know. I'm sorry I've been so busy lately."
-V2_ITEM_225,en-zh,"[Turn 1] What's there after that ?
+V3_ITEM_090,en-zh,"[Turn 1] What's there after that ?
 
 [Turn 2] Well then , there's a Central Park . Facing the park on Fifth Avenue is probably some of the most expensive properties in the world .
 
@@ -1196,5 +478,29 @@ V2_ITEM_225,en-zh,"[Turn 1] What's there after that ?
 
 [Turn 2] 嗯，然后就是中央公园。 第五大道上那些面向公园的房产，可能是世界上最贵的一些了。
 
-[Turn 3] 这些地方都是做什么用的？",V2_CONV_036,"Earlier source context (not rated):
+[Turn 3] 这些地方都是做什么用的？",V3_CONV_036,"Earlier source context (not rated):
 A few blocks ahead we'll see St.Patrick ' s Cathedral and just across the street will be the world-renowed Rockefeller Center . It's a landmark in the history of architecture ."
+V3_ITEM_091,zh-en,[Turn 1] 每个人都很好。 我妹妹终于有自己的孩子了。,[Turn 1] Everyone's doing well. My sister finally has a child of her own.,V3_CONV_006,"Earlier source context (not rated):
+那么，你的家人好吗？"
+V3_ITEM_092,en-zh,"[Turn 1] if you hold it like that , the one on your thumb , yeah , the thumb button is the power button .",[Turn 1] 你要是那样拿着它，拇指那边那个，对， 那个拇指键就是电源键。,V3_CONV_007,
+V3_ITEM_093,en-zh,"[Turn 1] So you know how zero is T_F_I_D_F_ . One is um the well I've called it word importance , but that's a really m misleading name .",[Turn 1] 所以你知道，0 是 T_F_I_D_F_。 1 是呃，那个——我叫它词重要性，但这个名字其实特别误导人。,V3_CONV_042,
+V3_ITEM_094,en-zh,"[Turn 1] Now um we have to get down to the nitty-gritty of how to make this and this remote control has to be sold um we're to sell it for twenty five Euros , with a profit aim ultimately of fifty million Euros . That tells you something about how many um we have to sell on an international scale .",[Turn 1] 那现在，嗯，我们得具体说说这东西要怎么做了，而且这个遥控器得卖出去，呃，我们要卖二十五欧元，最终的利润目标是五千万欧元。 这就能看出来，我们在国际范围内得卖多少个。,V3_CONV_022,
+V3_ITEM_095,en-zh,"[Turn 1] I think it's pretty standard , these rubber buttons on the top .",[Turn 1] 我觉得上面这些橡胶按键挺标准的。,V3_CONV_025,"Earlier source context (not rated):
+It's harder to zap . So I think uh it should be"
+V3_ITEM_096,zh-en,[Turn 1] 京东没有。,[Turn 1] JD doesn’t have it.,V3_CONV_020,"Earlier source context (not rated):
+天猫也有嘛，那就是嘛，那，那就是阿里下边儿都有嘛，京东没有是吧？"
+V3_ITEM_097,en-zh,[Turn 1] That sounds like a lot more fun than what I've been doing lately. I've just been working and studying all the time lately and it's getting pretty boring.,[Turn 1] 听起来可比我最近做的事有意思多了。 我最近就是一直工作、学习，真的越来越无聊了。,V3_CONV_023,"Earlier source context (not rated):
+work, school, hanging out with friends. Nothing exciting."
+V3_ITEM_098,en-zh,"[Turn 1] Oh, don't cry Alexandria. I'm just glad I could help you in some way.
+
+[Turn 2] It's just that, I've never experienced anything like this before. This feeling of love and compassion is so new to me.","[Turn 1] 哎呀，别哭，Alexandria。 我只是很高兴能帮上你一点忙。
+
+[Turn 2] 只是……我以前从来没经历过这样的事。 这种被爱、被关怀的感觉，对我来说太陌生了。",V3_CONV_026,"Earlier source context (not rated):
+Your kindness is so overwhelming. I feel like I'm about to cry."
+V3_ITEM_099,zh-en,"[Turn 1] 对这样的话，我们就能够进入到你们学生那一块，就是能够更好的了解他们，对对对。
+
+[Turn 2] 嗯，是更好的了解一下。","[Turn 1] That way, we'd be able to get into the student side of things on your end, and get a better understanding of them. Yeah, exactly.
+
+[Turn 2] Mm-hmm, just get a better understanding.",V3_CONV_041,
+V3_ITEM_100,en-zh,"[Turn 1] I ’ m so glad you came ! This old house is falling apart ! Come on into the bathroom . See , here , there ’ s water leaking everywhere !",[Turn 1] 我真高兴你来了！ 这座老房子都要塌了！ 快去洗手间。 看，这里，到处都在漏水！,V3_CONV_031,"Earlier source context (not rated):
+Yes , yes I did . Please come in !"

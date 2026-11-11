@@ -28,7 +28,7 @@ with tempfile.TemporaryDirectory() as tmp, sync_playwright() as p:
     assert not page.locator('#file').is_visible()
     page.locator('#annotator').fill('DEMO_TEST')
     page.locator('#begin').click()
-    assert page.locator('#counts').inner_text().startswith('225 items · en-zh: 136 · zh-en: 89')
+    assert page.locator('#counts').inner_text().startswith('100 items · en-zh: 60 · zh-en: 40')
     assert not page.locator('#demoNotice').is_visible()
     assert '[Turn 1]' in page.locator('#source').inner_text()
     assert '[Turn 1]' in page.locator('#reference').inner_text()
@@ -36,7 +36,7 @@ with tempfile.TemporaryDirectory() as tmp, sync_playwright() as p:
     assert page.locator('input[type=radio]:checked').count()==0
     with page.expect_download() as demo_download: page.locator('#export').click()
     with Path(demo_download.value.path()).open(encoding='utf-8-sig',newline='') as f: demo_rows=list(csv.DictReader(f))
-    assert len(demo_rows)==225 and all(r['adequacy']=='' for r in demo_rows)
+    assert len(demo_rows)==100 and all(r['adequacy']=='' for r in demo_rows)
     page.reload();start('A')
     assert page.locator('#counts').inner_text().startswith('100 items · en-zh: 50 · zh-en: 50')
     assert page.locator('#source').inner_text()==source
@@ -82,4 +82,4 @@ with tempfile.TemporaryDirectory() as tmp, sync_playwright() as p:
     assert not errors,errors
     assert not requests,requests
     browser.close()
-print('PASS: 225-item study v2 import/export plus 100 synthetic items; escaping, blank defaults, completion, Unicode, resume/edit, isolation, no network requests. Test ratings only.')
+print('PASS: 100-item study v3 import/export plus 100 synthetic items; escaping, blank defaults, completion, Unicode, resume/edit, isolation, no network requests. Test ratings only.')
