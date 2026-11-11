@@ -7,3 +7,8 @@ dist/
 translation-validation-web.zip
 .DS_Store
 translation-validation-web/
+
+datasets/
+
+# Private translation responses and assignment material
+translation_pilot/

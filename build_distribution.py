@@ -6,7 +6,7 @@ import hashlib
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'dist'
-ASSETS = ('index.html', 'styles.css', 'app.js', 'placeholder_data.js', 'placeholder_items.csv', 'DATA_ATTRIBUTION.md', 'placeholder_provenance.json')
+ASSETS = ('index.html', 'styles.css', 'app.js', 'placeholder_data.js', 'placeholder_items.csv', 'DATA_ATTRIBUTION.md')
 
 def build():
     # Only replace known generated files; refuse unexpected content in dist.
@@ -37,7 +37,7 @@ def build():
     # Embed credits too, so the single-file edition retains attribution offline.
     import html as html_module
     credits = html_module.escape((ROOT / 'DATA_ATTRIBUTION.md').read_text(encoding='utf-8'))
-    html = html.replace('</main>', '<details id="data-credits"><summary>Demo data sources and license</summary><pre class="text">'+credits+'</pre></details></main>')
+    html = html.replace('</main>', '<details id="data-credits"><summary>Data sources and licenses</summary><pre class="text">'+credits+'</pre></details></main>')
     html = html.replace('<a href="placeholder_items.csv" download>Download demo CSV</a> · ', '')
     html = html.replace('href="DATA_ATTRIBUTION.md"', 'href="#data-credits"')
     html = html.replace('</body>', '<script>'+js+'</script></body>')

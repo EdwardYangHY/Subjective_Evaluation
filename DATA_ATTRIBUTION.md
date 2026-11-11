@@ -1,15 +1,10 @@
-# XDailyDialog placeholder conversations
+# Data sources and licenses
 
-Ten complete English–Chinese conversations from the XDailyDialog test split. Dataset authors: Zeming Liu, Ping Nie, Jie Cai, Haifeng Wang, Zheng-Yu Niu, Peng Zhang, Mrinmaya Sachan, Kaiping Peng. English originates in DailyDialog (Yanran Li, Hui Su, Xiaoyu Shen, Wenjie Li, Ziqiang Cao, Shuzi Niu).
+This research annotation set contains conversations and meeting excerpts from the following sources. Source credits are provided collectively; item-level provenance is retained by the study organizer to avoid revealing assignment during annotation. No scores or quality claims are implied.
 
-Source: https://github.com/liuzeming01/XDailyDialog . Files: `data/en_test_human.txt` and `data/zh_test_human.txt`, retrieved 2026-11-09. Line numbers, original turn text and file checksums are recorded in `placeholder_provenance.json`.
+- **XDailyDialog**, Zeming Liu et al.; English from **DailyDialog**, Yanran Li et al. Source: https://github.com/liuzeming01/XDailyDialog , `data/en_test_human.txt` and `data/zh_test_human.txt`. Data and adaptations: CC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/ .
+- **SODA**, Hyunwoo Kim et al. Source: https://huggingface.co/datasets/allenai/soda . CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ .
+- **AMI**, AMI consortium / University of Edinburgh. Manual annotations v1.6.2: https://groups.inf.ed.ac.uk/ami/corpus/ . CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ .
+- **AliMeeting**, Fan Yu et al., Alibaba Group. Source: https://www.openslr.org/119/ . Training text obtained through https://huggingface.co/datasets/yuekai/alimeeting_aishell4_training_whisper_fbank_lhotse . CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ .
 
-Data license: Creative Commons Attribution-NonCommercial-ShareAlike 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/ . The redistributed dialogue subset and its formatting adaptation remain under that license. The repository also lists Apache-2.0 for code; this does not replace the data license. See https://github.com/liuzeming01/XDailyDialog#8-license . Retain attribution and license information when sharing.
-
-Selection: seed 2027, ten distinct test dialogues with 4–12 matching English/Chinese turns, sampled without replacement. Every selected dialogue is included in full. One item is one complete conversation, evaluated as a whole. All items use English as source and Chinese as translation. The published Chinese text is used as-is, not newly generated GPT output and not presumed perfect.
-
-Formatting changes only: split the original __eou__ turn markers, trim surrounding whitespace, and add neutral [Turn N] labels and paragraph spacing. No sentences are rewritten or translated; speaker identities are not inferred. Metadata labels are not included in the rated text.
-
-This is a UI placeholder set, not the proposed blinded human-versus-GPT comparison or actual study results. No GPT translations or user-provided conversations have been mixed in yet. No quality scores are provided.
-
-Reproduce: `python3 scripts/prepare_xdaily_placeholders.py /path/to/en_test_human.txt /path/to/zh_test_human.txt`.
+Modifications include excerpt selection, turn segmentation, neutral turn labels, translation, and removal of serialization artifacts where applicable. Corresponding source licenses apply to redistributed excerpts and adaptations. Preserve these credits and licenses when sharing. Item-level processing records are retained locally by the organizer.
